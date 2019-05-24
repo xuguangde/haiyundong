@@ -29,7 +29,7 @@
 						</view>
 					</view>
 					<view class="kaluli">
-						消耗{{kaluli}}卡路飞
+						消耗{{kaluli}}卡路飞飞飞飞飞飞飞飞飞飞飞飞飞飞飞飞飞飞飞飞飞飞飞飞飞飞飞飞飞飞飞飞飞飞
 					</view>
 				</view>
 			</view>

@@ -1,0 +1,109 @@
+
+.container{
+	height:auto;
+}
+.a-xian{
+	border: #01AAEF;
+	height:0.5rpx;
+	background-color: #EEEEEE;
+}
+.b-xian{
+	border: #01AAEF;
+	height:0.5rpx;
+	background-color: #EEEEEE;
+	margin-top:12rpx;
+}
+.top_muk_yi{
+	margin-top:40rpx;
+	margin-left:70rpx;
+}
+.icons{
+	width: 60rpx;
+	height: 60rpx;
+	margin-left: 50rpx;
+}
+.yi_p{
+	margin-left:30rpx;
+	color:red;
+}
+.yi_wenzi{
+	font-size:18rpx;
+	margin-left:10rpx;
+}
+.top_muk_xian{
+		border: #01AAEF;
+		height:75rpx;
+		width:0.5rpx;
+		background-color: #EEEEEE;
+		margin-left:220rpx;
+		margin-top:-80rpx;
+}
+.top_muk_xian2{
+		border: #01AAEF;
+		height:75rpx;
+		width:0.5rpx;
+		background-color: #EEEEEE;
+		margin-left:520rpx;
+		margin-top:-80rpx;
+}
+.top_muk_er{
+	width: 710rpx;
+	margin-top:-85rpx;
+	text-align:left;
+	margin-left: 15rpx;
+}
+.er_p{
+	margin-left:330rpx;
+	font-size:38rpx;
+	color:red;
+}
+.er_wenzi{
+	font-size:18rpx;
+	margin-left:275rpx;
+	-webkit-align-content: center;
+	    -ms-flex-line-pack: center;
+	        align-content: center;
+}
+.top_muk_san{
+	margin-top:-100rpx;
+	margin-left:580rpx;
+}
+.san_p{
+	margin-left:30rpx;
+	color:red;
+}
+.san_wenzi{
+	font-size:18rpx;
+	margin-left:10rpx;
+}
+.zj-xian{
+	border: #01AAEF;
+	height:10rpx;
+	background-color: #EEEEEE;	
+	margin-top:30rpx;
+}
+.xia__zuo_weizi{
+	line-height:38rpx;
+	margin-top:10rpx;
+	margin-left:80rpx;
+	font-size:28rpx;
+	color: #CCCCCC;
+}
+.xia_you_yix{
+	line-height:38rpx;
+	margin-top:-70rpx;
+	margin-left:520rpx;
+	font-size:18rpx;
+	color: #CCCCCC;
+}
+.xia_wenzi_yi{
+	margin-left:20rpx;
+	font-size:35rpx;
+}
+.you_jl{
+	margin-left:30rpx;
+}
+.xia_yix{
+	margin-top:20rpx;
+}
+

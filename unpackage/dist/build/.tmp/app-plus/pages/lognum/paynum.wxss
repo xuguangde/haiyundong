@@ -1,0 +1,138 @@
+
+.sfyz_an_a{
+	font-size:29rpx;
+	color: #F7F7F7;
+	border: #01AAEF;
+	width:720rpx;
+	height:70rpx;
+	line-height: 65rpx;
+	background-color: #01AAEF;
+	margin-top:60rpx;
+}
+.fasong{
+	margin-top: -105rpx;
+}
+.srk_qi{
+	margin:;
+	margin-left:510rpx;
+	font-size:29rpx;
+	color: #E97332;
+}
+.yzms{
+	margin-top: 20rpx;
+	color: #999999;
+}
+.srk_yi{
+	font-size:30rpx;
+	margin-left:40rpx;
+	font-size:29rpx;
+}
+.srk_er{
+	font-size:30rpx;
+	margin-left:40rpx;
+	font-size:29rpx;
+}
+.srk_san{
+	font-size:30rpx;
+	margin-left:40rpx;
+	font-size:29rpx;
+}
+.srk_si{
+	font-size:30rpx;
+	margin-left:40rpx;
+	font-size:29rpx;
+}
+.srk_wu{
+	font-size:30rpx;
+	margin-left:40rpx;
+	font-size:29rpx;
+}
+.srk_liu{
+	font-size:30rpx;
+	margin-left:40rpx;
+	margin-top: 20rpx;
+	font-size:29rpx;
+}
+.srk_xm{
+	margin-top:-50rpx;	
+	margin-left:510rpx;
+	font-size:28rpx;
+	color: #999999;
+}
+.srk_xm_er{
+	margin-top:-50rpx;	
+	margin-left:510rpx;
+	font-size:28rpx;
+	color: #999999;
+}
+.srk_xm_san{
+	margin-top:-50rpx;	
+	margin-left:510rpx;
+	font-size:28rpx;
+	color: #999999;
+}
+.srk_xm_si{
+	margin-top:-50rpx;	
+	margin-left:510rpx;
+	font-size:28rpx;
+	color: #999999;
+}
+.srk_xm_wu{
+	margin-top:-50rpx;	
+	margin-left:510rpx;
+	font-size:28rpx;
+	color: #999999;
+}
+.srk_xm_liu{
+	margin-top:-50rpx;	
+	margin-left:510rpx;
+	font-size:28rpx;
+	color: #999999;
+}
+.srk_yi_xm{
+	margin-top:10rpx;
+}
+.srk_er_xm{
+	margin-top:10rpx;
+}
+.srk_san_xm{
+	margin-top:10rpx;
+}
+.srk_si_xm{
+	margin-top:10rpx;
+}
+.srk_wu_xm{
+	margin-top:10rpx;
+}
+.srk_liu_xm{
+	margin-top:10rpx;
+}
+.b-xian{
+	border: #01AAEF;
+	height:15rpx;
+	background-color: #EEEEEE;
+	margin-top:12rpx;
+}
+.d-xian{
+	border: #01AAEF;
+	height:15rpx;
+	background-color: #EEEEEE;
+	margin-top:-10rpx;
+}
+.c-xian{
+	border: #01AAEF;
+	height:0.5rpx;
+	background-color: #EEEEEE;
+	margin-top:-30rpx;
+}
+.sfyz_an_qd{
+	font-size:29rpx;
+	color: #F7F7F7;
+	border: #01AAEF;
+	width:400rpx;
+	height:70rpx;
+	line-height: 65rpx;
+	background-color: #01AAEF;
+	margin-top:-20rpx;
+}
+

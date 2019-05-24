@@ -1,0 +1,65 @@
+
+.a-xian{
+	border: #01AAEF;
+	height:1rpx;
+	background-color: #EEEEEE;
+}
+.top_muk_yi{
+	margin-top:40rpx;
+	margin-left:70rpx;
+}
+.yi_p{
+	font-size:28rpx;
+	margin-left:30rpx;
+	margin-top: 20rpx;
+	color:red;
+}
+.yi_wenzi{
+	font-size:8rpx;
+}
+.top_muk_xian{
+		border: #01AAEF;
+		height:75rpx;
+		width:0.5rpx;
+		background-color: #EEEEEE;
+		margin-left:220rpx;
+		margin-top:-80rpx;
+}
+.top_muk_xian2{
+		border: #01AAEF;
+		height:75rpx;
+		width:0.5rpx;
+		background-color: #EEEEEE;
+		margin-left:520rpx;
+		margin-top:-80rpx;
+}
+.top_muk_er{
+	width:700rpx;
+	text-align: left;
+	margin-top:-80rpx;
+	margin-left:30rpx;
+}
+.er_p{
+	margin-left:330rpx;
+	font-size:28rpx;
+	color:red;
+}
+.er_wenzi{
+	font-size:8rpx;
+	margin-left:272rpx;
+}
+.top_muk_san{
+	margin-top:-80rpx;
+	margin-left:580rpx;
+}
+.san_p{
+	
+	margin-left:40rpx;
+	font-size:28rpx;
+	color:red;
+}
+.san_wenzi{
+	font-size:8rpx;
+}
+
+

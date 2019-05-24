@@ -1,0 +1,137 @@
+
+.a-xian{
+	border: #01AAEF;
+	height:0.5rpx;
+	background-color: #EEEEEE;
+	margin-top:12rpx;
+}
+.b-xian{
+	border: #01AAEF;
+	height:12rpx;
+	background-color: #EEEEEE;
+	margin-top:22rpx;
+}
+.c-xian{
+	border: #01AAEF;
+	height:2rpx;
+	background-color: #EEEEEE;
+	margin-top:22rpx;
+}
+.container{
+}
+.top_muk_yi{
+	margin-left:-220rpx;
+}
+.top_muk_er{
+	margin-left:120rpx;
+}
+.top_muk_san{
+
+	margin-left:140rpx;
+}
+.top_muk{
+	width: 100%;
+	height: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	-webkit-box-align: start;
+	-webkit-align-items: flex-start;
+	    -ms-flex-align: start;
+	        align-items: flex-start;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	margin-top:50rpx;
+	margin-left:110rpx;
+}
+.yi_p{
+	margin-left:30rpx;
+	color:red; 
+	font-size:15rpx;
+}
+.er_p{
+	margin-left:50rpx;
+	color:red;
+	font-size:15rpx;
+}
+.san_p{
+	margin-left:30rpx;
+	color:red;
+	font-size:15rpx;
+}
+.yi_wenzi{
+	font-size:13rpx;
+}
+.er_wenzi{
+	font-size:13rpx;
+}
+.san_wenzi{
+	font-size:13rpx;
+}
+.xia_wenzi_yi{
+	margin-left:80rpx;
+	font-size:25rpx;
+}
+.xia__zuo_weizi{
+	line-height:38rpx;
+	margin-top:40rpx;
+	margin-left:-90rpx;
+	font-size:8rpx;
+	color: #CCCCCC;
+}
+.xia_yix{
+	margin-left:-280rpx; 	
+	margin-top:40rpx;
+	width: 100%;
+	height: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	-webkit-box-align: start;
+	-webkit-align-items: flex-start;
+	    -ms-flex-align: start;
+	        align-items: flex-start;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.xia_you_yix{
+	width: 100%;
+	height: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	-webkit-box-align: start;
+	-webkit-align-items: flex-start;
+	    -ms-flex-align: start;
+	        align-items: flex-start;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	line-height:38rpx;
+	margin-top:-70rpx;
+	margin-left:240rpx;
+	font-size:8rpx;
+	color: #CCCCCC;
+}
+.you_jl{
+	margin-left:-180rpx;
+	margin-top: 40rpx;
+}
+

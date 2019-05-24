@@ -1,0 +1,51 @@
+
+.container{
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		background-color: #4fbeed;
+		min-height: 100vh;
+		width: 100%;
+}
+.ewm_bk{
+		background: #FFFFFF;
+		width: 90%;
+		border-radius: 10rpx;
+}
+.ww{
+		line-height: 70rpx;
+		text-align: center;
+		height: 70rpx;
+		background: #eaeaea;
+		border-radius: 10rpx 10rpx 0 0;
+		color: #4FBEED;
+}
+.ma{
+		  -webkit-box-pack: center;
+		  -webkit-justify-content: center;
+		      -ms-flex-pack: center;
+		          justify-content: center; 
+           -webkit-box-align: center; 
+           -webkit-align-items: center; 
+               -ms-flex-align: center; 
+                   align-items: center;
+}
+.erweima{
+		width: 200rpx;
+		height: 200rpx;
+}
+

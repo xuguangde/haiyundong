@@ -1,0 +1,33 @@
+
+.c-xian{
+	border: #01AAEF;
+	height:2rpx;
+	background-color: #EEEEEE;
+	margin-top:42rpx;
+}
+.b-xian{
+	border: #01AAEF;
+	height:20rpx;
+	background-color: #EEEEEE;
+	margin-top:22rpx;
+}
+.xia_you_yix{
+	color:darkgray;
+	margin-left: 510rpx;
+	margin-top: -50rpx;
+}
+.yi{
+	margin-top: -90rpx;
+}
+.er{
+	margin-top: -100rpx;
+}
+.xia_yix{
+	margin-left: 70rpx;
+	margin-top: 140rpx;
+}
+.xia_erx{
+	margin-left: 70rpx;
+	margin-top: 140rpx;
+}
+

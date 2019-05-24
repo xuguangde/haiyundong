@@ -1,0 +1,79 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/product/product",
+    "pages/set/set",
+    "pages/Details/Details",
+    "pages/authentication/authentication",
+    "pages/userinfo/userinfo",
+    "pages/wodeshenfen/wodeshenfen",
+    "pages/daren/daren",
+    "pages/agorae/agorae",
+    "pages/help/help",
+    "pages/hdxq/hdxq",
+    "pages/wodejiaoyi/order",
+    "pages/hyd/hyd",
+    "pages/td/td",
+    "pages/yhdj/yhdj",
+    "pages/skfs/skfs",
+    "pages/lognum/lognum",
+    "pages/lognum/paynum",
+    "pages/denglu/denglu",
+    "pages/pifu/pifu",
+    "pages/index3/index3",
+    "pages/cart/cart",
+    "pages/public/login",
+    "pages/user/user",
+    "pages/detail/detail",
+    "pages/order/order",
+    "pages/money/money",
+    "pages/order/createOrder",
+    "pages/address/address",
+    "pages/address/addressManage",
+    "pages/money/pay",
+    "pages/money/paySuccess",
+    "pages/notice/notice",
+    "pages/category/category",
+    "pages/product/list"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#f8f8f8"
+  },
+  "tabBar": {
+    "color": "#C0C4CC",
+    "selectedColor": "#4fbeed",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tab-home.png",
+        "selectedIconPath": "static/tab-home-current.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "iconPath": "static/tab-cate.png",
+        "selectedIconPath": "static/tab-cate-current.png",
+        "text": "商铺"
+      },
+      {
+        "pagePath": "pages/index3/index3",
+        "iconPath": "static/tab-cart.png",
+        "selectedIconPath": "static/tab-cart-current.png",
+        "text": "商城"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "static/tab-my.png",
+        "selectedIconPath": "static/tab-my-current.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

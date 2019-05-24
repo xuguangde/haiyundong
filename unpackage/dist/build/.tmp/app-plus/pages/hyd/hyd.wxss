@@ -1,0 +1,19 @@
+
+.mx_yi_wenzi{
+	font-size:29rpx;
+}
+.mx_yi_sj{
+	font-size:20rpx;
+	color:#999999;
+}
+.mx_yi{
+	margin-top:20rpx;
+	margin-left: 20rpx;
+}
+.mx_yi_hdou{
+	color: #FF0000;
+	font-size: 28rpx;
+	margin-left: 520rpx;
+	margin-top:-100rpx;
+}
+

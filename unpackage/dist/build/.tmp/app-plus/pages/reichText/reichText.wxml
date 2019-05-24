@@ -1,0 +1,1 @@
+<view class="content" bind:__l="__l"><view class="uni-padding-wrap"><view class="uni-common-mt" style="background:#FFF;padding:20rpx;"><rich-text nodes="{{strings}}"></rich-text></view></view></view>

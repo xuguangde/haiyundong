@@ -5,7 +5,7 @@
 				<swiper-item class="swiper-item" v-for="(item,index) in imgList" :key="index">
 					<view class="image-wrapper">
 						<image
-							:src="item.src" 
+							:src="item.image_url" 
 							class="loaded" 
 							mode="aspectFill"
 						></image>
@@ -15,17 +15,15 @@
 		</view>
 		
 		<view class="introduce-section">
-			<text class="title">恒源祥2019春季长袖白色t恤 新款春装</text>
+			<text class="title">{{shop.goods_name}}</text>
 			<view class="price-box">
 				<image class="icons" src="/static/temp/peans.png"></image>
-				<text class="price">341.6</text>
-				
-				
+				<text class="price">{{shop.shop_price}}</text>
 			</view>
 			<view class="bot-row">
-				<text>销量: 108</text>
+				<text>销量: {{shop.sales_sum}} | 剩余：{{shop.store_count - shop.sales_sum}}</text>
 				
-				<text>免邮</text>
+				<text>免邮{{numberqwe}}</text>
 			</view>
 		</view>
 		<view class="detail-desc">
@@ -63,7 +61,7 @@
 			<view class="mask"></view>
 			<view class="layer attr-content" @click.stop="stopPrevent">
 				<view class="a-t">
-					<image src="https://gd3.alicdn.com/imgextra/i3/0/O1CN01IiyFQI1UGShoFKt1O_!!0-item_pic.jpg_400x400.jpg"></image>
+					<image :src="shop.original_img"></image>
 					<view class="right">
 						<text class="price">¥328.00</text>
 						<text class="stock">库存：188件</text>
@@ -71,11 +69,11 @@
 						<view class="step">
 							<uni-number-box 
 								:min="1" 
-								:max="9"
-								:value="item.number===1"
-								:isMax="item.number===9"
-								:isMin="item.number===1"
-								:index="index"
+								:max="100"
+								:value="numberqwe"
+								:isMax="item.number"
+								:isMin="item.number"
+								:index="14"
 								@eventChange="numberChange"
 							></uni-number-box>
 						</view>
@@ -88,32 +86,37 @@
 						</view> -->
 					</view>
 				</view>
-
 				<button class="btn" @click="toggleSpec">完成</button>
 			</view>
 		</view>
 		<!-- 分享 -->
-
 	</view>
 </template>
 
 <script>
+	var api = require("../../utils/api.js")
+	var util = require("../../utils/util.js")
 	import {
 		mapState
 	} from 'vuex';
 	import uniNumberBox from '@/components/uni-number-box.vue'
 	export default{
 		components: {
-			
 			uniNumberBox
 		},
 		data() {
 			return {
+				index: 15,
 				specClass: 'none',
 				specSelected:[],
-				
+				item:[{
+					number: '15'
+				}],
+				numberqwe:'0',
+				shop:'',
 				favorite: true,
 				shareList: [],
+				strings:'',
 				imgList: [
 					{
 						src: 'https://gd3.alicdn.com/imgextra/i3/0/O1CN01IiyFQI1UGShoFKt1O_!!0-item_pic.jpg_400x400.jpg'
@@ -125,15 +128,7 @@
 						src: 'https://gd2.alicdn.com/imgextra/i2/38832490/O1CN01IYq7gu1UGShvbEFnd_!!38832490.jpg_400x400.jpg'
 					}
 				],
-				desc: `
-					<div style="width:100%">
-						<img style="width:100%;display:block;" src="https://gd3.alicdn.com/imgextra/i4/479184430/O1CN01nCpuLc1iaz4bcSN17_!!479184430.jpg_400x400.jpg" />
-						<img style="width:100%;display:block;" src="https://gd2.alicdn.com/imgextra/i2/479184430/O1CN01gwbN931iaz4TzqzmG_!!479184430.jpg_400x400.jpg" />
-						<img style="width:100%;display:block;" src="https://gd3.alicdn.com/imgextra/i3/479184430/O1CN018wVjQh1iaz4aupv1A_!!479184430.jpg_400x400.jpg" />
-						<img style="width:100%;display:block;" src="https://gd4.alicdn.com/imgextra/i4/479184430/O1CN01tWg4Us1iaz4auqelt_!!479184430.jpg_400x400.jpg" />
-						<img style="width:100%;display:block;" src="https://gd1.alicdn.com/imgextra/i1/479184430/O1CN01Tnm1rU1iaz4aVKcwP_!!479184430.jpg_400x400.jpg" />
-					</div>
-				`,
+				desc: ``,
 				specList: [
 					{
 						id: 1,
@@ -194,14 +189,30 @@
 			};
 		},
 		async onLoad(options){
+			console.log(options)
+			var that = this
+			this.goods_id = options.id
+			util.request(api.goodsInfo,{goods_id: options.id,}).then(
+				res => {
+					that.imgList = res.data.data.gallery
+					that.shop = res.data.data.goods
+					that.desc = res.data.data.goods.goods_content
+				}
+			)
+			util.request(api.getCartNum,{goods_id: options.id,user_id: uni.getStorageSync('userId')}).then(
+				res =>{
+					this.$forceUpdate(); 
+					that.numberqwe = res.data.data[0].goods_num
+					console.log("购物车数量",that.numberqwe)
+					  this.$forceUpdate(); //手动调用更新
+				}
+			)
 			
 			//接收传值,id里面放的是标题，因为测试数据并没写id 
 			let id = options.id;
 			if(id){
 				this.$api.msg(`点击了${id}`);
 			}
-			
-			
 			//规格 默认选中第一条
 			this.specList.forEach(item=>{
 				for(let cItem of this.specChildList){
@@ -225,10 +236,17 @@
 				}else if(this.specClass === 'none'){
 					this.specClass = 'show';
 				}
+				// util.request(api.addCart,{user_id: uni.getStorageSync('userId'),goods_num: '5',token: '72e474fef29e9edb1b3f1a272a3fd648',goods_id: this.goods_id}).then(
+				// 	res => {
+				// 		console.log(res)
+				// 	}
+				// )
+				
 			},
 			numberChange(data){
-				this.cartList[data.index].number = data.number;
-				this.calcTotal();
+				console.log(data)
+				// this.cartList[data.index].number = data.number;
+				// this.calcTotal();
 			},
 			//选择规格
 			selectSpec(index, pid){
@@ -373,12 +391,12 @@
 		.bot-row{
 			display:flex;
 			align-items:center;
+			justify-content: space-between;
+			width: 100%;
 			height: 50upx;
 			font-size: $font-sm;
 			color: $font-color-light;
-			text{
-				flex: 1;
-			}
+			
 		}
 	}
 	/* 分享 */

@@ -1,4 +1,10 @@
 
+.top_tp_yi{
+	width: 59rpx;
+	height:50rpx;
+	margin-left: 20rpx;
+	margin-top: 2rpx;
+}
 .container{
 	width: 750rpx;
 }
@@ -60,6 +66,7 @@
 }
 .xia_wenzi_yi{
 	margin-left:80rpx;
+	margin-top: -55rpx;
 	font-size:35rpx;
 }
 .xia__zuo_weizi{

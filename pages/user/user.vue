@@ -1,13 +1,14 @@
 <template>  
     <view class="container"> 
 		<view class="user-section">
-			<image class="bg" src="/static/user-bg.jpg"></image>
+			<!-- <image class="bg" src="/static/user-bg.jpg"></image> -->
 			<view class="user-info-box" @click="navTo('/pages/userinfo/grzx?user=' + nihaoa)" hover-class="common-hover"  :hover-stay-time="50">
 				<view class="portrait-box">
-					<image class="portrait" :src="userInfoone.head_pic || '/static/missing-face.png'"></image>
+					<image class="portrait" :src="'/static/missing-face.png'"></image>
 				</view>
 				<view class="info-box">
 					<text class="username">{{userInfoone.nickname || '点击登陆'}}</text>
+					<view class="userphone">手机号:{{userInfoone.nickname}}</view>
 				</view>
 			</view>
 			
@@ -23,7 +24,7 @@
 			@touchmove="coverTouchmove"
 			@touchend="coverTouchend"
 		>
-			<image class="arc" src="/static/arc.png"></image>
+			<!-- <image class="arc" src="/static/arc.png"></image> -->
 			
 			<view class="tj-sction">
 				<view class="tj-item" @click="navTo('/pages/yhdj/yhdj')" hover-class="common-hover"  :hover-stay-time="50">
@@ -44,11 +45,22 @@
 				</view>
 			</view>
 			<!-- 订单 -->
+			<view class="one">
+				<view class="onetwo">
+					<view class="shop">
+						商场订单
+					</view>
+					<view class="orderOne" @click="navTo('/pages/order/order?state=0')">
+						查看全部订单>
+					</view>
+				</view>
+			</view>
 			<view class="order-section">
-				<view class="order-item" @click="navTo('/pages/order/order?state=0')" hover-class="common-hover"  :hover-stay-time="50">
+				
+				<!-- <view class="order-item" @click="navTo('/pages/order/order?state=0')" hover-class="common-hover"  :hover-stay-time="50">
 					<image class="icons" src="/static/temp/dingdan1.png"></image>
 					<text>全部订单</text>
-				</view>
+				</view> -->
 				<view class="order-item" @click="navTo('/pages/order/order?state=1')"  hover-class="common-hover" :hover-stay-time="50">
 					<image class="icons" src="/static/temp/dingdan2.png"></image>
 					<text>待付款</text>
@@ -158,6 +170,9 @@
 					if(res.data.retcode == 1){
 						that.userInfoone = res.data.data
 						that.nihaoa = JSON.stringify(res.data.data)
+					} else{
+						this.$api.msg('登陆过期，请从新登陆')
+						that.nihaoa = 1
 					}
 				}
 			)
@@ -201,16 +216,20 @@
 			 * navigator标签现在默认没有转场动画，所以用view
 			 */
 			navTo(url){
-				if(uni.getStorageSync('token')){
-					uni.navigateTo({
-						url: url
-					})
-				}else if(url=='/pages/userinfo/grzx?user='){
-					uni.navigateTo({
-						url: '../denglu/denglu'
-					})
-				}else{
-					this.$api.msg('请先登陆')
+				if(this.nihaoa ==1){
+					this.$api.msg('登陆过期，请重新登陆')
+				} else{
+					if(uni.getStorageSync('token')){
+						uni.navigateTo({
+							url: url
+						})
+					}else if(url=='/pages/userinfo/grzx?user='){
+						uni.navigateTo({
+							url: '../denglu/denglu'
+						})
+					}else{
+						this.$api.msg('请先登陆')
+					}
 				}
 					// url// = '/pages/denglu/denglu'; // 测试结束需要改成这个
 				
@@ -271,8 +290,29 @@
 	  background: #fff;
 	  border-radius: 10upx;
 	}
+	.one{
+		display: flex;
+		justify-content: center;
+		width: 750upx;
+		height: 40upx;
+		background: #fff;
+		font-size: 30upx;
+		margin-top: 20upx;
+		color: #999;
+		line-height: 60upx;
+		.onetwo{
+			display: flex;
+			justify-content: space-between;
+			width: 700upx;
+			
+		}
+	}
+	.userphone{
+		color: #999;
+		font-size: 30upx;
+	}
 	.user-section{
-		height: 520upx;
+		height: 260upx;
 		padding: 100upx 30upx 0;
 		position:relative;
 		.bg{
@@ -291,6 +331,7 @@
 		align-items:center;
 		position:relative;
 		z-index: 1;
+		border-bottom: 2upx #f5f5f5 solid;
 		.portrait{
 			width: 130upx;
 			height: 130upx;
@@ -357,8 +398,6 @@
 	}
 	.cover-container{
 		background: $page-color-base;
-		margin-top: -150upx;
-		padding: 0 30upx;
 		position:relative;
 		background: #f5f5f5;
 		padding-bottom: 20upx;
@@ -388,7 +427,6 @@
 	.order-section{
 		@extend %section;
 		padding: 28upx 0;
-		margin-top: 20upx;
 		.order-item{
 			@extend %flex-center;
 			width: 120upx;

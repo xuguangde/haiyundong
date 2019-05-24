@@ -5,9 +5,14 @@
 /* 边框颜色 */
 /* 图片加载中颜色 */
 /* 行为相关颜色 */
-
 page {
   background: #f5f5f5;
+}
+.sales_sum {
+  color: #999;
+  font-size: 25rpx;
+  float: right;
+  line-height: 60rpx;
 }
 .icons {
   width: 30rpx;

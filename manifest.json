@@ -53,6 +53,11 @@
                     "iphone" : {
                         "retina47" : "C:/Users/Administrator/Desktop/maihai/static/images/recommend/bg_f.png"
                     }
+                },
+                "android" : {
+                    "hdpi" : "C:/Users/Administrator/Desktop/runstop.png",
+                    "xhdpi" : "C:/Users/Administrator/Desktop/runstop.png",
+                    "xxhdpi" : "C:/Users/Administrator/Desktop/runstop.png"
                 }
             },
             "icons" : {

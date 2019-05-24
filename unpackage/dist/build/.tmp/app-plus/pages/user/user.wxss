@@ -38,8 +38,40 @@
   background: #fff;
   border-radius: 10rpx;
 }
+.one {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 750rpx;
+  height: 40rpx;
+  background: #fff;
+  font-size: 30rpx;
+  margin-top: 20rpx;
+  color: #999;
+  line-height: 60rpx;
+}
+.one .onetwo {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 700rpx;
+}
+.userphone {
+  color: #999;
+  font-size: 30rpx;
+}
 .user-section {
-  height: 520rpx;
+  height: 260rpx;
   padding: 100rpx 30rpx 0;
   position: relative;
 }
@@ -65,6 +97,7 @@
           align-items: center;
   position: relative;
   z-index: 1;
+  border-bottom: 2rpx #f5f5f5 solid;
 }
 .user-info-box .portrait {
     width: 130rpx;
@@ -141,8 +174,6 @@
 }
 .cover-container {
   background: #f8f8f8;
-  margin-top: -150rpx;
-  padding: 0 30rpx;
   position: relative;
   background: #f5f5f5;
   padding-bottom: 20rpx;
@@ -171,7 +202,6 @@
 }
 .order-section {
   padding: 28rpx 0;
-  margin-top: 20rpx;
 }
 .order-section .order-item {
     width: 120rpx;

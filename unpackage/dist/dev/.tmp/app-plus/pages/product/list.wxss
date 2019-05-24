@@ -8,9 +8,6 @@
 page, .content {
   background: #f8f8f8;
 }
-.content {
-  padding-top: 96rpx;
-}
 .navbar {
   position: fixed;
   left: 0;

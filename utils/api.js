@@ -1,5 +1,6 @@
-var host = "http://192.168.1.124:8085";  //本地测试地址
+// var host = "http://192.168.1.124:8085";  //本地测试地址
 // var host = "http://175.168.154.250:8085"; //映射地址
+var host = "http://mhapp.d1xcx.com"; //外网地址
  
  module.exports = {
 	host: host,
@@ -21,11 +22,14 @@ var host = "http://192.168.1.124:8085";  //本地测试地址
 	goodsCategoryList: host + "/index.php/api/Goods/goodsCategoryList",  //一级分类  完 
 	getCategoryTwoList: host + "/index.php/api/Goods/getCategoryTwoList",   //二级分类   完
 	recommendGoodsList: host +　"/index.php/api/goods/recommendGoodsList",　　//获取所有商品列表 完
-	goodsInfo: host + "/index.php/api/Goods/goodsInfo",    //商品详情
+	goodsInfo: host + "/index.php/api/Goods/goodsInfo",    //商品详情    完
 	getAddressList: host +　"/index.php/api/user/getAddressList",　　//获取地址列表   完
 	setDefaultAddress:　host + "/index.php/api/user/setDefaultAddress",  //设置默认地址   完
 	getAdListInfo: host + "/index.php/api/index/getAdListInfo",   //商城轮播图   完
 	goodsList: host + "/index.php/api/Goods/goodsList",  //商品列表 带参+++++++++++ id(三级分类ID)  完
 	addAddress: host + "/index.php/api/user/addAddress",  //添加、修改地址   完
 	del_address: host + "/index.php/api/user/del_address",  //删除地址  完
+	saveBeans: host + "/index.php/api/user/saveBeans",   //存入步数   完
+	addCart: host + "/index.php/api/Cart/addCart",  //添加购物车
+	getCartNum: host + "/index.php/api/Cart/getCartNum",  //商品详情购物车数量
  }

@@ -22,11 +22,11 @@
 }
 .xq_wenzi_er{
 	color: #FF0000;
-	font-size: 28rpx;
-	margin-left: 10rpx;
+	font-size: 29rpx;
+	margin-left: 12rpx;
 }
 .xia_wenzi{
-	font-size: 20rpx;
+	font-size: 28rpx;
 	margin-top: 40rpx;
 	margin-left: 30rpx;
 }
@@ -48,22 +48,22 @@
 }
 .xia_wenzi_yi_you{
 	margin-left: 180rpx;
-	margin-top:-30rpx;
+	margin-top:-35rpx;
 }
 .xia_wenzi_er_you{
 	margin-left: 150rpx;
-	margin-top:-30rpx;
+	margin-top:-35rpx;
 }
 .xia_wenzi_san_you{
 	margin-left: 150rpx;
-	margin-top:-30rpx;
+	margin-top:-35rpx;
 }
 .xia_wenzi_si_you{
 	margin-left: 150rpx;
-	margin-top:-30rpx;
+	margin-top:-35rpx;
 }
 .xia_wenzi_wu_you{
 	margin-left: 150rpx;
-	margin-top:-30rpx;
+	margin-top:-35rpx;
 }
 

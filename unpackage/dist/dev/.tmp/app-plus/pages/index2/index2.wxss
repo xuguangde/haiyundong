@@ -11,6 +11,25 @@ page {
 .yanse {
   color: #e97332;
 }
+.yanse1 {
+  color: #fff;
+  border-radius: 20rpx;
+  height: 40rpx;
+  width: 100rpx;
+  background: #e97332;
+  text-align: center;
+  line-height: 40rpx;
+}
+.centertit {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 .cunru {
   background: #fff;
   height: 100rpx;
@@ -24,8 +43,15 @@ page {
           justify-content: center;
   font-size: 30rpx;
   color: #e97332;
+  line-height: 60rpx;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
 }
 .cunru .cunrufont {
+    width: 100%;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -34,10 +60,29 @@ page {
     -webkit-justify-content: center;
         -ms-flex-pack: center;
             justify-content: center;
+    color: #fff;
+    z-index: 9999;
+    position: absolute;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.cunru .cunrufont .jiangli {
+      width: 360rpx;
+}
+.cunru .cunrufont .cunruone {
+      color: #e97332;
+      border-radius: 8rpx;
+      height: 40rpx;
+      width: 100rpx;
+      background: #fff;
+      text-align: center;
+      line-height: 40rpx;
 }
 .cunru image {
-    height: 50rpx;
-    width: 500rpx;
+    height: 60rpx;
+    width: 700rpx;
 }
 .indexback {
   display: -webkit-box;
@@ -232,14 +277,10 @@ page {
     font-size: 26rpx;
     color: #303133;
 }
-.cate-section image {
-    width: 88rpx;
-    height: 88rpx;
-    margin-bottom: 14rpx;
-    border-radius: 50%;
-    opacity: .7;
-    -webkit-box-shadow: 4rpx 4rpx 20rpx rgba(250, 67, 106, 0.3);
-            box-shadow: 4rpx 4rpx 20rpx rgba(250, 67, 106, 0.3);
+.cate-section .cate-item image {
+      width: 60rpx;
+      height: 60rpx;
+      margin-bottom: 14rpx;
 }
 .ad-1 {
   width: 100%;

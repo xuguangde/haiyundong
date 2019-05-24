@@ -59,6 +59,7 @@
 				uni.showLoading({
 					title:'登录中',
 				})
+				console.log('执行了吗')
 				util.request(api.userLogin,{username: this.phoneOne,password: this.password}).then(
 					res =>{
 						console.log(res)
@@ -75,7 +76,7 @@
 								data: res.data.data.token
 							})
 							uni.setStorage({
-								key: 'mobile',
+								key:'mobile',
 								data: res.data.data.mobile
 							})
 							uni.setStorage({
@@ -91,6 +92,7 @@
 								key: 'userId',
 								data: res.data.data.user_id
 							})
+							
 							this.$api.msg('登陆成功')
 							uni.hideLoading()
 						}

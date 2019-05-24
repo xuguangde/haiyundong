@@ -11,6 +11,7 @@
     "pages/daren/daren",
     "pages/agorae/agorae",
     "pages/help/help",
+    "pages/index/index",
     "pages/hdxq/hdxq",
     "pages/wodejiaoyi/order",
     "pages/hyd/hyd",
@@ -90,7 +91,7 @@
     "alwaysShowBeforeRender": true,
     "autoclose": false
   },
-  "appname": "aaaaaaaaaaa",
+  "appname": "嗨运动",
   "compilerVersion": "1.9.4",
   "usingComponents": {}
 }

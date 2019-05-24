@@ -4,6 +4,6 @@
     "type": "transparent"
   },
   "usingComponents": {
-    "share": "/components/share"
+    "uni-number-box": "/components/uni-number-box"
   }
 }

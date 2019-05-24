@@ -117,7 +117,7 @@
 			mylist(){
 				page++
 				var that = this;
-				util.request(api.getskin,{token: uni.getStorageSync('token'),page: page,}).then(
+				util.request(api.getskin,{token: uni.getStorageSync('token'),page: page,user_id:uni.getStorageSync('userId')}).then(
 					res =>{
 						if(res.data.retcode == 1){
 							that.navList[0].orderList = that.navList[0].orderList.concat(res.data.data)

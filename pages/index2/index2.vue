@@ -13,7 +13,7 @@
 		</view>
 		<view class="indexback">
 			<view>
-				<image class="run" src="/static/temp/run.gif"></image>
+				<image class="run" :src="srcone == 1?'/static/temp/run.gif':'/static/temp/runstop.png'"></image>
 			</view>
 			<view class="runOne">
 				<view class="yuan">
@@ -37,46 +37,47 @@
 		<!-- <button type="primary" @tap="watchOrient">监听设备的方向变化</button> -->
 		<!-- 分类 -->
 		<view class="cate-section">
-			<navigator url="../zhuangbei/zhuangbei?state=0" class="cate-item">
-				<image src="/static/temp/c3.png"></image>
+			<view @click="tiaozhuan('/pages/zhuangbei/zhuangbei?state=0')" class="cate-item">
+				<image src="/static/temp/paoxie.png"></image>
 				<text>装备</text>
-			</navigator>
-			<navigator url="../pifu/pifu?state=0" class="cate-item">
-				<image src="/static/temp/c5.png"></image>
+			</view>
+			<navigator url="/pages/pifu/pifu?state=0" class="cate-item">
+				<image src="/static/temp/lihe.png"></image>
 				<text>皮肤</text>
 			</navigator>
 			<navigator url="" class="cate-item">
-				<image src="/static/temp/c6.png"></image>
+				<image src="/static/temp/huodong1.png"></image>
 				<text>活动</text>
 			</navigator>
-			<navigator url="../notice/notice" class="cate-item">
-				<image src="/static/temp/c7.png"></image>
+			<navigator url="/pages/notice/notice" class="cate-item">
+				<image src="/static/temp/guanxuan.png"></image>
 				<text>官宣</text>
 			</navigator>
 		</view>
 		<view class="cunru">
-			<view class="">
-				<image src="/static/temp/c7.png" mode=""></image>
+			<view class="centertit">
 				<view class="cunrufont">
-					<view class="">
-						今日奖励花豆：0.018905
+					<view class="jiangli">
+						今日奖励花豆：{{huadou}}
 					</view>
-					<view class="">
+					<view class="cunruone" @click="cunru">
 						存入
 					</view>
 				</view>
+				<image src="/static/temp/c110.png" mode=""></image>
+				
 			</view>
 		</view>
 		<view class="cate-section">
 			<view class="cate-item">
-				<view class="yanse">
+				<view class="yanse1">
 					LV0
 				</view>
 				<text>用户等级</text>
 			</view>
 			<view class="cate-item">
 				<view class="yanse">
-					0.8018
+					{{zonghuadou}}
 				</view>
 				<text>总花豆</text>
 			</view>
@@ -91,9 +92,10 @@
 </template>
 
 <script>
-	var id = null
+	var id = null;
+	var api = require("../../utils/api.js");
+	var util = require("../../utils/util.js");
 	export default {
-
 		data() {
 			return {
 				titleNViewBackground: '',
@@ -103,32 +105,65 @@
 				goodsList: [],
 				bushu:0,
 				value:'',
-				kaluli:0.000
+				kaluli:0.000,
+				srcone: 1,
+				huadou:0.000,
+				zonghuadou: 0,
 			};
 		},
 		
 		onLoad() {
 			this.loadData();
-			// this.watchOrient();
-			console.log("打印个试试")
+			this.watchOrient()
 			this.bushu = uni.getStorageSync("bushu");
 			this.kaluli = uni.getStorageSync("kaluli")
 		},
 		
 		onShow() {
 			var myDate = new Date();
+			console.log(uni.getStorageSync('userId'))
 			console.log(myDate.getHours())
-			if(myDate.getHours() == 0){
-				uni.setStorage({
-					key:"bushu",
-					data:0
-				}) 
-				uni.setStorage({
-					key:"kaluli",
-					data:0.00
-				})
-			}
-			
+			uni.getStorage({
+				key:'getDate',
+				success() {
+					if(myDate.getDate() != uni.getStorageSync('getDate')){
+						uni.setStorage({
+							key:"bushu",
+							data:0
+						}) 
+						uni.setStorage({
+							key:"kaluli",
+							data:0.00
+						})
+						uni.setStorage({
+							key:'getDate',
+							data: myDate.getDate()
+						})
+						uni.setStorage({
+							key: 'bushuone',
+							data: 0
+						})
+					}
+				},
+				fail() {
+					uni.setStorage({
+						key:"bushu",
+						data:0
+					}) 
+					uni.setStorage({
+						key:"kaluli",
+						data:0.00
+					})
+					uni.setStorage({
+						key:'getDate',
+						data: myDate.getDate()
+					})
+					uni.setStorage({
+						key: 'bushuone',
+						data: 0
+					})
+				}
+			})
 		},
 		
 		methods: {
@@ -136,22 +171,48 @@
 			 * 请求静态数据只是为了代码不那么乱
 			 * 分次请求未作整合
 			 */
-			// #ifdef APP-PLUS
-			
-			
+			tiaozhuan(url){
+				uni.navigateTo({
+					url: url
+				})
+			},
+			cunru (){
+				var that = this;
+				uni.getStorage({
+					key:'userId',
+					success() {
+						util.request(api.saveBeans,{user_id: uni.getStorageSync('userId'),steps: 11,token: uni.getStorageSync('token')}).then(
+							res =>{
+								console.log(res.data.data)
+								that.zonghuadou = res.data.data
+								uni.setStorage({
+									key:'bushuone',
+									data: that.bushu
+								})
+							}
+						)
+					},
+					fail() {
+						this.$api.msg('请先登陆')
+					}
+				})
+			},
+			//获取步数
 			watchOrient: function () {
+				console.log("你好")
 				var that = this;
 				if (id) {
 					return;
 				}
 				id = plus.orientation.watchOrientation(function (o) {
-					if(o.gamma > 40 || o.gamma < -25){
+					if(o.gamma > 25 || o.gamma < -25){
 						setTimeout(function() {
+							that.srcone = 1
 							that.bushu++
 							that.kaluli = (0.004 * that.bushu).toFixed(3)
+							that.huadou = (0.000098 * that.bushu).toFixed(5)
 						}, 300);
-						
-						console.log(that.kaluli)
+						// console.log()
 						uni.setStorage({
 							key:"bushu",
 							data:that.bushu
@@ -159,8 +220,9 @@
 						uni.setStorage({
 							key:"kaluli",
 							data:that.kaluli,
-							
 						})
+					} else{
+						that.srcone = 0
 					}
 				}, function (e) {
 					plus.orientation.clearWatch(id);
@@ -168,7 +230,6 @@
 					console.log("监听失败:" + e.message);
 				});
 			},
-			// #endif
 			async loadData() {
 				let carouselList = await this.$api.json('carouselList');
 				this.titleNViewBackground = carouselList[0].background;
@@ -185,13 +246,13 @@
 				this.titleNViewBackground = this.carouselList[index].background;
 			},
 			//详情页
-			navToDetailPage(item) {
-				//测试数据没有写id，用title代替
-				let id = item.title;
-				uni.navigateTo({
-					url: `/pages/product/product?id=${id}`
-				})
-			},
+			// navToDetailPage(item) {
+			// 	//测试数据没有写id，用title代替
+			// 	let id = item.title;
+			// 	uni.navigateTo({
+			// 		url: `/pages/product/product?id=${id}`
+			// 	})
+			// },
 		},
 		// #ifndef MP
 		// 标题栏input搜索框点击
@@ -228,6 +289,20 @@
 	}
 	.yanse{
 		color: $font-color-index;
+		
+	}
+	.yanse1{
+		color: #fff;
+		border-radius: 20upx;
+		height: 40upx;
+		width: 100upx;
+		background: #e97332;
+		text-align: center;
+		line-height: 40upx;
+	}
+	.centertit{
+		display: flex;
+		justify-content: center;
 	}
 	.cunru{
 		background: #fff;
@@ -236,13 +311,36 @@
 		justify-content: center;
 		font-size: 30upx;
 		color: $font-color-index;
+		line-height: 60upx;
+		// text-align: center;
+		align-items: center;
+		width: 100%;
 		.cunrufont {
+			width: 100%;
 			display: flex;
 			justify-content: center;
+			color: #fff;
+			z-index: 9999;
+			// text-align: center;
+			position: absolute;
+			// align-content: center;
+			align-items: center;
+			.jiangli{
+				width: 360upx;
+			}
+			.cunruone{
+				color: $font-color-index;
+				border-radius: 8upx;
+				height: 40upx;
+				width: 100upx;
+				background: #fff;
+				text-align: center;
+				line-height: 40upx;
+			}
 		}
 		image {
-			height: 50upx;
-			width: 500upx;
+			height: 60upx;
+			width: 700upx;
 		}
 	}
 	.indexback{
@@ -390,16 +488,21 @@
 			align-items: center;
 			font-size: $font-sm + 2upx;
 			color: $font-color-dark;
+			image {
+				width: 60upx;
+				height: 60upx;
+				margin-bottom: 14upx;
+			}
 		}
 		/* 原图标颜色太深,不想改图了,所以加了透明度 */
-		image {
-			width: 88upx;
-			height: 88upx;
-			margin-bottom: 14upx;
-			border-radius: 50%;
-			opacity: .7;
-			box-shadow: 4upx 4upx 20upx rgba(250, 67, 106, 0.3);
-		}
+		// image {
+		// 	width: 88upx;
+		// 	height: 88upx;
+		// 	margin-bottom: 14upx;
+		// 	border-radius: 50%;
+		// 	opacity: .7;
+		// 	box-shadow: 4upx 4upx 20upx rgba(250, 67, 106, 0.3);
+		// }
 	}
 	.ad-1{
 		width: 100%;

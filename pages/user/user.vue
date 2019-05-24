@@ -1,6 +1,5 @@
 <template>  
-    <view class="container">  
-		
+    <view class="container"> 
 		<view class="user-section">
 			<image class="bg" src="/static/user-bg.jpg"></image>
 			<view class="user-info-box" @click="navTo('/pages/userinfo/grzx?user=' + nihaoa)" hover-class="common-hover"  :hover-stay-time="50">

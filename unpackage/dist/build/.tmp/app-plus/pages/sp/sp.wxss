@@ -1,0 +1,53 @@
+
+.xia_wenzi_er{
+	font-size: 32rpx;
+}
+.xia_wenzi_yi{
+	font-size: 32rpx;
+	margin-top: -20rpx;
+}
+.c-xian{
+	border: #01AAEF;
+	height:5rpx;
+	background-color: #EEEEEE;
+	margin-top:32rpx;
+}
+.b-xian{
+	border: #01AAEF;
+	height:20rpx;
+	background-color: #EEEEEE;
+	margin-top:22rpx;
+}
+.xia_you_yix{
+	color:darkgray;
+	margin-left: 510rpx;
+	margin-top: -50rpx;
+	font-size: 32rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.yi{
+	margin-top: -90rpx;
+}
+.er{
+	margin-top: -100rpx;
+}
+.xia_yix{
+	margin-left: 70rpx;
+	margin-top: 140rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.xia_erx{
+	margin-left: 70rpx;
+	margin-top: 120rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+

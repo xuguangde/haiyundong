@@ -1,0 +1,1 @@
+<view class="container" bind:__l="__l"><view class="list-cell b-b m-t" hover-class="cell-hover" hover-stay-time="{{50}}" data-event-opts="{{[['tap',[['navTo',['帮助详情']]]]]}}" bindtap="__e"><text class="cell-tit">嗨运动是款什么样的产品？</text><text class="cell-more yticon icon-you"></text></view></view>

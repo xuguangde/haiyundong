@@ -1,0 +1,1 @@
+<view bind:__l="__l"><block wx:for="{{notice}}" wx:for-item="item" wx:for-index="index"><block><view class="notice-item"><text class="time"></text><view class="content"><text class="title">{{item.title}}</text><view class="bot b-t"><text>{{item.add_time}}</text><text class="more-icon yticon icon-you"></text></view></view></view></block></block></view>

@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "嗨运动",
+  "navigationStyle": "custom",
+  "titleNView": {
+    "type": "transparent"
+  },
+  "usingComponents": {}
+}

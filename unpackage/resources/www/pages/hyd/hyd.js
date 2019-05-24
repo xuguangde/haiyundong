@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"mx_yi_wenzi{ font-size:",[0,29],"; }\n.",[1],"mx_yi_sj{ font-size:",[0,20],"; color:#999999; }\n.",[1],"mx_yi{ margin-top:",[0,20],"; margin-left: ",[0,20],"; }\n.",[1],"mx_yi_hdou{ color: #FF0000; font-size: ",[0,28],"; margin-left: ",[0,520],"; margin-top:",[0,-100],"; }\n",],undefined,{path:"./pages/hyd/hyd.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/hyd/hyd.wxml') } }));

@@ -1,0 +1,1 @@
+<view class="container" bind:__l="__l"><view class="top"><view class="a-xian"></view></view><view class="xia_yix"><image class="icons" src="/static/temp/alipay.png"></image><text class="xia_wenzi_yi">支付宝</text><view class="xia__zuo_weizi"><view></view><view>1234567895462</view><view></view></view></view></view>

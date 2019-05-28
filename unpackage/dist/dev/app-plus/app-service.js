@@ -29977,9 +29977,9 @@ var api = __webpack_require__(/*! ../../utils/api.js */ "../../../haiyundong/uti
 
               //接收传值,id里面放的是标题，因为测试数据并没写id 
               id = options.id;
-              if (id) {
-                this.$api.msg("\u70B9\u51FB\u4E86".concat(id));
-              }
+              // if(id){
+              // 	this.$api.msg(`点击了${id}`);
+              // }
               //规格 默认选中第一条
               this.specList.forEach(function (item) {var _iteratorNormalCompletion = true;var _didIteratorError = false;var _iteratorError = undefined;try {
                   for (var _iterator = _this.specChildList[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {var cItem = _step.value;
@@ -29989,8 +29989,8 @@ var api = __webpack_require__(/*! ../../utils/api.js */ "../../../haiyundong/uti
                       break; //forEach不能使用break
                     }
                   }} catch (err) {_didIteratorError = true;_iteratorError = err;} finally {try {if (!_iteratorNormalCompletion && _iterator.return != null) {_iterator.return();}} finally {if (_didIteratorError) {throw _iteratorError;}}}
-              });_context.next = 10;return (
-                this.$api.json('shareList'));case 10:this.shareList = _context.sent;case 11:case "end":return _context.stop();}}}, _callee, this);}));function onLoad(_x) {return _onLoad.apply(this, arguments);}return onLoad;}(),
+              });_context.next = 9;return (
+                this.$api.json('shareList'));case 9:this.shareList = _context.sent;case 10:case "end":return _context.stop();}}}, _callee, this);}));function onLoad(_x) {return _onLoad.apply(this, arguments);}return onLoad;}(),
 
   methods: {
     //规格弹窗开关

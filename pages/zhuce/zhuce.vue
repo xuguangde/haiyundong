@@ -159,6 +159,8 @@
 									}
 								)
 								
+							} else{
+								this.$api.msg(res.data.msg)
 							}
 							console.log(res.data.retcode)
 						}

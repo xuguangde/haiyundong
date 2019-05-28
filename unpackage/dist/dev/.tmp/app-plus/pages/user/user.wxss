@@ -38,6 +38,9 @@
   background: #fff;
   border-radius: 10rpx;
 }
+.info-box {
+  margin-left: 20rpx;
+}
 .one {
   display: -webkit-box;
   display: -webkit-flex;
@@ -71,8 +74,8 @@
   font-size: 30rpx;
 }
 .user-section {
-  height: 260rpx;
-  padding: 100rpx 30rpx 0;
+  height: 200rpx;
+  padding: 20rpx 30rpx 0;
   position: relative;
 }
 .user-section .bg {
@@ -108,7 +111,6 @@
 .user-info-box .username {
     font-size: 38rpx;
     color: #303133;
-    margin-left: 20rpx;
 }
 .user-info-box .number {
     font-size: 22rpx;

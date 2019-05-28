@@ -8,7 +8,7 @@
 			</view>
 			
 			<view class="xia_you_yix">
-				<view style="margin-top:10upx;">申请入住</view>
+				<view style="margin-top:10upx;">申请入驻</view>
 			</view>
 		</view>
 			<view class="c-xian"> 
@@ -27,10 +27,12 @@
 <style>
 	.xia_wenzi_er{
 		font-size: 32upx;	
+		margin-left: -30upx;
 	}
 	.xia_wenzi_yi{
 		font-size: 32upx;
-		margin-top: -20upx;
+		margin-top: -30upx;
+		margin-left: -30upx;
 	}
 	.c-xian{
 		border: #01AAEF;
@@ -46,7 +48,7 @@
 	}
 	.xia_you_yix{
 		color:darkgray;
-		margin-left: 510upx;
+		margin-left: 560upx;
 		margin-top: -50upx;
 		font-size: 32upx;
 		display: flex;

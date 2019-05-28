@@ -3,9 +3,9 @@
 		<view class="ewm_bk">
 		<view class="ww"><text>二维码收豆</text></view>
 		<view class="ma"><image  class="erweima" src="/static/temp/tuiguang.png"></image></view>
-		<view class="top_wenz_yi">(长按二维码保存到本地)</view>
+		<!-- <view class="top_wenz_yi">(长按二维码保存到本地)</view>
 		<view class="top_wenzi_er">你的每一步都算数</view>
-		<view class="top_wenzi_san">二维码仅限商家面对面扫码，请勿远程扫码，谨防受骗</view>
+		<view class="top_wenzi_san">二维码仅限商家面对面扫码，请勿远程扫码，谨防受骗</view> -->
 		</view>
 	</view>
 </template>
@@ -14,6 +14,10 @@
 </script>
 
 <style>
+	.ma{
+		display: flex;
+		justify-content: center;
+	}
 	.container{
 		display: flex;
 		flex-direction: column;

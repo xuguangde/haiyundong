@@ -8,6 +8,10 @@
 page {
   background: #f5f5f5;
 }
+.beijing image {
+  width: 100%;
+  position: absolute;
+}
 .yanse {
   color: #e97332;
 }
@@ -100,10 +104,13 @@ page {
       -ms-flex-pack: start;
           justify-content: flex-start;
   height: 600rpx;
+  z-index: 999;
 }
 .indexback .run {
-    height: 800rpx;
+    height: 500rpx;
     width: 390rpx;
+    z-index: 999;
+    margin-top: 200rpx;
 }
 .indexback .runOne {
     width: 360rpx;
@@ -124,28 +131,31 @@ page {
         -ms-flex-align: center;
             align-items: center;
     text-align: center;
-    margin-top: 200rpx;
+    margin-top: 360rpx;
+    z-index: 999;
 }
 .indexback .runOne .runTwo {
       font-size: 30rpx;
       margin-bottom: 10rpx;
+      z-index: 999;
 }
 .indexback .runOne .kaluli {
       font-size: 25rpx;
       margin-top: 30rpx;
+      z-index: 999;
 }
 .indexback .runOne .yuan {
       width: 320rpx;
       margin-left: 30rpx;
 }
 .indexback .runOne .yuan .jindu1 {
-        height: 4rpx;
+        height: 6rpx;
         width: 300rpx;
         background: #d0d0d0;
         position: absolute;
 }
 .indexback .runOne .yuan .jindu2 {
-        height: 4rpx;
+        height: 6rpx;
         width: 100rpx;
         background: #e97332;
         position: absolute;

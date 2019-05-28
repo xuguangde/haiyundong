@@ -196,8 +196,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
-
 var _vuex = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.js");function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {try {var info = gen[key](arg);var value = info.value;} catch (error) {reject(error);return;}if (info.done) {resolve(value);} else {Promise.resolve(value).then(_next, _throw);}}function _asyncToGenerator(fn) {return function () {var self = this,args = arguments;return new Promise(function (resolve, reject) {var gen = fn.apply(self, args);function _next(value) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);}function _throw(err) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);}_next(undefined);});};} //
 //
 //
@@ -293,22 +291,22 @@ var _vuex = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.j
 //
 //
 //
-//
-//
-var api = __webpack_require__(/*! ../../utils/api.js */ "../../../haiyundong/utils/api.js");var util = __webpack_require__(/*! ../../utils/util.js */ "../../../haiyundong/utils/util.js");var uniNumberBox = function uniNumberBox() {return __webpack_require__.e(/*! import() | components/uni-number-box */ "components/uni-number-box").then(__webpack_require__.bind(null, /*! @/components/uni-number-box.vue */ "../../../haiyundong/components/uni-number-box.vue"));};var _default = { components: { uniNumberBox: uniNumberBox }, data: function data() {return { index: 15, specClass: 'none', specSelected: [], item: [{ number: '15' }], numberqwe: '0', shop: '', favorite: true, shareList: [], strings: '', imgList: [{ src: 'https://gd3.alicdn.com/imgextra/i3/0/O1CN01IiyFQI1UGShoFKt1O_!!0-item_pic.jpg_400x400.jpg' }, { src: 'https://gd3.alicdn.com/imgextra/i3/TB1RPFPPFXXXXcNXpXXXXXXXXXX_!!0-item_pic.jpg_400x400.jpg' }, { src: 'https://gd2.alicdn.com/imgextra/i2/38832490/O1CN01IYq7gu1UGShvbEFnd_!!38832490.jpg_400x400.jpg' }], desc: "", specList: [{ id: 1, name: '尺寸' }, { id: 2, name: '颜色' }], specChildList: [{ id: 1, pid: 1, name: 'XS' }, { id: 2, pid: 1, name: 'S' }, { id: 3, pid: 1, name: 'M' }, { id: 4, pid: 1, name: 'L' }, { id: 5, pid: 1, name: 'XL' }, { id: 6, pid: 1, name: 'XXL' }, { id: 7, pid: 2, name: '白色' }, { id: 8, pid: 2, name: '珊瑚粉' }, { id: 9, pid: 2, name: '草木绿' }] };}, onLoad: function () {var _onLoad = _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee(options) {var _this = this;var that, id;return _regenerator.default.wrap(function _callee$(_context) {while (1) {switch (_context.prev = _context.next) {case 0:console.log(options, " at pages\\product\\product.vue:195");that = this;this.goods_id = options.id;util.request(api.goodsInfo, { goods_id: options.id }).then(
+var api = __webpack_require__(/*! ../../utils/api.js */ "../../../haiyundong/utils/api.js");var util = __webpack_require__(/*! ../../utils/util.js */ "../../../haiyundong/utils/util.js");var uniNumberBox = function uniNumberBox() {return __webpack_require__.e(/*! import() | components/uni-number-box */ "components/uni-number-box").then(__webpack_require__.bind(null, /*! @/components/uni-number-box.vue */ "../../../haiyundong/components/uni-number-box.vue"));};var _default = { components: { uniNumberBox: uniNumberBox }, data: function data() {return { index: 15, specClass: 'none', specSelected: [], item: [{ number: '15' }], numberqwe: '0', shop: '', favorite: true, shareList: [], strings: '', imgList: [{ src: 'https://gd3.alicdn.com/imgextra/i3/0/O1CN01IiyFQI1UGShoFKt1O_!!0-item_pic.jpg_400x400.jpg' }, { src: 'https://gd3.alicdn.com/imgextra/i3/TB1RPFPPFXXXXcNXpXXXXXXXXXX_!!0-item_pic.jpg_400x400.jpg' }, { src: 'https://gd2.alicdn.com/imgextra/i2/38832490/O1CN01IYq7gu1UGShvbEFnd_!!38832490.jpg_400x400.jpg' }], desc: "", specList: [{ id: 1, name: '尺寸' }, { id: 2, name: '颜色' }], specChildList: [{ id: 1, pid: 1, name: 'XS' }, { id: 2, pid: 1, name: 'S' }, { id: 3, pid: 1, name: 'M' }, { id: 4, pid: 1, name: 'L' }, { id: 5, pid: 1, name: 'XL' }, { id: 6, pid: 1, name: 'XXL' }, { id: 7, pid: 2, name: '白色' }, { id: 8, pid: 2, name: '珊瑚粉' }, { id: 9, pid: 2, name: '草木绿' }] };}, onLoad: function () {var _onLoad = _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee(options) {var _this = this;var that, id;return _regenerator.default.wrap(function _callee$(_context) {while (1) {switch (_context.prev = _context.next) {case 0:console.log(options, " at pages\\product\\product.vue:192");that = this;this.goods_id = options.id;
+              util.request(api.goodsInfo, { goods_id: options.id }).then(
               function (res) {
                 that.imgList = res.data.data.gallery;
                 that.shop = res.data.data.goods;
                 that.desc = res.data.data.goods.goods_content;
               });
 
-
               util.request(api.getCartNum, { goods_id: options.id, user_id: uni.getStorageSync('userId') }).then(
               function (res) {
-                _this.$forceUpdate();
-                that.numberqwe = res.data.data[0].goods_num;
-                console.log("购物车数量", that.numberqwe, " at pages\\product\\product.vue:210");
-                _this.$forceUpdate(); //手动调用更新
+                if (res.data.retcode == 1) {
+                  _this.$forceUpdate();
+                  that.numberqwe = res.data.data[0].goods_num;
+                  console.log("购物车数量", that.numberqwe, " at pages\\product\\product.vue:207");
+                  _this.$forceUpdate(); //手动调用更新
+                }
               });
 
 
@@ -348,7 +346,7 @@ var api = __webpack_require__(/*! ../../utils/api.js */ "../../../haiyundong/uti
 
     },
     numberChange: function numberChange(data) {
-      console.log(data, " at pages\\product\\product.vue:251");
+      console.log(data, " at pages\\product\\product.vue:249");
       // this.cartList[data.index].number = data.number;
       // this.calcTotal();
     },

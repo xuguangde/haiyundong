@@ -171,13 +171,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
-
-
 var _vuex = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.js");function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;} //
-//
-//
-//
 //
 //
 //
@@ -251,36 +245,39 @@ var api = __webpack_require__(/*! ../../utils/api.js */ "../../../haiyundong/uti
     // var result = this.parseJSON(jsonData);// 转成JSON对象
     // console.log(JSON.parse(options.user))
     this.user = JSON.parse(options.user); // console.log(this.user)
-    this.title = this.user.nickname;console.log(this.title, " at pages\\userinfo\\grzx.vue:105");this.superiorinfo = this.user.superior_info.nickname;this.headpic = this.user.head_pic;this.actionid = this.user.action_code;this.sex = this.user.sex;if (this.user.sex == 2) {this.sexone = '女';} else {this.sexone = '男';}}, methods: { sexqq: function sexqq(sexid) {console.log(sexid, " at pages\\userinfo\\grzx.vue:118");this.sex = sexid;if (sexid == 2) {this.sexone = '女';} else {this.sexone = '男';}}, toggleSpec: function toggleSpec() {var _this = this;if (this.specClass === 'show') {this.specClass = 'hide';setTimeout(function () {_this.specClass = 'none';}, 250);} else if (this.specClass === 'none') {this.specClass = 'show';}}, //选择规格
+    this.title = this.user.nickname;console.log(this.title, " at pages\\userinfo\\grzx.vue:102");this.superiorinfo = this.user.superior_info.nickname;this.headpic = this.user.head_pic;this.actionid = this.user.action_code;this.sex = this.user.sex;if (this.user.sex == 2) {this.sexone = '女';} else {this.sexone = '男';}}, methods: { sexqq: function sexqq(sexid) {console.log(sexid, " at pages\\userinfo\\grzx.vue:115");this.sex = sexid;if (sexid == 2) {this.sexone = '女';} else {this.sexone = '男';}}, toggleSpec: function toggleSpec() {var _this = this;if (this.specClass === 'show') {this.specClass = 'hide';setTimeout(function () {_this.specClass = 'none';}, 250);} else if (this.specClass === 'none') {this.specClass = 'show';}}, //选择规格
     selectSpec: function selectSpec(index, pid) {var _this2 = this;var list = this.specChildList;list.forEach(function (item) {if (item.pid === pid) {_this2.$set(item, 'selected', false);}});this.$set(list[index], 'selected', true); //存储已选择
       /**
        * 修复选择规格存储错误
        * 将这几行代码替换即可
        * 选择的规格存放在specSelected中
-       */this.specSelected = [];list.forEach(function (item) {if (item.selected === true) {_this2.specSelected.push(item);}});}, headimg: function headimg() {var that = this;
+       */this.specSelected = [];list.forEach(function (item) {if (item.selected === true) {_this2.specSelected.push(item);}});},
+
+    headimg: function headimg() {
+      var that = this;
       uni.chooseImage({
         count: 1, //默认9
         sizeType: ['original', 'compressed'], //可以指定是原图还是压缩图，默认二者都有
         sourceType: ['album'], //从相册选择
         success: function success(res) {
-          console.log(res, " at pages\\userinfo\\grzx.vue:166");
+          console.log(res, " at pages\\userinfo\\grzx.vue:163");
           uni.uploadFile({
             url: api.fileUploads,
             filePath: res.tempFilePaths[0],
             name: "images",
             formData: {},
             success: function success(res) {
-              console.log(res, " at pages\\userinfo\\grzx.vue:173");
+              console.log(res, " at pages\\userinfo\\grzx.vue:170");
               that.$api.loadIng('上传中');
               var data = JSON.parse(res.data);
               if (JSON.parse(res.data).retcode == 1) {
-                console.log("上传", res, " at pages\\userinfo\\grzx.vue:177");
+                console.log("上传", res, " at pages\\userinfo\\grzx.vue:174");
                 util.requestPost(api.updateUserInfo, { user_id: uni.getStorageSync("userId"), nickname: that.title, head_pic: data.data, sex: that.sex, token: uni.getStorageSync('token') }).then(
                 // console.log(res)
                 function (res) {
                   if (res.data.retcode == 1) {
                     that.headpic = res.data.data.result.head_pic;
-                    console.log(that.headpic, " at pages\\userinfo\\grzx.vue:183");
+                    console.log(that.headpic, " at pages\\userinfo\\grzx.vue:180");
                     that.$forceUpdate();
                     uni.hideLoading();
                   }
@@ -295,7 +292,7 @@ var api = __webpack_require__(/*! ../../utils/api.js */ "../../../haiyundong/uti
               }
             },
             fail: function fail(err) {
-              console.log(err, " at pages\\userinfo\\grzx.vue:198");
+              console.log(err, " at pages\\userinfo\\grzx.vue:195");
 
             },
             complete: function complete(_complete) {

@@ -1,11 +1,9 @@
 <template>
-	<view class="container">
-		<!-- 小程序头部兼容 -->
-		<!-- #ifdef MP -->
-		<view class="mp-search-box">
-			<input class="ser-input" type="text" value="输入关键字搜索" disabled />
+	<view class="container" >
+		<view class="beijing">
+			<image class="beijingimg" mode="widthFix" src="../../static/beijing.png"></image>
 		</view>
-		<!-- #endif -->
+		<!-- 小程序头部兼容 -->
 		<view class="title">
 			<view class="wenzi">
 				嗨运动
@@ -36,7 +34,7 @@
 		</view>
 		<!-- <button type="primary" @tap="watchOrient">监听设备的方向变化</button> -->
 		<!-- 分类 -->
-		<view class="cate-section">
+		<view class="cate-section" style="margin-top: 100upx;">
 			<view @click="tiaozhuan('/pages/zhuangbei/zhuangbei?state=0')" class="cate-item">
 				<image src="/static/temp/paoxie.png"></image>
 				<text>装备</text>
@@ -172,6 +170,7 @@
 			 * 分次请求未作整合
 			 */
 			tiaozhuan(url){
+				console.log("这行了吗")
 				uni.navigateTo({
 					url: url
 				})
@@ -287,6 +286,13 @@
 	page {
 		background: $page-background;
 	}
+	.beijing{
+		z-index: -999;
+		.beijingimg{
+			width: 100%;
+			position: absolute;
+		}
+	}
 	.yanse{
 		color: $font-color-index;
 		
@@ -350,8 +356,11 @@
 		justify-content: flex-start;
 		height: 600upx;
 		.run{
-			height: 800upx;
+			height: 500upx;
 			width: 390upx;
+			z-index: 999;
+			margin-top: 200upx;
+			position: absolute;
 		}
 		.runOne{
 			width: 360upx;
@@ -364,26 +373,30 @@
 			justify-content: center;
 			align-items: center;
 			text-align: center;
-			margin-top: 200upx;
+			margin-top: 360upx;
+			z-index: 999;
+			margin-left: 400upx;
 			.runTwo{
 				font-size: 30upx;
 				margin-bottom: 10upx;
+				z-index: 999;
 			}
 			.kaluli{
 				font-size: 25upx;
 				margin-top: 30upx;
+				z-index: 999;
 			}
 			.yuan{
 				width: 320upx;
 				margin-left: 30upx;
 				.jindu1{
-					height: 4upx;
+					height: 6upx;
 					width: 300upx;
 					background: #d0d0d0;
 					position: absolute;
 				}
 				.jindu2{
-					height: 4upx;
+					height: 6upx;
 					width: 100upx;
 					background: #e97332;
 					position: absolute;

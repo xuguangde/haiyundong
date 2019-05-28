@@ -1,6 +1,6 @@
 {
+  "navigationStyle": "default",
   "titleNView": {
-    "type": "transparent",
     "searchInput": {
       "backgroundColor": "rgba(231, 231, 231,.7)",
       "borderRadius": "16px",
@@ -10,10 +10,10 @@
     },
     "buttons": [
       {
-        "fontSrc": "/static/yticon.ttf",
-        "text": "",
+        "fontSrc": "/static/tyicon.ttf",
+        "text": "",
         "fontSize": "26",
-        "color": "#303133",
+        "color": "#707070",
         "float": "left",
         "background": "rgba(0,0,0,0)"
       },

@@ -7,14 +7,14 @@
 	height:70rpx;
 	line-height: 65rpx;
 	background-color: #01AAEF;
-	margin-top:60rpx;
+	margin-top:110rpx;
 }
 .fasong{
 	margin-top: -105rpx;
 }
 .srk_qi{
-	margin:;
-	margin-left:510rpx;
+	margin-top:60rpx;
+	margin-left:550rpx;
 	font-size:29rpx;
 	color: #E97332;
 }
@@ -25,24 +25,29 @@
 .srk_yi{
 	font-size:30rpx;
 	margin-left:40rpx;
+	margin-top: 25rpx;
 	font-size:29rpx;
 }
 .srk_er{
+	margin-top: 25rpx;
 	font-size:30rpx;
 	margin-left:40rpx;
 	font-size:29rpx;
 }
 .srk_san{
+	margin-top: 25rpx;
 	font-size:30rpx;
 	margin-left:40rpx;
 	font-size:29rpx;
 }
 .srk_si{
+	margin-top: 25rpx;
 	font-size:30rpx;
 	margin-left:40rpx;
 	font-size:29rpx;
 }
 .srk_wu{
+	margin-top: 25rpx;
 	font-size:30rpx;
 	margin-left:40rpx;
 	font-size:29rpx;
@@ -84,8 +89,8 @@
 	color: #999999;
 }
 .srk_xm_liu{
-	margin-top:-50rpx;	
-	margin-left:510rpx;
+	margin-top:-45rpx;	
+	margin-left:210rpx;
 	font-size:28rpx;
 	color: #999999;
 }
@@ -117,13 +122,13 @@
 	border: #01AAEF;
 	height:15rpx;
 	background-color: #EEEEEE;
-	margin-top:-10rpx;
+	margin-top:25rpx;
 }
 .c-xian{
 	border: #01AAEF;
-	height:0.5rpx;
+	height:5rpx;
 	background-color: #EEEEEE;
-	margin-top:-30rpx;
+	margin-top:20rpx;
 }
 .sfyz_an_qd{
 	font-size:29rpx;

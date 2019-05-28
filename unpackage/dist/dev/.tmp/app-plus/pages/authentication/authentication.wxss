@@ -1,16 +1,16 @@
 
 .srk_yi{
-	font-size:30rpx;
 	margin-left:40rpx;
+	margin-top: 25rpx;
 	font-size:29rpx;
 }
 .srk_er{
-	font-size:30rpx;
+	margin-top: 25rpx;
 	margin-left:40rpx;
 	font-size:29rpx;
 }
 .srk_san{
-	font-size:30rpx;
+	margin-top: 25rpx;
 	margin-left:40rpx;
 	font-size:29rpx;
 }
@@ -49,9 +49,9 @@
 }
 .c-xian{
 	border: #01AAEF;
-	height:0.5rpx;
+	height:5rpx;
 	background-color: #EEEEEE;
-	margin-top:-30rpx;
+	margin-top:25rpx;
 }
 .sfyz_an_qd{
 	font-size:29rpx;
@@ -60,6 +60,6 @@
 	width:720rpx;
 	height:70rpx;
 	background-color: #01AAEF;
-	margin-top:10rpx;
+	margin-top:60rpx;
 }
 

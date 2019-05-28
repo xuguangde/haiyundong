@@ -1,10 +1,12 @@
 
 .xia_wenzi_er{
-	font-size: 32rpx;
+	font-size: 32rpx;	
+	margin-left: -30rpx;
 }
 .xia_wenzi_yi{
 	font-size: 32rpx;
-	margin-top: -20rpx;
+	margin-top: -30rpx;
+	margin-left: -30rpx;
 }
 .c-xian{
 	border: #01AAEF;
@@ -20,7 +22,7 @@
 }
 .xia_you_yix{
 	color:darkgray;
-	margin-left: 510rpx;
+	margin-left: 560rpx;
 	margin-top: -50rpx;
 	font-size: 32rpx;
 	display: -webkit-box;

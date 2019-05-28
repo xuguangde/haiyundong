@@ -19,11 +19,11 @@
 				</swiper-item>
 			</swiper>
 			<!-- 自定义swiper指示器 -->
-			<view class="swiper-dots">
+			<!-- <view class="swiper-dots">
 				<text class="num">{{swiperCurrent+1}}</text>
 				<text class="sign">/</text>
-				<text class="num">{{swiperLength}}</text>
-			</view>
+				<text class="num">{{carouselListLength}}</text>
+			</view> -->
 		</view>
 		<!-- 分类 -->
 		<!-- <view class="cate-section">
@@ -384,7 +384,6 @@
 
 		.titleNview-placing {
 			height: var(--status-bar-height);
-			padding-top: 44px;
 			box-sizing: content-box;
 		}
 

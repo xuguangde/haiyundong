@@ -1248,16 +1248,16 @@ function gz$gwx_23(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_23)return __WXML_GLOBAL__.ops_cached.$gwx_23
 __WXML_GLOBAL__.ops_cached.$gwx_23=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'__l'])
-Z([3,'container'])
-Z([[7],[3,'contentText']])
-Z([[7],[3,'status']])
 })(__WXML_GLOBAL__.ops_cached.$gwx_23);return __WXML_GLOBAL__.ops_cached.$gwx_23
 }
 function gz$gwx_24(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_24)return __WXML_GLOBAL__.ops_cached.$gwx_24
 __WXML_GLOBAL__.ops_cached.$gwx_24=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'__l'])
+Z([3,'container'])
+Z([[7],[3,'contentText']])
+Z([[7],[3,'status']])
 })(__WXML_GLOBAL__.ops_cached.$gwx_24);return __WXML_GLOBAL__.ops_cached.$gwx_24
 }
 function gz$gwx_25(){
@@ -1294,6 +1294,12 @@ function gz$gwx_30(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_30)return __WXML_GLOBAL__.ops_cached.$gwx_30
 __WXML_GLOBAL__.ops_cached.$gwx_30=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
+})(__WXML_GLOBAL__.ops_cached.$gwx_30);return __WXML_GLOBAL__.ops_cached.$gwx_30
+}
+function gz$gwx_31(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_31)return __WXML_GLOBAL__.ops_cached.$gwx_31
+__WXML_GLOBAL__.ops_cached.$gwx_31=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'__l'])
 Z([3,'content'])
 Z([3,'__e'])
@@ -1323,11 +1329,11 @@ Z(z[22])
 Z([[2,'==='],[[6],[[6],[[7],[3,'item']],[3,'goodsList']],[3,'length']],[1,1]])
 Z([[2,'!='],[[6],[[7],[3,'item']],[3,'state']],[1,9]])
 Z([[6],[[7],[3,'tabItem']],[3,'loadingType']])
-})(__WXML_GLOBAL__.ops_cached.$gwx_30);return __WXML_GLOBAL__.ops_cached.$gwx_30
+})(__WXML_GLOBAL__.ops_cached.$gwx_31);return __WXML_GLOBAL__.ops_cached.$gwx_31
 }
-function gz$gwx_31(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_31)return __WXML_GLOBAL__.ops_cached.$gwx_31
-__WXML_GLOBAL__.ops_cached.$gwx_31=[];
+function gz$gwx_32(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_32)return __WXML_GLOBAL__.ops_cached.$gwx_32
+__WXML_GLOBAL__.ops_cached.$gwx_32=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'__l'])
 Z([3,'content'])
@@ -1350,20 +1356,20 @@ Z([[6],[[7],[3,'tabItem']],[3,'orderList']])
 Z(z[15])
 Z([[2,'!='],[[6],[[7],[3,'item']],[3,'state']],[1,9]])
 Z([[6],[[7],[3,'tabItem']],[3,'loadingType']])
-})(__WXML_GLOBAL__.ops_cached.$gwx_31);return __WXML_GLOBAL__.ops_cached.$gwx_31
-}
-function gz$gwx_32(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_32)return __WXML_GLOBAL__.ops_cached.$gwx_32
-__WXML_GLOBAL__.ops_cached.$gwx_32=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'__l'])
-Z([3,'content'])
-Z([[7],[3,'loadingType']])
 })(__WXML_GLOBAL__.ops_cached.$gwx_32);return __WXML_GLOBAL__.ops_cached.$gwx_32
 }
 function gz$gwx_33(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_33)return __WXML_GLOBAL__.ops_cached.$gwx_33
 __WXML_GLOBAL__.ops_cached.$gwx_33=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'__l'])
+Z([3,'content'])
+Z([[7],[3,'loadingType']])
+})(__WXML_GLOBAL__.ops_cached.$gwx_33);return __WXML_GLOBAL__.ops_cached.$gwx_33
+}
+function gz$gwx_34(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_34)return __WXML_GLOBAL__.ops_cached.$gwx_34
+__WXML_GLOBAL__.ops_cached.$gwx_34=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'__l'])
 Z([3,'container'])
@@ -1381,13 +1387,7 @@ Z([[6],[[7],[3,'item']],[3,'number']])
 Z(z[12])
 Z([1,100])
 Z([1,1])
-Z([[7],[3,'numberqwe']])
-})(__WXML_GLOBAL__.ops_cached.$gwx_33);return __WXML_GLOBAL__.ops_cached.$gwx_33
-}
-function gz$gwx_34(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_34)return __WXML_GLOBAL__.ops_cached.$gwx_34
-__WXML_GLOBAL__.ops_cached.$gwx_34=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
+Z(z[15])
 })(__WXML_GLOBAL__.ops_cached.$gwx_34);return __WXML_GLOBAL__.ops_cached.$gwx_34
 }
 function gz$gwx_35(){
@@ -1454,6 +1454,12 @@ function gz$gwx_45(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_45)return __WXML_GLOBAL__.ops_cached.$gwx_45
 __WXML_GLOBAL__.ops_cached.$gwx_45=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
+})(__WXML_GLOBAL__.ops_cached.$gwx_45);return __WXML_GLOBAL__.ops_cached.$gwx_45
+}
+function gz$gwx_46(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_46)return __WXML_GLOBAL__.ops_cached.$gwx_46
+__WXML_GLOBAL__.ops_cached.$gwx_46=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'__l'])
 Z([3,'content'])
 Z([3,'__e'])
@@ -1483,12 +1489,6 @@ Z(z[22])
 Z([[2,'==='],[[6],[[6],[[7],[3,'item']],[3,'goodsList']],[3,'length']],[1,1]])
 Z([[2,'!='],[[6],[[7],[3,'item']],[3,'state']],[1,9]])
 Z([[6],[[7],[3,'tabItem']],[3,'loadingType']])
-})(__WXML_GLOBAL__.ops_cached.$gwx_45);return __WXML_GLOBAL__.ops_cached.$gwx_45
-}
-function gz$gwx_46(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_46)return __WXML_GLOBAL__.ops_cached.$gwx_46
-__WXML_GLOBAL__.ops_cached.$gwx_46=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
 })(__WXML_GLOBAL__.ops_cached.$gwx_46);return __WXML_GLOBAL__.ops_cached.$gwx_46
 }
 function gz$gwx_47(){
@@ -1506,6 +1506,12 @@ __WXML_GLOBAL__.ops_cached.$gwx_48=[];
 function gz$gwx_49(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_49)return __WXML_GLOBAL__.ops_cached.$gwx_49
 __WXML_GLOBAL__.ops_cached.$gwx_49=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+})(__WXML_GLOBAL__.ops_cached.$gwx_49);return __WXML_GLOBAL__.ops_cached.$gwx_49
+}
+function gz$gwx_50(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_50)return __WXML_GLOBAL__.ops_cached.$gwx_50
+__WXML_GLOBAL__.ops_cached.$gwx_50=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'__l'])
 Z([3,'content'])
@@ -1528,19 +1534,25 @@ Z([[6],[[7],[3,'tabItem']],[3,'orderList']])
 Z(z[15])
 Z([[2,'!='],[[6],[[7],[3,'item']],[3,'state']],[1,9]])
 Z([[6],[[7],[3,'tabItem']],[3,'loadingType']])
-})(__WXML_GLOBAL__.ops_cached.$gwx_49);return __WXML_GLOBAL__.ops_cached.$gwx_49
-}
-function gz$gwx_50(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_50)return __WXML_GLOBAL__.ops_cached.$gwx_50
-__WXML_GLOBAL__.ops_cached.$gwx_50=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
 })(__WXML_GLOBAL__.ops_cached.$gwx_50);return __WXML_GLOBAL__.ops_cached.$gwx_50
+}
+function gz$gwx_51(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_51)return __WXML_GLOBAL__.ops_cached.$gwx_51
+__WXML_GLOBAL__.ops_cached.$gwx_51=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+})(__WXML_GLOBAL__.ops_cached.$gwx_51);return __WXML_GLOBAL__.ops_cached.$gwx_51
+}
+function gz$gwx_52(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_52)return __WXML_GLOBAL__.ops_cached.$gwx_52
+__WXML_GLOBAL__.ops_cached.$gwx_52=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+})(__WXML_GLOBAL__.ops_cached.$gwx_52);return __WXML_GLOBAL__.ops_cached.$gwx_52
 }
 __WXML_GLOBAL__.ops_set.$gwx=z;
 __WXML_GLOBAL__.ops_init.$gwx=true;
 var nv_require=function(){var nnm={};var nom={};return function(n){return function(){if(!nnm[n]) return undefined;try{if(!nom[n])nom[n]=nnm[n]();return nom[n];}catch(e){e.message=e.message.replace(/nv_/g,'');var tmp = e.stack.substring(0,e.stack.lastIndexOf(n));e.stack = tmp.substring(0,tmp.lastIndexOf('\n'));e.stack = e.stack.replace(/\snv_/g,' ');e.stack = $gstack(e.stack);e.stack += '\n    at ' + n.substring(2);console.error(e);}
 }}}()
-var x=['./components/empty.wxml','./components/mix-list-cell.wxml','./components/mpvueCityPicker.wxml','./components/share.wxml','./components/uni-load-more.wxml','./components/uni-load-more/uni-load-more.wxml','./components/uni-number-box.wxml','./pages/Details/Details.wxml','./pages/address/address.wxml','./pages/address/addressManage.wxml','./pages/agorae/agorae.wxml','./pages/authentication/authentication.wxml','./pages/cart/cart.wxml','./pages/category/category.wxml','./pages/daren/daren.wxml','./pages/denglu/denglu.wxml','./pages/detail/detail.wxml','./pages/hdxq/hdxq.wxml','./pages/help/help.wxml','./pages/hyd/hyd.wxml','./pages/index/index.wxml','./pages/index2/index2.wxml','./pages/index3/index3.wxml','./pages/lognum/paynum.wxml','./pages/money/money.wxml','./pages/money/pay.wxml','./pages/money/paySuccess.wxml','./pages/notice/notice.wxml','./pages/order/createOrder.wxml','./pages/order/order.wxml','./pages/pifu/pifu.wxml','./pages/product/list.wxml','./pages/product/product.wxml','./pages/public/login.wxml','./pages/reichText/reichText.wxml','./pages/sd/sd.wxml','./pages/set/set.wxml','./pages/skfs/skfs.wxml','./pages/sp/sp.wxml','./pages/td/td.wxml','./pages/user/user.wxml','./pages/userinfo/grzx.wxml','./pages/userinfo/userinfo.wxml','./pages/wjmm/wjmm.wxml','./pages/wodejiaoyi/order.wxml','./pages/wodeshenfen/wodeshenfen.wxml','./pages/xiugaimm/xiugaimm.wxml','./pages/yhdj/yhdj.wxml','./pages/zhuangbei/zhuangbei.wxml','./pages/zhuce/zhuce.wxml'];d_[x[0]]={}
+var x=['./components/empty.wxml','./components/mix-list-cell.wxml','./components/mpvueCityPicker.wxml','./components/share.wxml','./components/uni-load-more.wxml','./components/uni-load-more/uni-load-more.wxml','./components/uni-number-box.wxml','./pages/Details/Details.wxml','./pages/address/address.wxml','./pages/address/addressManage.wxml','./pages/agorae/agorae.wxml','./pages/authentication/authentication.wxml','./pages/cart/cart.wxml','./pages/category/category.wxml','./pages/daren/daren.wxml','./pages/denglu/denglu.wxml','./pages/detail/detail.wxml','./pages/hdxq/hdxq.wxml','./pages/help/help.wxml','./pages/huodong/huodong.wxml','./pages/hyd/hyd.wxml','./pages/index/index.wxml','./pages/index2/index2.wxml','./pages/index3/index3.wxml','./pages/lognum/paynum.wxml','./pages/money/money.wxml','./pages/money/pay.wxml','./pages/money/paySuccess.wxml','./pages/notice/notice.wxml','./pages/order/createOrder.wxml','./pages/order/order.wxml','./pages/pifu/pifu.wxml','./pages/product/list.wxml','./pages/product/product.wxml','./pages/public/login.wxml','./pages/reichText/reichText.wxml','./pages/sd/sd.wxml','./pages/set/set.wxml','./pages/skfs/skfs.wxml','./pages/sp/sp.wxml','./pages/td/td.wxml','./pages/user/user.wxml','./pages/userinfo/grzx.wxml','./pages/userinfo/userinfo.wxml','./pages/wjmm/wjmm.wxml','./pages/wodejiaoyi/order.wxml','./pages/wodeshenfen/wodeshenfen.wxml','./pages/xiugaimm/xiugaimm.wxml','./pages/yhdj/yhdj.wxml','./pages/zhuangbei/zhuangbei.wxml','./pages/zhuce/zhuce.wxml','./pages/zm/zm.wxml'];d_[x[0]]={}
 var m0=function(e,s,r,gg){
 var z=gz$gwx_1()
 return r
@@ -1804,20 +1816,20 @@ e_[x[21]]={f:m21,j:[],i:[],ti:[],ic:[]}
 d_[x[22]]={}
 var m22=function(e,s,r,gg){
 var z=gz$gwx_23()
-cs.push("./pages/index3/index3.wxml:view:1:1")
-var tSB=_mz(z,'view',['bind:__l',0,'class',1],[],e,s,gg)
-cs.push("./pages/index3/index3.wxml:uni-load-more:1:1471")
-var eTB=_mz(z,'uni-load-more',['contentText',2,'status',1],[],e,s,gg)
-cs.pop()
-_(tSB,eTB)
-cs.pop()
-_(r,tSB)
 return r
 }
 e_[x[22]]={f:m22,j:[],i:[],ti:[],ic:[]}
 d_[x[23]]={}
 var m23=function(e,s,r,gg){
 var z=gz$gwx_24()
+cs.push("./pages/index3/index3.wxml:view:1:1")
+var eTB=_mz(z,'view',['bind:__l',0,'class',1],[],e,s,gg)
+cs.push("./pages/index3/index3.wxml:uni-load-more:1:1326")
+var bUB=_mz(z,'uni-load-more',['contentText',2,'status',1],[],e,s,gg)
+cs.pop()
+_(eTB,bUB)
+cs.pop()
+_(r,eTB)
 return r
 }
 e_[x[23]]={f:m23,j:[],i:[],ti:[],ic:[]}
@@ -1854,198 +1866,198 @@ e_[x[28]]={f:m28,j:[],i:[],ti:[],ic:[]}
 d_[x[29]]={}
 var m29=function(e,s,r,gg){
 var z=gz$gwx_30()
-cs.push("./pages/order/order.wxml:view:1:1")
-var o2B=_mz(z,'view',['bind:__l',0,'class',1],[],e,s,gg)
-cs.push("./pages/order/order.wxml:swiper:1:322")
-var c3B=_mz(z,'swiper',['bindchange',2,'class',1,'current',2,'data-event-opts',3,'duration',4],[],e,s,gg)
-var o4B=_v()
-_(c3B,o4B)
-cs.push("./pages/order/order.wxml:block:1:473")
-var l5B=function(t7B,a6B,e8B,gg){
-cs.push("./pages/order/order.wxml:scroll-view:1:598")
-var o0B=_mz(z,'scroll-view',['scrollY',-1,'bindscrolltolower',11,'class',1,'data-event-opts',2],[],t7B,a6B,gg)
-var xAC=_v()
-_(o0B,xAC)
-if(_oz(z,14,t7B,a6B,gg)){xAC.wxVkey=1
-cs.push("./pages/order/order.wxml:block:1:740")
-cs.push("./pages/order/order.wxml:empty:1:811")
-var oBC=_n('empty')
-cs.pop()
-_(xAC,oBC)
-cs.pop()
-}
-var fCC=_v()
-_(o0B,fCC)
-cs.push("./pages/order/order.wxml:block:1:834")
-var cDC=function(oFC,hEC,cGC,gg){
-cs.push("./pages/order/order.wxml:view:1:927")
-var lIC=_n('view')
-_rz(z,lIC,'class',19,oFC,hEC,gg)
-var aJC=_v()
-_(lIC,aJC)
-if(_oz(z,20,oFC,hEC,gg)){aJC.wxVkey=1
-cs.push("./pages/order/order.wxml:block:1:1105")
-cs.pop()
-}
-var tKC=_v()
-_(lIC,tKC)
-if(_oz(z,21,oFC,hEC,gg)){tKC.wxVkey=1
-cs.push("./pages/order/order.wxml:block:1:1284")
-cs.pop()
-}
-var bMC=_v()
-_(lIC,bMC)
-cs.push("./pages/order/order.wxml:block:1:1611")
-var oNC=function(oPC,xOC,fQC,gg){
-var hSC=_v()
-_(fQC,hSC)
-if(_oz(z,26,oPC,xOC,gg)){hSC.wxVkey=1
-cs.push("./pages/order/order.wxml:block:1:1716")
-cs.pop()
-}
-hSC.wxXCkey=1
-return fQC
-}
-bMC.wxXCkey=2
-_2z(z,24,oNC,oFC,hEC,gg,bMC,'goodsItem','goodsIndex','goodsIndex')
-cs.pop()
-var eLC=_v()
-_(lIC,eLC)
-if(_oz(z,27,oFC,hEC,gg)){eLC.wxVkey=1
-cs.push("./pages/order/order.wxml:block:1:2200")
-cs.pop()
-}
-aJC.wxXCkey=1
-tKC.wxXCkey=1
-eLC.wxXCkey=1
-cs.pop()
-_(cGC,lIC)
-return cGC
-}
-fCC.wxXCkey=2
-_2z(z,17,cDC,t7B,a6B,gg,fCC,'item','index','index')
-cs.pop()
-cs.push("./pages/order/order.wxml:uni-load-more:1:2516")
-var oTC=_n('uni-load-more')
-_rz(z,oTC,'status',28,t7B,a6B,gg)
-cs.pop()
-_(o0B,oTC)
-xAC.wxXCkey=1
-xAC.wxXCkey=3
-cs.pop()
-_(e8B,o0B)
-return e8B
-}
-o4B.wxXCkey=4
-_2z(z,9,l5B,e,s,gg,o4B,'tabItem','tabIndex','tabIndex')
-cs.pop()
-cs.pop()
-_(o2B,c3B)
-cs.pop()
-_(r,o2B)
 return r
 }
 e_[x[29]]={f:m29,j:[],i:[],ti:[],ic:[]}
 d_[x[30]]={}
 var m30=function(e,s,r,gg){
 var z=gz$gwx_31()
-cs.push("./pages/pifu/pifu.wxml:view:1:1")
-var oVC=_mz(z,'view',['bind:__l',0,'class',1],[],e,s,gg)
-cs.push("./pages/pifu/pifu.wxml:swiper:1:322")
-var lWC=_mz(z,'swiper',['bindchange',2,'class',1,'current',2,'data-event-opts',3,'duration',4],[],e,s,gg)
-var aXC=_v()
-_(lWC,aXC)
-cs.push("./pages/pifu/pifu.wxml:block:1:473")
-var tYC=function(b1C,eZC,o2C,gg){
-cs.push("./pages/pifu/pifu.wxml:scroll-view:1:598")
-var o4C=_mz(z,'scroll-view',['scrollY',-1,'bindscrolltolower',11,'class',1,'data-event-opts',2],[],b1C,eZC,gg)
-var f5C=_v()
-_(o4C,f5C)
-if(_oz(z,14,b1C,eZC,gg)){f5C.wxVkey=1
-cs.push("./pages/pifu/pifu.wxml:block:1:740")
-cs.push("./pages/pifu/pifu.wxml:empty:1:788")
-var c6C=_n('empty')
+cs.push("./pages/order/order.wxml:view:1:1")
+var c3B=_mz(z,'view',['bind:__l',0,'class',1],[],e,s,gg)
+cs.push("./pages/order/order.wxml:swiper:1:322")
+var o4B=_mz(z,'swiper',['bindchange',2,'class',1,'current',2,'data-event-opts',3,'duration',4],[],e,s,gg)
+var l5B=_v()
+_(o4B,l5B)
+cs.push("./pages/order/order.wxml:block:1:473")
+var a6B=function(e8B,t7B,b9B,gg){
+cs.push("./pages/order/order.wxml:scroll-view:1:598")
+var xAC=_mz(z,'scroll-view',['scrollY',-1,'bindscrolltolower',11,'class',1,'data-event-opts',2],[],e8B,t7B,gg)
+var oBC=_v()
+_(xAC,oBC)
+if(_oz(z,14,e8B,t7B,gg)){oBC.wxVkey=1
+cs.push("./pages/order/order.wxml:block:1:740")
+cs.push("./pages/order/order.wxml:empty:1:811")
+var fCC=_n('empty')
 cs.pop()
-_(f5C,c6C)
-cs.pop()
-}
-var h7C=_v()
-_(o4C,h7C)
-cs.push("./pages/pifu/pifu.wxml:block:1:811")
-var o8C=function(o0C,c9C,lAD,gg){
-var tCD=_v()
-_(lAD,tCD)
-if(_oz(z,19,o0C,c9C,gg)){tCD.wxVkey=1
-cs.push("./pages/pifu/pifu.wxml:block:1:929")
+_(oBC,fCC)
 cs.pop()
 }
-tCD.wxXCkey=1
-return lAD
+var cDC=_v()
+_(xAC,cDC)
+cs.push("./pages/order/order.wxml:block:1:834")
+var hEC=function(cGC,oFC,oHC,gg){
+cs.push("./pages/order/order.wxml:view:1:927")
+var aJC=_n('view')
+_rz(z,aJC,'class',19,cGC,oFC,gg)
+var tKC=_v()
+_(aJC,tKC)
+if(_oz(z,20,cGC,oFC,gg)){tKC.wxVkey=1
+cs.push("./pages/order/order.wxml:block:1:1105")
+cs.pop()
 }
-h7C.wxXCkey=2
-_2z(z,17,o8C,b1C,eZC,gg,h7C,'item','index','index')
+var eLC=_v()
+_(aJC,eLC)
+if(_oz(z,21,cGC,oFC,gg)){eLC.wxVkey=1
+cs.push("./pages/order/order.wxml:block:1:1284")
 cs.pop()
-cs.push("./pages/pifu/pifu.wxml:uni-load-more:1:1342")
-var eDD=_n('uni-load-more')
-_rz(z,eDD,'status',20,b1C,eZC,gg)
-cs.pop()
-_(o4C,eDD)
-f5C.wxXCkey=1
-f5C.wxXCkey=3
-cs.pop()
-_(o2C,o4C)
-return o2C
 }
-aXC.wxXCkey=4
-_2z(z,9,tYC,e,s,gg,aXC,'tabItem','tabIndex','tabIndex')
+var oNC=_v()
+_(aJC,oNC)
+cs.push("./pages/order/order.wxml:block:1:1611")
+var xOC=function(fQC,oPC,cRC,gg){
+var oTC=_v()
+_(cRC,oTC)
+if(_oz(z,26,fQC,oPC,gg)){oTC.wxVkey=1
+cs.push("./pages/order/order.wxml:block:1:1716")
+cs.pop()
+}
+oTC.wxXCkey=1
+return cRC
+}
+oNC.wxXCkey=2
+_2z(z,24,xOC,cGC,oFC,gg,oNC,'goodsItem','goodsIndex','goodsIndex')
+cs.pop()
+var bMC=_v()
+_(aJC,bMC)
+if(_oz(z,27,cGC,oFC,gg)){bMC.wxVkey=1
+cs.push("./pages/order/order.wxml:block:1:2200")
+cs.pop()
+}
+tKC.wxXCkey=1
+eLC.wxXCkey=1
+bMC.wxXCkey=1
+cs.pop()
+_(oHC,aJC)
+return oHC
+}
+cDC.wxXCkey=2
+_2z(z,17,hEC,e8B,t7B,gg,cDC,'item','index','index')
+cs.pop()
+cs.push("./pages/order/order.wxml:uni-load-more:1:2516")
+var cUC=_n('uni-load-more')
+_rz(z,cUC,'status',28,e8B,t7B,gg)
+cs.pop()
+_(xAC,cUC)
+oBC.wxXCkey=1
+oBC.wxXCkey=3
+cs.pop()
+_(b9B,xAC)
+return b9B
+}
+l5B.wxXCkey=4
+_2z(z,9,a6B,e,s,gg,l5B,'tabItem','tabIndex','tabIndex')
 cs.pop()
 cs.pop()
-_(oVC,lWC)
+_(c3B,o4B)
 cs.pop()
-_(r,oVC)
+_(r,c3B)
 return r
 }
 e_[x[30]]={f:m30,j:[],i:[],ti:[],ic:[]}
 d_[x[31]]={}
 var m31=function(e,s,r,gg){
 var z=gz$gwx_32()
-cs.push("./pages/product/list.wxml:view:1:1")
-var oFD=_mz(z,'view',['bind:__l',0,'class',1],[],e,s,gg)
-cs.push("./pages/product/list.wxml:uni-load-more:1:557")
-var xGD=_n('uni-load-more')
-_rz(z,xGD,'status',2,e,s,gg)
+cs.push("./pages/pifu/pifu.wxml:view:1:1")
+var lWC=_mz(z,'view',['bind:__l',0,'class',1],[],e,s,gg)
+cs.push("./pages/pifu/pifu.wxml:swiper:1:322")
+var aXC=_mz(z,'swiper',['bindchange',2,'class',1,'current',2,'data-event-opts',3,'duration',4],[],e,s,gg)
+var tYC=_v()
+_(aXC,tYC)
+cs.push("./pages/pifu/pifu.wxml:block:1:473")
+var eZC=function(o2C,b1C,x3C,gg){
+cs.push("./pages/pifu/pifu.wxml:scroll-view:1:598")
+var f5C=_mz(z,'scroll-view',['scrollY',-1,'bindscrolltolower',11,'class',1,'data-event-opts',2],[],o2C,b1C,gg)
+var c6C=_v()
+_(f5C,c6C)
+if(_oz(z,14,o2C,b1C,gg)){c6C.wxVkey=1
+cs.push("./pages/pifu/pifu.wxml:block:1:740")
+cs.push("./pages/pifu/pifu.wxml:empty:1:788")
+var h7C=_n('empty')
 cs.pop()
-_(oFD,xGD)
+_(c6C,h7C)
 cs.pop()
-_(r,oFD)
+}
+var o8C=_v()
+_(f5C,o8C)
+cs.push("./pages/pifu/pifu.wxml:block:1:811")
+var c9C=function(lAD,o0C,aBD,gg){
+var eDD=_v()
+_(aBD,eDD)
+if(_oz(z,19,lAD,o0C,gg)){eDD.wxVkey=1
+cs.push("./pages/pifu/pifu.wxml:block:1:929")
+cs.pop()
+}
+eDD.wxXCkey=1
+return aBD
+}
+o8C.wxXCkey=2
+_2z(z,17,c9C,o2C,b1C,gg,o8C,'item','index','index')
+cs.pop()
+cs.push("./pages/pifu/pifu.wxml:uni-load-more:1:1342")
+var bED=_n('uni-load-more')
+_rz(z,bED,'status',20,o2C,b1C,gg)
+cs.pop()
+_(f5C,bED)
+c6C.wxXCkey=1
+c6C.wxXCkey=3
+cs.pop()
+_(x3C,f5C)
+return x3C
+}
+tYC.wxXCkey=4
+_2z(z,9,eZC,e,s,gg,tYC,'tabItem','tabIndex','tabIndex')
+cs.pop()
+cs.pop()
+_(lWC,aXC)
+cs.pop()
+_(r,lWC)
 return r
 }
 e_[x[31]]={f:m31,j:[],i:[],ti:[],ic:[]}
 d_[x[32]]={}
 var m32=function(e,s,r,gg){
 var z=gz$gwx_33()
-cs.push("./pages/product/product.wxml:view:1:1")
-var fID=_mz(z,'view',['bind:__l',0,'class',1],[],e,s,gg)
-cs.push("./pages/product/product.wxml:view:1:1577")
-var cJD=_mz(z,'view',['bindtap',2,'catchtouchmove',1,'class',2,'data-event-opts',3],[],e,s,gg)
-cs.push("./pages/product/product.wxml:view:1:1784")
-var hKD=_mz(z,'view',['catchtap',6,'class',1,'data-event-opts',2],[],e,s,gg)
-cs.push("./pages/product/product.wxml:uni-number-box:1:2092")
-var oLD=_mz(z,'uni-number-box',['bind:eventChange',9,'data-event-opts',1,'index',2,'isMax',3,'isMin',4,'max',5,'min',6,'value',7],[],e,s,gg)
+cs.push("./pages/product/list.wxml:view:1:1")
+var xGD=_mz(z,'view',['bind:__l',0,'class',1],[],e,s,gg)
+cs.push("./pages/product/list.wxml:uni-load-more:1:557")
+var oHD=_n('uni-load-more')
+_rz(z,oHD,'status',2,e,s,gg)
 cs.pop()
-_(hKD,oLD)
+_(xGD,oHD)
 cs.pop()
-_(cJD,hKD)
-cs.pop()
-_(fID,cJD)
-cs.pop()
-_(r,fID)
+_(r,xGD)
 return r
 }
 e_[x[32]]={f:m32,j:[],i:[],ti:[],ic:[]}
 d_[x[33]]={}
 var m33=function(e,s,r,gg){
 var z=gz$gwx_34()
+cs.push("./pages/product/product.wxml:view:1:1")
+var cJD=_mz(z,'view',['bind:__l',0,'class',1],[],e,s,gg)
+cs.push("./pages/product/product.wxml:view:1:1577")
+var hKD=_mz(z,'view',['bindtap',2,'catchtouchmove',1,'class',2,'data-event-opts',3],[],e,s,gg)
+cs.push("./pages/product/product.wxml:view:1:1784")
+var oLD=_mz(z,'view',['catchtap',6,'class',1,'data-event-opts',2],[],e,s,gg)
+cs.push("./pages/product/product.wxml:uni-number-box:1:2092")
+var cMD=_mz(z,'uni-number-box',['bind:eventChange',9,'data-event-opts',1,'index',2,'isMax',3,'isMin',4,'max',5,'min',6,'value',7],[],e,s,gg)
+cs.pop()
+_(oLD,cMD)
+cs.pop()
+_(hKD,oLD)
+cs.pop()
+_(cJD,hKD)
+cs.pop()
+_(r,cJD)
 return r
 }
 e_[x[33]]={f:m33,j:[],i:[],ti:[],ic:[]}
@@ -2112,101 +2124,101 @@ e_[x[43]]={f:m43,j:[],i:[],ti:[],ic:[]}
 d_[x[44]]={}
 var m44=function(e,s,r,gg){
 var z=gz$gwx_45()
-cs.push("./pages/wodejiaoyi/order.wxml:view:1:1")
-var hYD=_mz(z,'view',['bind:__l',0,'class',1],[],e,s,gg)
-cs.push("./pages/wodejiaoyi/order.wxml:swiper:1:322")
-var oZD=_mz(z,'swiper',['bindchange',2,'class',1,'current',2,'data-event-opts',3,'duration',4],[],e,s,gg)
-var c1D=_v()
-_(oZD,c1D)
-cs.push("./pages/wodejiaoyi/order.wxml:block:1:473")
-var o2D=function(a4D,l3D,t5D,gg){
-cs.push("./pages/wodejiaoyi/order.wxml:scroll-view:1:598")
-var b7D=_mz(z,'scroll-view',['scrollY',-1,'bindscrolltolower',11,'class',1,'data-event-opts',2],[],a4D,l3D,gg)
-var o8D=_v()
-_(b7D,o8D)
-if(_oz(z,14,a4D,l3D,gg)){o8D.wxVkey=1
-cs.push("./pages/wodejiaoyi/order.wxml:block:1:740")
-cs.push("./pages/wodejiaoyi/order.wxml:empty:1:811")
-var x9D=_n('empty')
-cs.pop()
-_(o8D,x9D)
-cs.pop()
-}
-var o0D=_v()
-_(b7D,o0D)
-cs.push("./pages/wodejiaoyi/order.wxml:block:1:834")
-var fAE=function(hCE,cBE,oDE,gg){
-cs.push("./pages/wodejiaoyi/order.wxml:view:1:927")
-var oFE=_n('view')
-_rz(z,oFE,'class',19,hCE,cBE,gg)
-var lGE=_v()
-_(oFE,lGE)
-if(_oz(z,20,hCE,cBE,gg)){lGE.wxVkey=1
-cs.push("./pages/wodejiaoyi/order.wxml:block:1:1105")
-cs.pop()
-}
-var aHE=_v()
-_(oFE,aHE)
-if(_oz(z,21,hCE,cBE,gg)){aHE.wxVkey=1
-cs.push("./pages/wodejiaoyi/order.wxml:block:1:1284")
-cs.pop()
-}
-var eJE=_v()
-_(oFE,eJE)
-cs.push("./pages/wodejiaoyi/order.wxml:block:1:1611")
-var bKE=function(xME,oLE,oNE,gg){
-var cPE=_v()
-_(oNE,cPE)
-if(_oz(z,26,xME,oLE,gg)){cPE.wxVkey=1
-cs.push("./pages/wodejiaoyi/order.wxml:block:1:1716")
-cs.pop()
-}
-cPE.wxXCkey=1
-return oNE
-}
-eJE.wxXCkey=2
-_2z(z,24,bKE,hCE,cBE,gg,eJE,'goodsItem','goodsIndex','goodsIndex')
-cs.pop()
-var tIE=_v()
-_(oFE,tIE)
-if(_oz(z,27,hCE,cBE,gg)){tIE.wxVkey=1
-cs.push("./pages/wodejiaoyi/order.wxml:block:1:2200")
-cs.pop()
-}
-lGE.wxXCkey=1
-aHE.wxXCkey=1
-tIE.wxXCkey=1
-cs.pop()
-_(oDE,oFE)
-return oDE
-}
-o0D.wxXCkey=2
-_2z(z,17,fAE,a4D,l3D,gg,o0D,'item','index','index')
-cs.pop()
-cs.push("./pages/wodejiaoyi/order.wxml:uni-load-more:1:2516")
-var hQE=_n('uni-load-more')
-_rz(z,hQE,'status',28,a4D,l3D,gg)
-cs.pop()
-_(b7D,hQE)
-o8D.wxXCkey=1
-o8D.wxXCkey=3
-cs.pop()
-_(t5D,b7D)
-return t5D
-}
-c1D.wxXCkey=4
-_2z(z,9,o2D,e,s,gg,c1D,'tabItem','tabIndex','tabIndex')
-cs.pop()
-cs.pop()
-_(hYD,oZD)
-cs.pop()
-_(r,hYD)
 return r
 }
 e_[x[44]]={f:m44,j:[],i:[],ti:[],ic:[]}
 d_[x[45]]={}
 var m45=function(e,s,r,gg){
 var z=gz$gwx_46()
+cs.push("./pages/wodejiaoyi/order.wxml:view:1:1")
+var oZD=_mz(z,'view',['bind:__l',0,'class',1],[],e,s,gg)
+cs.push("./pages/wodejiaoyi/order.wxml:swiper:1:322")
+var c1D=_mz(z,'swiper',['bindchange',2,'class',1,'current',2,'data-event-opts',3,'duration',4],[],e,s,gg)
+var o2D=_v()
+_(c1D,o2D)
+cs.push("./pages/wodejiaoyi/order.wxml:block:1:473")
+var l3D=function(t5D,a4D,e6D,gg){
+cs.push("./pages/wodejiaoyi/order.wxml:scroll-view:1:598")
+var o8D=_mz(z,'scroll-view',['scrollY',-1,'bindscrolltolower',11,'class',1,'data-event-opts',2],[],t5D,a4D,gg)
+var x9D=_v()
+_(o8D,x9D)
+if(_oz(z,14,t5D,a4D,gg)){x9D.wxVkey=1
+cs.push("./pages/wodejiaoyi/order.wxml:block:1:740")
+cs.push("./pages/wodejiaoyi/order.wxml:empty:1:811")
+var o0D=_n('empty')
+cs.pop()
+_(x9D,o0D)
+cs.pop()
+}
+var fAE=_v()
+_(o8D,fAE)
+cs.push("./pages/wodejiaoyi/order.wxml:block:1:834")
+var cBE=function(oDE,hCE,cEE,gg){
+cs.push("./pages/wodejiaoyi/order.wxml:view:1:927")
+var lGE=_n('view')
+_rz(z,lGE,'class',19,oDE,hCE,gg)
+var aHE=_v()
+_(lGE,aHE)
+if(_oz(z,20,oDE,hCE,gg)){aHE.wxVkey=1
+cs.push("./pages/wodejiaoyi/order.wxml:block:1:1105")
+cs.pop()
+}
+var tIE=_v()
+_(lGE,tIE)
+if(_oz(z,21,oDE,hCE,gg)){tIE.wxVkey=1
+cs.push("./pages/wodejiaoyi/order.wxml:block:1:1284")
+cs.pop()
+}
+var bKE=_v()
+_(lGE,bKE)
+cs.push("./pages/wodejiaoyi/order.wxml:block:1:1611")
+var oLE=function(oNE,xME,fOE,gg){
+var hQE=_v()
+_(fOE,hQE)
+if(_oz(z,26,oNE,xME,gg)){hQE.wxVkey=1
+cs.push("./pages/wodejiaoyi/order.wxml:block:1:1716")
+cs.pop()
+}
+hQE.wxXCkey=1
+return fOE
+}
+bKE.wxXCkey=2
+_2z(z,24,oLE,oDE,hCE,gg,bKE,'goodsItem','goodsIndex','goodsIndex')
+cs.pop()
+var eJE=_v()
+_(lGE,eJE)
+if(_oz(z,27,oDE,hCE,gg)){eJE.wxVkey=1
+cs.push("./pages/wodejiaoyi/order.wxml:block:1:2200")
+cs.pop()
+}
+aHE.wxXCkey=1
+tIE.wxXCkey=1
+eJE.wxXCkey=1
+cs.pop()
+_(cEE,lGE)
+return cEE
+}
+fAE.wxXCkey=2
+_2z(z,17,cBE,t5D,a4D,gg,fAE,'item','index','index')
+cs.pop()
+cs.push("./pages/wodejiaoyi/order.wxml:uni-load-more:1:2516")
+var oRE=_n('uni-load-more')
+_rz(z,oRE,'status',28,t5D,a4D,gg)
+cs.pop()
+_(o8D,oRE)
+x9D.wxXCkey=1
+x9D.wxXCkey=3
+cs.pop()
+_(e6D,o8D)
+return e6D
+}
+o2D.wxXCkey=4
+_2z(z,9,l3D,e,s,gg,o2D,'tabItem','tabIndex','tabIndex')
+cs.pop()
+cs.pop()
+_(oZD,c1D)
+cs.pop()
+_(r,oZD)
 return r
 }
 e_[x[45]]={f:m45,j:[],i:[],ti:[],ic:[]}
@@ -2225,69 +2237,81 @@ e_[x[47]]={f:m47,j:[],i:[],ti:[],ic:[]}
 d_[x[48]]={}
 var m48=function(e,s,r,gg){
 var z=gz$gwx_49()
-cs.push("./pages/zhuangbei/zhuangbei.wxml:view:1:1")
-var aVE=_mz(z,'view',['bind:__l',0,'class',1],[],e,s,gg)
-cs.push("./pages/zhuangbei/zhuangbei.wxml:swiper:1:322")
-var tWE=_mz(z,'swiper',['bindchange',2,'class',1,'current',2,'data-event-opts',3,'duration',4],[],e,s,gg)
-var eXE=_v()
-_(tWE,eXE)
-cs.push("./pages/zhuangbei/zhuangbei.wxml:block:1:473")
-var bYE=function(x1E,oZE,o2E,gg){
-cs.push("./pages/zhuangbei/zhuangbei.wxml:scroll-view:1:598")
-var c4E=_mz(z,'scroll-view',['scrollY',-1,'bindscrolltolower',11,'class',1,'data-event-opts',2],[],x1E,oZE,gg)
-var h5E=_v()
-_(c4E,h5E)
-if(_oz(z,14,x1E,oZE,gg)){h5E.wxVkey=1
-cs.push("./pages/zhuangbei/zhuangbei.wxml:block:1:740")
-cs.push("./pages/zhuangbei/zhuangbei.wxml:empty:1:788")
-var o6E=_n('empty')
-cs.pop()
-_(h5E,o6E)
-cs.pop()
-}
-var c7E=_v()
-_(c4E,c7E)
-cs.push("./pages/zhuangbei/zhuangbei.wxml:block:1:811")
-var o8E=function(a0E,l9E,tAF,gg){
-var bCF=_v()
-_(tAF,bCF)
-if(_oz(z,19,a0E,l9E,gg)){bCF.wxVkey=1
-cs.push("./pages/zhuangbei/zhuangbei.wxml:block:1:929")
-cs.pop()
-}
-bCF.wxXCkey=1
-return tAF
-}
-c7E.wxXCkey=2
-_2z(z,17,o8E,x1E,oZE,gg,c7E,'item','index','index')
-cs.pop()
-cs.push("./pages/zhuangbei/zhuangbei.wxml:uni-load-more:1:1466")
-var oDF=_n('uni-load-more')
-_rz(z,oDF,'status',20,x1E,oZE,gg)
-cs.pop()
-_(c4E,oDF)
-h5E.wxXCkey=1
-h5E.wxXCkey=3
-cs.pop()
-_(o2E,c4E)
-return o2E
-}
-eXE.wxXCkey=4
-_2z(z,9,bYE,e,s,gg,eXE,'tabItem','tabIndex','tabIndex')
-cs.pop()
-cs.pop()
-_(aVE,tWE)
-cs.pop()
-_(r,aVE)
 return r
 }
 e_[x[48]]={f:m48,j:[],i:[],ti:[],ic:[]}
 d_[x[49]]={}
 var m49=function(e,s,r,gg){
 var z=gz$gwx_50()
+cs.push("./pages/zhuangbei/zhuangbei.wxml:view:1:1")
+var tWE=_mz(z,'view',['bind:__l',0,'class',1],[],e,s,gg)
+cs.push("./pages/zhuangbei/zhuangbei.wxml:swiper:1:322")
+var eXE=_mz(z,'swiper',['bindchange',2,'class',1,'current',2,'data-event-opts',3,'duration',4],[],e,s,gg)
+var bYE=_v()
+_(eXE,bYE)
+cs.push("./pages/zhuangbei/zhuangbei.wxml:block:1:473")
+var oZE=function(o2E,x1E,f3E,gg){
+cs.push("./pages/zhuangbei/zhuangbei.wxml:scroll-view:1:598")
+var h5E=_mz(z,'scroll-view',['scrollY',-1,'bindscrolltolower',11,'class',1,'data-event-opts',2],[],o2E,x1E,gg)
+var o6E=_v()
+_(h5E,o6E)
+if(_oz(z,14,o2E,x1E,gg)){o6E.wxVkey=1
+cs.push("./pages/zhuangbei/zhuangbei.wxml:block:1:740")
+cs.push("./pages/zhuangbei/zhuangbei.wxml:empty:1:788")
+var c7E=_n('empty')
+cs.pop()
+_(o6E,c7E)
+cs.pop()
+}
+var o8E=_v()
+_(h5E,o8E)
+cs.push("./pages/zhuangbei/zhuangbei.wxml:block:1:811")
+var l9E=function(tAF,a0E,eBF,gg){
+var oDF=_v()
+_(eBF,oDF)
+if(_oz(z,19,tAF,a0E,gg)){oDF.wxVkey=1
+cs.push("./pages/zhuangbei/zhuangbei.wxml:block:1:929")
+cs.pop()
+}
+oDF.wxXCkey=1
+return eBF
+}
+o8E.wxXCkey=2
+_2z(z,17,l9E,o2E,x1E,gg,o8E,'item','index','index')
+cs.pop()
+cs.push("./pages/zhuangbei/zhuangbei.wxml:uni-load-more:1:1515")
+var xEF=_n('uni-load-more')
+_rz(z,xEF,'status',20,o2E,x1E,gg)
+cs.pop()
+_(h5E,xEF)
+o6E.wxXCkey=1
+o6E.wxXCkey=3
+cs.pop()
+_(f3E,h5E)
+return f3E
+}
+bYE.wxXCkey=4
+_2z(z,9,oZE,e,s,gg,bYE,'tabItem','tabIndex','tabIndex')
+cs.pop()
+cs.pop()
+_(tWE,eXE)
+cs.pop()
+_(r,tWE)
 return r
 }
 e_[x[49]]={f:m49,j:[],i:[],ti:[],ic:[]}
+d_[x[50]]={}
+var m50=function(e,s,r,gg){
+var z=gz$gwx_51()
+return r
+}
+e_[x[50]]={f:m50,j:[],i:[],ti:[],ic:[]}
+d_[x[51]]={}
+var m51=function(e,s,r,gg){
+var z=gz$gwx_52()
+return r
+}
+e_[x[51]]={f:m51,j:[],i:[],ti:[],ic:[]}
 if(path&&e_[path]){
 return function(env,dd,global){$gwxc=0;var root={"tag":"wx-page"};root.children=[]
 var main=e_[path].f
@@ -2308,7 +2332,7 @@ return root;
 
 
 
-__wxAppCode__['app.json']={"pages":["pages/index2/index2","pages/product/product","pages/set/set","pages/category/category","pages/Details/Details","pages/authentication/authentication","pages/userinfo/userinfo","pages/wodeshenfen/wodeshenfen","pages/daren/daren","pages/agorae/agorae","pages/help/help","pages/index/index","pages/hdxq/hdxq","pages/wodejiaoyi/order","pages/hyd/hyd","pages/td/td","pages/yhdj/yhdj","pages/skfs/skfs","pages/xiugaimm/xiugaimm","pages/reichText/reichText","pages/lognum/paynum","pages/wjmm/wjmm","pages/denglu/denglu","pages/pifu/pifu","pages/index3/index3","pages/cart/cart","pages/public/login","pages/user/user","pages/detail/detail","pages/order/order","pages/money/money","pages/order/createOrder","pages/address/address","pages/address/addressManage","pages/userinfo/grzx","pages/sp/sp","pages/sd/sd","pages/money/pay","pages/zhuce/zhuce","pages/money/paySuccess","pages/notice/notice","pages/index2/index2","pages/product/list","pages/zhuangbei/zhuangbei"],"subPackages":[],"window":{"navigationBarTextStyle":"black","navigationBarTitleText":"uni-app","navigationBarBackgroundColor":"#FFFFFF","backgroundColor":"#f8f8f8"},"tabBar":{"color":"#C0C4CC","selectedColor":"#4fbeed","borderStyle":"black","backgroundColor":"#ffffff","list":[{"pagePath":"pages/index2/index2","iconPath":"static/tab-home.png","selectedIconPath":"static/tab-home-current.png","text":"首页"},{"pagePath":"pages/index/index","iconPath":"static/tab-cate.png","selectedIconPath":"static/tab-cate-current.png","text":"商铺"},{"pagePath":"pages/index3/index3","iconPath":"static/tab-cart.png","style":{"enablePullDownRefresh":true},"selectedIconPath":"static/tab-cart-current.png","text":"商城"},{"pagePath":"pages/user/user","iconPath":"static/tab-my.png","selectedIconPath":"static/tab-my-current.png","text":"我的"}]},"splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"appname":"嗨运动","compilerVersion":"1.9.4","usingComponents":{}};
+__wxAppCode__['app.json']={"pages":["pages/index2/index2","pages/product/product","pages/set/set","pages/category/category","pages/Details/Details","pages/authentication/authentication","pages/userinfo/userinfo","pages/wodeshenfen/wodeshenfen","pages/daren/daren","pages/agorae/agorae","pages/help/help","pages/index/index","pages/hdxq/hdxq","pages/wodejiaoyi/order","pages/hyd/hyd","pages/td/td","pages/yhdj/yhdj","pages/skfs/skfs","pages/xiugaimm/xiugaimm","pages/reichText/reichText","pages/lognum/paynum","pages/wjmm/wjmm","pages/denglu/denglu","pages/pifu/pifu","pages/index3/index3","pages/cart/cart","pages/public/login","pages/user/user","pages/detail/detail","pages/order/order","pages/money/money","pages/order/createOrder","pages/zm/zm","pages/huodong/huodong","pages/address/address","pages/address/addressManage","pages/userinfo/grzx","pages/sp/sp","pages/sd/sd","pages/money/pay","pages/zhuce/zhuce","pages/money/paySuccess","pages/notice/notice","pages/index2/index2","pages/product/list","pages/zhuangbei/zhuangbei"],"subPackages":[],"window":{"navigationBarTextStyle":"black","navigationBarTitleText":"uni-app","navigationBarBackgroundColor":"#FFFFFF","backgroundColor":"#f8f8f8"},"tabBar":{"color":"#C0C4CC","selectedColor":"#4fbeed","borderStyle":"black","backgroundColor":"#ffffff","list":[{"pagePath":"pages/index2/index2","iconPath":"static/tab-home.png","selectedIconPath":"static/tab-home-current.png","text":"首页"},{"pagePath":"pages/index/index","iconPath":"static/tab-cate.png","selectedIconPath":"static/tab-cate-current.png","text":"商铺"},{"pagePath":"pages/index3/index3","iconPath":"static/tab-cart.png","style":{"enablePullDownRefresh":true},"selectedIconPath":"static/tab-cart-current.png","text":"商城"},{"pagePath":"pages/user/user","iconPath":"static/tab-my.png","selectedIconPath":"static/tab-my-current.png","text":"我的"}]},"splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"appname":"嗨运动","compilerVersion":"1.9.4","usingComponents":{}};
 __wxAppCode__['app.wxml']=$gwx('./app.wxml');
 
 __wxAppCode__['components/empty.json']={"usingComponents":{},"component":true};
@@ -2368,6 +2392,9 @@ __wxAppCode__['pages/hdxq/hdxq.wxml']=$gwx('./pages/hdxq/hdxq.wxml');
 __wxAppCode__['pages/help/help.json']={"navigationBarTitleText":"帮助中心","usingComponents":{}};
 __wxAppCode__['pages/help/help.wxml']=$gwx('./pages/help/help.wxml');
 
+__wxAppCode__['pages/huodong/huodong.json']={"navigationBarTitleText":"暂未开放","usingComponents":{}};
+__wxAppCode__['pages/huodong/huodong.wxml']=$gwx('./pages/huodong/huodong.wxml');
+
 __wxAppCode__['pages/hyd/hyd.json']={"navigationBarTitleText":"活跃度明细","usingComponents":{}};
 __wxAppCode__['pages/hyd/hyd.wxml']=$gwx('./pages/hyd/hyd.wxml');
 
@@ -2377,7 +2404,7 @@ __wxAppCode__['pages/index/index.wxml']=$gwx('./pages/index/index.wxml');
 __wxAppCode__['pages/index2/index2.json']={"navigationBarTitleText":"嗨运动","navigationStyle":"custom","titleNView":{"type":"transparent"},"usingComponents":{}};
 __wxAppCode__['pages/index2/index2.wxml']=$gwx('./pages/index2/index2.wxml');
 
-__wxAppCode__['pages/index3/index3.json']={"titleNView":{"type":"transparent","searchInput":{"backgroundColor":"rgba(231, 231, 231,.7)","borderRadius":"16px","placeholder":"请输入","disabled":true,"placeholderColor":"#606266"},"buttons":[{"fontSrc":"/static/yticon.ttf","text":"","fontSize":"26","color":"#303133","float":"left","background":"rgba(0,0,0,0)"},{"fontSrc":"/static/yticon.ttf","text":"","fontSize":"27","color":"#303133","background":"rgba(0,0,0,0)","redDot":true}]},"usingComponents":{"uni-load-more":"/components/uni-load-more"}};
+__wxAppCode__['pages/index3/index3.json']={"navigationStyle":"default","titleNView":{"searchInput":{"backgroundColor":"rgba(231, 231, 231,.7)","borderRadius":"16px","placeholder":"请输入","disabled":true,"placeholderColor":"#606266"},"buttons":[{"fontSrc":"/static/tyicon.ttf","text":"","fontSize":"26","color":"#707070","float":"left","background":"rgba(0,0,0,0)"},{"fontSrc":"/static/yticon.ttf","text":"","fontSize":"27","color":"#303133","background":"rgba(0,0,0,0)","redDot":true}]},"usingComponents":{"uni-load-more":"/components/uni-load-more"}};
 __wxAppCode__['pages/index3/index3.wxml']=$gwx('./pages/index3/index3.wxml');
 
 __wxAppCode__['pages/lognum/paynum.json']={"navigationBarTitleText":"忘记支付密码","usingComponents":{}};
@@ -2431,7 +2458,7 @@ __wxAppCode__['pages/sp/sp.wxml']=$gwx('./pages/sp/sp.wxml');
 __wxAppCode__['pages/td/td.json']={"navigationBarTitleText":"我的团队","usingComponents":{}};
 __wxAppCode__['pages/td/td.wxml']=$gwx('./pages/td/td.wxml');
 
-__wxAppCode__['pages/user/user.json']={"navigationBarTitleText":"我的","bounce":"none","titleNView":{"type":"transparent","buttons":[{"fontSrc":"/static/yticon.ttf","text":"","fontSize":"24","color":"#303133","width":"46px","background":"rgba(0,0,0,0)"},{"fontSrc":"/static/yticon.ttf","text":"","fontSize":"28","float":"left","color":"#303133","background":"rgba(0,0,0,0)","redDot":true}]},"usingComponents":{"list-cell":"/components/mix-list-cell"}};
+__wxAppCode__['pages/user/user.json']={"navigationBarTitleText":"我的","bounce":"none","titleNView":{"buttons":[{"fontSrc":"/static/tyicon.ttf","text":"","fontSize":"24","color":"#303133","background":"rgba(0,0,0,0)"},{"fontSrc":"/static/yticon.ttf","text":"","fontSize":"28","float":"left","color":"#303133","background":"rgba(0,0,0,0)","redDot":true}]},"usingComponents":{"list-cell":"/components/mix-list-cell"}};
 __wxAppCode__['pages/user/user.wxml']=$gwx('./pages/user/user.wxml');
 
 __wxAppCode__['pages/userinfo/grzx.json']={"navigationBarTitleText":"","usingComponents":{}};
@@ -2460,6 +2487,9 @@ __wxAppCode__['pages/zhuangbei/zhuangbei.wxml']=$gwx('./pages/zhuangbei/zhuangbe
 
 __wxAppCode__['pages/zhuce/zhuce.json']={"navigationBarTitleText":"注册","usingComponents":{}};
 __wxAppCode__['pages/zhuce/zhuce.wxml']=$gwx('./pages/zhuce/zhuce.wxml');
+
+__wxAppCode__['pages/zm/zm.json']={"navigationBarTitleText":"我的招募","usingComponents":{}};
+__wxAppCode__['pages/zm/zm.wxml']=$gwx('./pages/zm/zm.wxml');
 
 
 
@@ -2567,13 +2597,12 @@ var _vuex = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.j
         } });
 
     }
-
   },
   onShow: function onShow() {
-    console.log('App Show', " at App.vue:26");
+    console.log('App Show', " at App.vue:25");
   },
   onHide: function onHide() {
-    console.log('App Hide', " at App.vue:29");
+    console.log('App Hide', " at App.vue:28");
   } };exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ "./node_modules/@dcloudio/uni-app-plus/dist/index.js")["default"]))
 
@@ -18025,6 +18054,23 @@ createPage(_help.default);
 
 /***/ }),
 
+/***/ "../../../haiyundong/main.js?{\"page\":\"pages%2Fhuodong%2Fhuodong\"}":
+/*!******************************************************************!*\
+  !*** D:/haiyundong/main.js?{"page":"pages%2Fhuodong%2Fhuodong"} ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "../../../haiyundong/pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _huodong = _interopRequireDefault(__webpack_require__(/*! ./pages/huodong/huodong.vue */ "../../../haiyundong/pages/huodong/huodong.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_huodong.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ "./node_modules/@dcloudio/uni-app-plus/dist/index.js")["createPage"]))
+
+/***/ }),
+
 /***/ "../../../haiyundong/main.js?{\"page\":\"pages%2Fhyd%2Fhyd\"}":
 /*!**********************************************************!*\
   !*** D:/haiyundong/main.js?{"page":"pages%2Fhyd%2Fhyd"} ***!
@@ -18552,6 +18598,23 @@ createPage(_zhuce.default);
 
 /***/ }),
 
+/***/ "../../../haiyundong/main.js?{\"page\":\"pages%2Fzm%2Fzm\"}":
+/*!********************************************************!*\
+  !*** D:/haiyundong/main.js?{"page":"pages%2Fzm%2Fzm"} ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "../../../haiyundong/pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _zm = _interopRequireDefault(__webpack_require__(/*! ./pages/zm/zm.vue */ "../../../haiyundong/pages/zm/zm.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_zm.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ "./node_modules/@dcloudio/uni-app-plus/dist/index.js")["createPage"]))
+
+/***/ }),
+
 /***/ "../../../haiyundong/pages.json":
 /*!********************************!*\
   !*** D:/haiyundong/pages.json ***!
@@ -18621,7 +18684,7 @@ store;exports.default = _default;
 "use strict";
  // var host = "http://192.168.1.124:8085";  //本地测试地址
 // var host = "http://175.168.154.250:8085"; //映射地址
-var host = "http://mhadd.d1xcx.com/index.php"; //外网
+var host = "http://mhapp.d1xcx.com"; //外网地址
 
 module.exports = {
   host: host,
@@ -29368,8 +29431,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
 
 var id = null;
 var api = __webpack_require__(/*! ../../utils/api.js */ "../../../haiyundong/utils/api.js");
@@ -29400,8 +29461,8 @@ var util = __webpack_require__(/*! ../../utils/util.js */ "../../../haiyundong/u
 
   onShow: function onShow() {
     var myDate = new Date();
-    console.log(uni.getStorageSync('userId'), " at pages\\index2\\index2.vue:124");
-    console.log(myDate.getHours(), " at pages\\index2\\index2.vue:125");
+    console.log(uni.getStorageSync('userId'), " at pages\\index2\\index2.vue:122");
+    console.log(myDate.getHours(), " at pages\\index2\\index2.vue:123");
     uni.getStorage({
       key: 'getDate',
       success: function success() {
@@ -29450,7 +29511,12 @@ var util = __webpack_require__(/*! ../../utils/util.js */ "../../../haiyundong/u
               * 请求静态数据只是为了代码不那么乱
               * 分次请求未作整合
               */
+    tiaozhuan: function tiaozhuan(url) {
+      console.log("这行了吗", " at pages\\index2\\index2.vue:173");
+      uni.navigateTo({
+        url: url });
 
+    },
     cunru: function cunru() {
       var that = this;
       uni.getStorage({
@@ -29458,7 +29524,7 @@ var util = __webpack_require__(/*! ../../utils/util.js */ "../../../haiyundong/u
         success: function success() {
           util.request(api.saveBeans, { user_id: uni.getStorageSync('userId'), steps: 11, token: uni.getStorageSync('token') }).then(
           function (res) {
-            console.log(res.data.data, " at pages\\index2\\index2.vue:182");
+            console.log(res.data.data, " at pages\\index2\\index2.vue:185");
             that.zonghuadou = res.data.data;
             uni.setStorage({
               key: 'bushuone',
@@ -29474,7 +29540,7 @@ var util = __webpack_require__(/*! ../../utils/util.js */ "../../../haiyundong/u
     },
     //获取步数
     watchOrient: function watchOrient() {
-      console.log("你好", " at pages\\index2\\index2.vue:198");
+      console.log("你好", " at pages\\index2\\index2.vue:201");
       var that = this;
       if (id) {
         return;
@@ -29502,7 +29568,7 @@ var util = __webpack_require__(/*! ../../utils/util.js */ "../../../haiyundong/u
       }, function (e) {
         plus.orientation.clearWatch(id);
         id = null;
-        console.log("监听失败:" + e.message, " at pages\\index2\\index2.vue:226");
+        console.log("监听失败:" + e.message, " at pages\\index2\\index2.vue:229");
       });
     },
     loadData: function () {var _loadData = _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee() {var carouselList, goodsList;return _regenerator.default.wrap(function _callee$(_context) {while (1) {switch (_context.prev = _context.next) {case 0:_context.next = 2;return (
@@ -29795,8 +29861,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
-
 var _vuex = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.js");function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {try {var info = gen[key](arg);var value = info.value;} catch (error) {reject(error);return;}if (info.done) {resolve(value);} else {Promise.resolve(value).then(_next, _throw);}}function _asyncToGenerator(fn) {return function () {var self = this,args = arguments;return new Promise(function (resolve, reject) {var gen = fn.apply(self, args);function _next(value) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);}function _throw(err) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);}_next(undefined);});};} //
 //
 //
@@ -29892,22 +29956,22 @@ var _vuex = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.j
 //
 //
 //
-//
-//
-var api = __webpack_require__(/*! ../../utils/api.js */ "../../../haiyundong/utils/api.js");var util = __webpack_require__(/*! ../../utils/util.js */ "../../../haiyundong/utils/util.js");var uniNumberBox = function uniNumberBox() {return __webpack_require__.e(/*! import() | components/uni-number-box */ "components/uni-number-box").then(__webpack_require__.bind(null, /*! @/components/uni-number-box.vue */ "../../../haiyundong/components/uni-number-box.vue"));};var _default = { components: { uniNumberBox: uniNumberBox }, data: function data() {return { index: 15, specClass: 'none', specSelected: [], item: [{ number: '15' }], numberqwe: '0', shop: '', favorite: true, shareList: [], strings: '', imgList: [{ src: 'https://gd3.alicdn.com/imgextra/i3/0/O1CN01IiyFQI1UGShoFKt1O_!!0-item_pic.jpg_400x400.jpg' }, { src: 'https://gd3.alicdn.com/imgextra/i3/TB1RPFPPFXXXXcNXpXXXXXXXXXX_!!0-item_pic.jpg_400x400.jpg' }, { src: 'https://gd2.alicdn.com/imgextra/i2/38832490/O1CN01IYq7gu1UGShvbEFnd_!!38832490.jpg_400x400.jpg' }], desc: "", specList: [{ id: 1, name: '尺寸' }, { id: 2, name: '颜色' }], specChildList: [{ id: 1, pid: 1, name: 'XS' }, { id: 2, pid: 1, name: 'S' }, { id: 3, pid: 1, name: 'M' }, { id: 4, pid: 1, name: 'L' }, { id: 5, pid: 1, name: 'XL' }, { id: 6, pid: 1, name: 'XXL' }, { id: 7, pid: 2, name: '白色' }, { id: 8, pid: 2, name: '珊瑚粉' }, { id: 9, pid: 2, name: '草木绿' }] };}, onLoad: function () {var _onLoad = _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee(options) {var _this = this;var that, id;return _regenerator.default.wrap(function _callee$(_context) {while (1) {switch (_context.prev = _context.next) {case 0:console.log(options, " at pages\\product\\product.vue:195");that = this;this.goods_id = options.id;util.request(api.goodsInfo, { goods_id: options.id }).then(
+var api = __webpack_require__(/*! ../../utils/api.js */ "../../../haiyundong/utils/api.js");var util = __webpack_require__(/*! ../../utils/util.js */ "../../../haiyundong/utils/util.js");var uniNumberBox = function uniNumberBox() {return __webpack_require__.e(/*! import() | components/uni-number-box */ "components/uni-number-box").then(__webpack_require__.bind(null, /*! @/components/uni-number-box.vue */ "../../../haiyundong/components/uni-number-box.vue"));};var _default = { components: { uniNumberBox: uniNumberBox }, data: function data() {return { index: 15, specClass: 'none', specSelected: [], item: [{ number: '15' }], numberqwe: '0', shop: '', favorite: true, shareList: [], strings: '', imgList: [{ src: 'https://gd3.alicdn.com/imgextra/i3/0/O1CN01IiyFQI1UGShoFKt1O_!!0-item_pic.jpg_400x400.jpg' }, { src: 'https://gd3.alicdn.com/imgextra/i3/TB1RPFPPFXXXXcNXpXXXXXXXXXX_!!0-item_pic.jpg_400x400.jpg' }, { src: 'https://gd2.alicdn.com/imgextra/i2/38832490/O1CN01IYq7gu1UGShvbEFnd_!!38832490.jpg_400x400.jpg' }], desc: "", specList: [{ id: 1, name: '尺寸' }, { id: 2, name: '颜色' }], specChildList: [{ id: 1, pid: 1, name: 'XS' }, { id: 2, pid: 1, name: 'S' }, { id: 3, pid: 1, name: 'M' }, { id: 4, pid: 1, name: 'L' }, { id: 5, pid: 1, name: 'XL' }, { id: 6, pid: 1, name: 'XXL' }, { id: 7, pid: 2, name: '白色' }, { id: 8, pid: 2, name: '珊瑚粉' }, { id: 9, pid: 2, name: '草木绿' }] };}, onLoad: function () {var _onLoad = _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee(options) {var _this = this;var that, id;return _regenerator.default.wrap(function _callee$(_context) {while (1) {switch (_context.prev = _context.next) {case 0:console.log(options, " at pages\\product\\product.vue:192");that = this;this.goods_id = options.id;
+              util.request(api.goodsInfo, { goods_id: options.id }).then(
               function (res) {
                 that.imgList = res.data.data.gallery;
                 that.shop = res.data.data.goods;
                 that.desc = res.data.data.goods.goods_content;
               });
 
-
               util.request(api.getCartNum, { goods_id: options.id, user_id: uni.getStorageSync('userId') }).then(
               function (res) {
-                _this.$forceUpdate();
-                that.numberqwe = res.data.data[0].goods_num;
-                console.log("购物车数量", that.numberqwe, " at pages\\product\\product.vue:210");
-                _this.$forceUpdate(); //手动调用更新
+                if (res.data.retcode == 1) {
+                  _this.$forceUpdate();
+                  that.numberqwe = res.data.data[0].goods_num;
+                  console.log("购物车数量", that.numberqwe, " at pages\\product\\product.vue:207");
+                  _this.$forceUpdate(); //手动调用更新
+                }
               });
 
 
@@ -29947,7 +30011,7 @@ var api = __webpack_require__(/*! ../../utils/api.js */ "../../../haiyundong/uti
 
     },
     numberChange: function numberChange(data) {
-      console.log(data, " at pages\\product\\product.vue:251");
+      console.log(data, " at pages\\product\\product.vue:249");
       // this.cartList[data.index].number = data.number;
       // this.calcTotal();
     },
@@ -30893,7 +30957,6 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-//
 //
 //
 //
@@ -32113,79 +32176,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 var _vuex = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.js");function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}var listCell = function listCell() {return __webpack_require__.e(/*! import() | components/mix-list-cell */ "components/mix-list-cell").then(__webpack_require__.bind(null, /*! @/components/mix-list-cell */ "../../../haiyundong/components/mix-list-cell.vue"));};
 
 
@@ -32725,9 +32715,9 @@ var _Json = _interopRequireDefault(__webpack_require__(/*! @/Json */ "../../../h
                                      * 修复app端点击除全部订单外的按钮进入时不加载数据的问题
                                      * 替换onLoad下代码即可
                                      */
-    this.tabCurrentIndex = +options.state;
+    // this.tabCurrentIndex = +options.state;
 
-    this.loadData();
+    // this.loadData()
 
 
 
@@ -32781,7 +32771,7 @@ var _Json = _interopRequireDefault(__webpack_require__(/*! @/Json */ "../../../h
     //swiper 切换
     changeTab: function changeTab(e) {
       this.tabCurrentIndex = e.target.current;
-      this.loadData('tabChange');
+      // this.loadData('tabChange');
     },
     //顶部tab点击
     tabClick: function tabClick(index) {
@@ -34099,13 +34089,6 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-//
-//
-//
-//
-//
-//
-//
 //
 //
 //
@@ -36483,10 +36466,10 @@ var _vuex = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.j
 //
 //
 //
-var api = __webpack_require__(/*! ../../utils/api.js */ "../../../haiyundong/utils/api.js");var util = __webpack_require__(/*! ../../utils/util.js */ "../../../haiyundong/utils/util.js");var listCell = function listCell() {return __webpack_require__.e(/*! import() | components/mix-list-cell */ "components/mix-list-cell").then(__webpack_require__.bind(null, /*! @/components/mix-list-cell */ "../../../haiyundong/components/mix-list-cell.vue"));};var startY = 0,moveY = 0,pageAtTop = true;var _default = { components: { listCell: listCell }, data: function data() {return { coverTransform: 'translateY(0px)', coverTransition: '0s', moving: false, userInfoone: [{ head_pic: '' }, { nickname: '' }], nihaoa: '' };}, onLoad: function onLoad() {}, onShow: function onShow() {var that = this;util.request(api.userInfo, { token: uni.getStorageSync('token'), user_id: uni.getStorageSync('userId') }).then(function (res) {if (res.data.retcode == 1) {that.userInfoone = res.data.data;that.nihaoa = JSON.stringify(res.data.data);}});if (uni.getStorageSync('user')) {this.userInfoone = uni.getStorageSync('user');}}, onNavigationBarButtonTap: function onNavigationBarButtonTap(e) {var index = e.index;if (uni.getStorageSync('token')) {if (index === 0) {uni.navigateTo({ url: '/pages/set/set?user=' + this.nihaoa });} else if (index === 1) {var pages = getCurrentPages();var page = pages[pages.length - 1];var currentWebview = page.$getAppWebview();currentWebview.hideTitleNViewButtonRedDot({ index: index });uni.navigateTo({ url: '/pages/notice/notice' });}} else {this.$api.msg("请先登陆");}}, computed: _objectSpread({}, (0, _vuex.mapState)(['hasLogin', 'userInfo'])), methods: { /**
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          * 统一跳转接口,拦截未登录路由
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          * navigator标签现在默认没有转场动画，所以用view
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          */navTo: function navTo(url) {if (uni.getStorageSync('token')) {uni.navigateTo({ url: url });} else if (url == '/pages/userinfo/grzx?user=') {uni.navigateTo({ url: '../denglu/denglu' });} else {this.$api.msg('请先登陆');} // url// = '/pages/denglu/denglu'; // 测试结束需要改成这个
+var api = __webpack_require__(/*! ../../utils/api.js */ "../../../haiyundong/utils/api.js");var util = __webpack_require__(/*! ../../utils/util.js */ "../../../haiyundong/utils/util.js");var listCell = function listCell() {return __webpack_require__.e(/*! import() | components/mix-list-cell */ "components/mix-list-cell").then(__webpack_require__.bind(null, /*! @/components/mix-list-cell */ "../../../haiyundong/components/mix-list-cell.vue"));};var startY = 0,moveY = 0,pageAtTop = true;var _default = { components: { listCell: listCell }, data: function data() {return { coverTransform: 'translateY(0px)', coverTransition: '0s', moving: false, userInfoone: [{ head_pic: '' }, { nickname: '' }], nihaoa: '' };}, onLoad: function onLoad() {}, onShow: function onShow() {var _this = this;var that = this;util.request(api.userInfo, { token: uni.getStorageSync('token'), user_id: uni.getStorageSync('userId') }).then(function (res) {if (res.data.retcode == 1) {that.userInfoone = res.data.data;that.nihaoa = JSON.stringify(res.data.data);} else {_this.$api.msg('登陆过期，请从新登陆');that.nihaoa = 1;}});if (uni.getStorageSync('user')) {this.userInfoone = uni.getStorageSync('user');}}, onNavigationBarButtonTap: function onNavigationBarButtonTap(e) {var index = e.index;if (uni.getStorageSync('token')) {if (index === 0) {uni.navigateTo({ url: '/pages/set/set?user=' + this.nihaoa });} else if (index === 1) {var pages = getCurrentPages();var page = pages[pages.length - 1];var currentWebview = page.$getAppWebview();currentWebview.hideTitleNViewButtonRedDot({ index: index });uni.navigateTo({ url: '/pages/notice/notice' });}} else {this.$api.msg("请先登陆");}}, computed: _objectSpread({}, (0, _vuex.mapState)(['hasLogin', 'userInfo'])), methods: { /**
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                * 统一跳转接口,拦截未登录路由
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                * navigator标签现在默认没有转场动画，所以用view
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                */navTo: function navTo(url) {if (this.nihaoa == 1) {this.$api.msg('登陆过期，请重新登陆');uni.navigateTo({ url: '/pages/denglu/denglu' });} else {if (uni.getStorageSync('token')) {uni.navigateTo({ url: url });} else if (url == '/pages/userinfo/grzx?user=') {uni.navigateTo({ url: '../denglu/denglu' });} else {this.$api.msg('请先登陆');}} // url// = '/pages/denglu/denglu'; // 测试结束需要改成这个
     }, /**
         *  会员卡下拉和回弹
         *  1.关闭bounce避免ios端下拉冲突
@@ -37681,6 +37664,282 @@ render._withStripped = true
 },[["../../../haiyundong/main.js?{\"page\":\"pages%2Forder%2FcreateOrder\"}","common/runtime","common/vendor"]]]);
 });
 require('pages/order/createOrder.js');
+__wxRoute = 'pages/zm/zm';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/zm/zm.js';
+
+define('pages/zm/zm.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
+(global["webpackJsonp"] = global["webpackJsonp"] || []).push([["pages/zm/zm"],{
+
+/***/ "../../../haiyundong/pages/zm/zm.vue":
+/*!*************************************!*\
+  !*** D:/haiyundong/pages/zm/zm.vue ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _zm_vue_vue_type_template_id_27a5a149___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./zm.vue?vue&type=template&id=27a5a149& */ "../../../haiyundong/pages/zm/zm.vue?vue&type=template&id=27a5a149&");
+/* harmony import */ var _zm_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./zm.vue?vue&type=script&lang=js& */ "../../../haiyundong/pages/zm/zm.vue?vue&type=script&lang=js&");
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _zm_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _zm_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _zm_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./zm.vue?vue&type=style&index=0&lang=css& */ "../../../haiyundong/pages/zm/zm.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../HBuilderX/plugins/uniapp-cli/node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _zm_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _zm_vue_vue_type_template_id_27a5a149___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _zm_vue_vue_type_template_id_27a5a149___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "haiyundong/pages/zm/zm.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "../../../haiyundong/pages/zm/zm.vue?vue&type=script&lang=js&":
+/*!**************************************************************!*\
+  !*** D:/haiyundong/pages/zm/zm.vue?vue&type=script&lang=js& ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_zm_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../HBuilderX/plugins/uniapp-cli/node_modules/babel-loader/lib!../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!../../../HBuilderX/plugins/uniapp-cli/node_modules/vue-loader/lib??vue-loader-options!./zm.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!../../../haiyundong/pages/zm/zm.vue?vue&type=script&lang=js&");
+/* harmony import */ var _HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_zm_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_zm_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_zm_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_zm_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_zm_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "../../../haiyundong/pages/zm/zm.vue?vue&type=style&index=0&lang=css&":
+/*!**********************************************************************!*\
+  !*** D:/haiyundong/pages/zm/zm.vue?vue&type=style&index=0&lang=css& ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_zm_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../HBuilderX/plugins/uniapp-cli/node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-1!../../../HBuilderX/plugins/uniapp-cli/node_modules/css-loader??ref--6-oneOf-1-2!../../../HBuilderX/plugins/uniapp-cli/node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../HBuilderX/plugins/uniapp-cli/node_modules/postcss-loader/src??ref--6-oneOf-1-3!../../../HBuilderX/plugins/uniapp-cli/node_modules/vue-loader/lib??vue-loader-options!./zm.vue?vue&type=style&index=0&lang=css& */ "./node_modules/mini-css-extract-plugin/dist/loader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!../../../haiyundong/pages/zm/zm.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_zm_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_zm_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_zm_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_zm_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_zm_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "../../../haiyundong/pages/zm/zm.vue?vue&type=template&id=27a5a149&":
+/*!********************************************************************!*\
+  !*** D:/haiyundong/pages/zm/zm.vue?vue&type=template&id=27a5a149& ***!
+  \********************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_zm_vue_vue_type_template_id_27a5a149___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../HBuilderX/plugins/uniapp-cli/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!../../../HBuilderX/plugins/uniapp-cli/node_modules/vue-loader/lib??vue-loader-options!./zm.vue?vue&type=template&id=27a5a149& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!../../../haiyundong/pages/zm/zm.vue?vue&type=template&id=27a5a149&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_zm_vue_vue_type_template_id_27a5a149___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_zm_vue_vue_type_template_id_27a5a149___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!../../../haiyundong/pages/zm/zm.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib??vue-loader-options!D:/haiyundong/pages/zm/zm.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+/***/ }),
+
+/***/ "./node_modules/mini-css-extract-plugin/dist/loader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!../../../haiyundong/pages/zm/zm.vue?vue&type=style&index=0&lang=css&":
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-1!./node_modules/css-loader??ref--6-oneOf-1-2!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/vue-loader/lib??vue-loader-options!D:/haiyundong/pages/zm/zm.vue?vue&type=style&index=0&lang=css& ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!../../../haiyundong/pages/zm/zm.vue?vue&type=template&id=27a5a149&":
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib??vue-loader-options!D:/haiyundong/pages/zm/zm.vue?vue&type=template&id=27a5a149& ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ })
+
+},[["../../../haiyundong/main.js?{\"page\":\"pages%2Fzm%2Fzm\"}","common/runtime","common/vendor"]]]);
+});
+require('pages/zm/zm.js');
+__wxRoute = 'pages/huodong/huodong';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/huodong/huodong.js';
+
+define('pages/huodong/huodong.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
+(global["webpackJsonp"] = global["webpackJsonp"] || []).push([["pages/huodong/huodong"],{
+
+/***/ "../../../haiyundong/pages/huodong/huodong.vue":
+/*!***********************************************!*\
+  !*** D:/haiyundong/pages/huodong/huodong.vue ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _huodong_vue_vue_type_template_id_679dfe37___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./huodong.vue?vue&type=template&id=679dfe37& */ "../../../haiyundong/pages/huodong/huodong.vue?vue&type=template&id=679dfe37&");
+/* harmony import */ var _huodong_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./huodong.vue?vue&type=script&lang=js& */ "../../../haiyundong/pages/huodong/huodong.vue?vue&type=script&lang=js&");
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _huodong_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _huodong_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../HBuilderX/plugins/uniapp-cli/node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _huodong_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _huodong_vue_vue_type_template_id_679dfe37___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _huodong_vue_vue_type_template_id_679dfe37___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "haiyundong/pages/huodong/huodong.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "../../../haiyundong/pages/huodong/huodong.vue?vue&type=script&lang=js&":
+/*!************************************************************************!*\
+  !*** D:/haiyundong/pages/huodong/huodong.vue?vue&type=script&lang=js& ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_huodong_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../HBuilderX/plugins/uniapp-cli/node_modules/babel-loader/lib!../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!../../../HBuilderX/plugins/uniapp-cli/node_modules/vue-loader/lib??vue-loader-options!./huodong.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!../../../haiyundong/pages/huodong/huodong.vue?vue&type=script&lang=js&");
+/* harmony import */ var _HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_huodong_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_huodong_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_huodong_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_huodong_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_huodong_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "../../../haiyundong/pages/huodong/huodong.vue?vue&type=template&id=679dfe37&":
+/*!******************************************************************************!*\
+  !*** D:/haiyundong/pages/huodong/huodong.vue?vue&type=template&id=679dfe37& ***!
+  \******************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_huodong_vue_vue_type_template_id_679dfe37___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../HBuilderX/plugins/uniapp-cli/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!../../../HBuilderX/plugins/uniapp-cli/node_modules/vue-loader/lib??vue-loader-options!./huodong.vue?vue&type=template&id=679dfe37& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!../../../haiyundong/pages/huodong/huodong.vue?vue&type=template&id=679dfe37&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_huodong_vue_vue_type_template_id_679dfe37___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_huodong_vue_vue_type_template_id_679dfe37___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!../../../haiyundong/pages/huodong/huodong.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib??vue-loader-options!D:/haiyundong/pages/huodong/huodong.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+//
+//
+//
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!../../../haiyundong/pages/huodong/huodong.vue?vue&type=template&id=679dfe37&":
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib??vue-loader-options!D:/haiyundong/pages/huodong/huodong.vue?vue&type=template&id=679dfe37& ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ })
+
+},[["../../../haiyundong/main.js?{\"page\":\"pages%2Fhuodong%2Fhuodong\"}","common/runtime","common/vendor"]]]);
+});
+require('pages/huodong/huodong.js');
 __wxRoute = 'pages/address/address';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/address/address.js';
 
 define('pages/address/address.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
@@ -38390,13 +38649,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
-
-
 var _vuex = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.js");function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;} //
-//
-//
-//
 //
 //
 //
@@ -38470,36 +38723,39 @@ var api = __webpack_require__(/*! ../../utils/api.js */ "../../../haiyundong/uti
     // var result = this.parseJSON(jsonData);// 转成JSON对象
     // console.log(JSON.parse(options.user))
     this.user = JSON.parse(options.user); // console.log(this.user)
-    this.title = this.user.nickname;console.log(this.title, " at pages\\userinfo\\grzx.vue:105");this.superiorinfo = this.user.superior_info.nickname;this.headpic = this.user.head_pic;this.actionid = this.user.action_code;this.sex = this.user.sex;if (this.user.sex == 2) {this.sexone = '女';} else {this.sexone = '男';}}, methods: { sexqq: function sexqq(sexid) {console.log(sexid, " at pages\\userinfo\\grzx.vue:118");this.sex = sexid;if (sexid == 2) {this.sexone = '女';} else {this.sexone = '男';}}, toggleSpec: function toggleSpec() {var _this = this;if (this.specClass === 'show') {this.specClass = 'hide';setTimeout(function () {_this.specClass = 'none';}, 250);} else if (this.specClass === 'none') {this.specClass = 'show';}}, //选择规格
+    this.title = this.user.nickname;console.log(this.title, " at pages\\userinfo\\grzx.vue:102");this.superiorinfo = this.user.superior_info.nickname;this.headpic = this.user.head_pic;this.actionid = this.user.action_code;this.sex = this.user.sex;if (this.user.sex == 2) {this.sexone = '女';} else {this.sexone = '男';}}, methods: { sexqq: function sexqq(sexid) {console.log(sexid, " at pages\\userinfo\\grzx.vue:115");this.sex = sexid;if (sexid == 2) {this.sexone = '女';} else {this.sexone = '男';}}, toggleSpec: function toggleSpec() {var _this = this;if (this.specClass === 'show') {this.specClass = 'hide';setTimeout(function () {_this.specClass = 'none';}, 250);} else if (this.specClass === 'none') {this.specClass = 'show';}}, //选择规格
     selectSpec: function selectSpec(index, pid) {var _this2 = this;var list = this.specChildList;list.forEach(function (item) {if (item.pid === pid) {_this2.$set(item, 'selected', false);}});this.$set(list[index], 'selected', true); //存储已选择
       /**
        * 修复选择规格存储错误
        * 将这几行代码替换即可
        * 选择的规格存放在specSelected中
-       */this.specSelected = [];list.forEach(function (item) {if (item.selected === true) {_this2.specSelected.push(item);}});}, headimg: function headimg() {var that = this;
+       */this.specSelected = [];list.forEach(function (item) {if (item.selected === true) {_this2.specSelected.push(item);}});},
+
+    headimg: function headimg() {
+      var that = this;
       uni.chooseImage({
         count: 1, //默认9
         sizeType: ['original', 'compressed'], //可以指定是原图还是压缩图，默认二者都有
         sourceType: ['album'], //从相册选择
         success: function success(res) {
-          console.log(res, " at pages\\userinfo\\grzx.vue:166");
+          console.log(res, " at pages\\userinfo\\grzx.vue:163");
           uni.uploadFile({
             url: api.fileUploads,
             filePath: res.tempFilePaths[0],
             name: "images",
             formData: {},
             success: function success(res) {
-              console.log(res, " at pages\\userinfo\\grzx.vue:173");
+              console.log(res, " at pages\\userinfo\\grzx.vue:170");
               that.$api.loadIng('上传中');
               var data = JSON.parse(res.data);
               if (JSON.parse(res.data).retcode == 1) {
-                console.log("上传", res, " at pages\\userinfo\\grzx.vue:177");
+                console.log("上传", res, " at pages\\userinfo\\grzx.vue:174");
                 util.requestPost(api.updateUserInfo, { user_id: uni.getStorageSync("userId"), nickname: that.title, head_pic: data.data, sex: that.sex, token: uni.getStorageSync('token') }).then(
                 // console.log(res)
                 function (res) {
                   if (res.data.retcode == 1) {
                     that.headpic = res.data.data.result.head_pic;
-                    console.log(that.headpic, " at pages\\userinfo\\grzx.vue:183");
+                    console.log(that.headpic, " at pages\\userinfo\\grzx.vue:180");
                     that.$forceUpdate();
                     uni.hideLoading();
                   }
@@ -38514,7 +38770,7 @@ var api = __webpack_require__(/*! ../../utils/api.js */ "../../../haiyundong/uti
               }
             },
             fail: function fail(err) {
-              console.log(err, " at pages\\userinfo\\grzx.vue:198");
+              console.log(err, " at pages\\userinfo\\grzx.vue:195");
 
             },
             complete: function complete(_complete) {
@@ -39294,7 +39550,7 @@ var util = __webpack_require__(/*! ../../utils/util.js */ "../../../haiyundong/u
     yaoqingma: function yaoqingma(e) {
       this.yaoqingmaOne = e.detail.value;
     },
-    zhuce: function zhuce() {
+    zhuce: function zhuce() {var _this = this;
       var that = this;
       util.request(api.userReg, {
         username: that.phoneOne,
@@ -39349,8 +39605,10 @@ var util = __webpack_require__(/*! ../../utils/util.js */ "../../../haiyundong/u
           });
 
 
+        } else {
+          _this.$api.msg(res.data.msg);
         }
-        console.log(res.data.retcode, " at pages\\zhuce\\zhuce.vue:163");
+        console.log(res.data.retcode, " at pages\\zhuce\\zhuce.vue:165");
       });
 
     } } };exports.default = _default;
@@ -39661,7 +39919,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
 //
 //
 //
@@ -39687,22 +39945,20 @@ var util = __webpack_require__(/*! ../../utils/util.js */ "../../../haiyundong/u
       notice: [] };
 
   },
-  onLoad: function onLoad() {
-    uni.showLoading({
-      title: '加载中' });
+  onLoad: function onLoad() {var _this = this;
 
     var that = this;
     util.request(api.getArticleInfo, { cate_name: 'official' }).then(
     function (res) {
       if (res.data.retcode == 1) {
         that.notice = res.data.data;
-        uni.hideToast();
+      } else {
+        _this.$api.msg(res.data.msg);
       }
     });
 
   },
   methods: {} };exports.default = _default;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ "./node_modules/@dcloudio/uni-app-plus/dist/index.js")["default"]))
 
 /***/ }),
 
@@ -39937,8 +40193,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
 
 var id = null;
 var api = __webpack_require__(/*! ../../utils/api.js */ "../../../haiyundong/utils/api.js");
@@ -39969,8 +40223,8 @@ var util = __webpack_require__(/*! ../../utils/util.js */ "../../../haiyundong/u
 
   onShow: function onShow() {
     var myDate = new Date();
-    console.log(uni.getStorageSync('userId'), " at pages\\index2\\index2.vue:124");
-    console.log(myDate.getHours(), " at pages\\index2\\index2.vue:125");
+    console.log(uni.getStorageSync('userId'), " at pages\\index2\\index2.vue:122");
+    console.log(myDate.getHours(), " at pages\\index2\\index2.vue:123");
     uni.getStorage({
       key: 'getDate',
       success: function success() {
@@ -40019,7 +40273,12 @@ var util = __webpack_require__(/*! ../../utils/util.js */ "../../../haiyundong/u
               * 请求静态数据只是为了代码不那么乱
               * 分次请求未作整合
               */
+    tiaozhuan: function tiaozhuan(url) {
+      console.log("这行了吗", " at pages\\index2\\index2.vue:173");
+      uni.navigateTo({
+        url: url });
 
+    },
     cunru: function cunru() {
       var that = this;
       uni.getStorage({
@@ -40027,7 +40286,7 @@ var util = __webpack_require__(/*! ../../utils/util.js */ "../../../haiyundong/u
         success: function success() {
           util.request(api.saveBeans, { user_id: uni.getStorageSync('userId'), steps: 11, token: uni.getStorageSync('token') }).then(
           function (res) {
-            console.log(res.data.data, " at pages\\index2\\index2.vue:182");
+            console.log(res.data.data, " at pages\\index2\\index2.vue:185");
             that.zonghuadou = res.data.data;
             uni.setStorage({
               key: 'bushuone',
@@ -40043,7 +40302,7 @@ var util = __webpack_require__(/*! ../../utils/util.js */ "../../../haiyundong/u
     },
     //获取步数
     watchOrient: function watchOrient() {
-      console.log("你好", " at pages\\index2\\index2.vue:198");
+      console.log("你好", " at pages\\index2\\index2.vue:201");
       var that = this;
       if (id) {
         return;
@@ -40071,7 +40330,7 @@ var util = __webpack_require__(/*! ../../utils/util.js */ "../../../haiyundong/u
       }, function (e) {
         plus.orientation.clearWatch(id);
         id = null;
-        console.log("监听失败:" + e.message, " at pages\\index2\\index2.vue:226");
+        console.log("监听失败:" + e.message, " at pages\\index2\\index2.vue:229");
       });
     },
     loadData: function () {var _loadData = _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee() {var carouselList, goodsList;return _regenerator.default.wrap(function _callee$(_context) {while (1) {switch (_context.prev = _context.next) {case 0:_context.next = 2;return (
@@ -40679,6 +40938,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
+
+
 var _Json = _interopRequireDefault(__webpack_require__(/*! @/Json */ "../../../haiyundong/Json.js"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };} //
 //
 //
@@ -40734,14 +40996,14 @@ var _Json = _interopRequireDefault(__webpack_require__(/*! @/Json */ "../../../h
 //
 //
 //
+//
+//
+//
 var api = __webpack_require__(/*! ../../utils/api.js */ "../../../haiyundong/utils/api.js");var util = __webpack_require__(/*! ../../utils/util.js */ "../../../haiyundong/utils/util.js");var page = 0;var uniLoadMore = function uniLoadMore() {return __webpack_require__.e(/*! import() | components/uni-load-more/uni-load-more */ "components/uni-load-more/uni-load-more").then(__webpack_require__.bind(null, /*! @/components/uni-load-more/uni-load-more.vue */ "../../../haiyundong/components/uni-load-more/uni-load-more.vue"));};var empty = function empty() {return __webpack_require__.e(/*! import() | components/empty */ "components/empty").then(__webpack_require__.bind(null, /*! @/components/empty */ "../../../haiyundong/components/empty.vue"));};var _default = { components: { uniLoadMore: uniLoadMore, empty: empty }, data: function data() {return { tabCurrentIndex: 0, navList: [{ state: 0, text: '装备列表', loadingType: 'more', orderList: [] }, { state: 1, text: '我的准备', loadingType: 'more', orderList: [] }, { state: 2, text: '过期装备', loadingType: 'more', orderList: [] }] };}, onLoad: function onLoad(options) {this.tabCurrentIndex = +options.state;this.mylist();}, methods: { //获取装备列表
-    mylist: function mylist() {var that = this;util.request(api.getequipment, { data: uni.getStorageSync('userId'), token: uni.getStorageSync('token') }).then(function (res) {console.log("装备列表", res, " at pages\\zhuangbei\\zhuangbei.vue:104");that.navList[0].orderList = res.data.data;console.log("装备列表", that.navList[0].orderList, " at pages\\zhuangbei\\zhuangbei.vue:106");});}, myZhuangbei: function myZhuangbei() {var that = this;util.request(api.getuserequipment, { data: uni.getStorageSync('userId'), token: uni.getStorageSync('token') }).then(function (res) {console.log(res, " at pages\\zhuangbei\\zhuangbei.vue:114");that.navList[1].orderList = res.data.data;});},
-    overdue: function overdue() {
-      var that = this;
-      page++;
+    mylist: function mylist() {var that = this;util.request(api.getequipment, { data: uni.getStorageSync('userId'), token: uni.getStorageSync('token') }).then(function (res) {console.log("装备列表", res, " at pages\\zhuangbei\\zhuangbei.vue:107");that.navList[0].orderList = res.data.data;console.log("装备列表", that.navList[0].orderList, " at pages\\zhuangbei\\zhuangbei.vue:109");});}, myZhuangbei: function myZhuangbei() {var that = this;util.request(api.getuserequipment, { data: uni.getStorageSync('userId'), token: uni.getStorageSync('token') }).then(function (res) {console.log(res, " at pages\\zhuangbei\\zhuangbei.vue:117");that.navList[1].orderList = res.data.data;});}, overdue: function overdue() {var that = this;page++;
       util.request(api.getuseroverequipment, { page: page, data: uni.getStorageSync('userId'), token: uni.getStorageSync('token') }).then(
       function (res) {
-        console.log(res, " at pages\\zhuangbei\\zhuangbei.vue:124");
+        console.log(res, " at pages\\zhuangbei\\zhuangbei.vue:127");
         that.navList[2].orderList = res.data.data;
       });
 
@@ -40751,9 +41013,9 @@ var api = __webpack_require__(/*! ../../utils/api.js */ "../../../haiyundong/uti
       var index = this.tabCurrentIndex;
       var navItem = this.navList[index];
       var state = navItem.state;
-      console.log("触底2", navItem, " at pages\\zhuangbei\\zhuangbei.vue:134");
+      console.log("触底2", navItem, " at pages\\zhuangbei\\zhuangbei.vue:137");
       this.overdue();
-      console.log("触底", index, " at pages\\zhuangbei\\zhuangbei.vue:136");
+      console.log("触底", index, " at pages\\zhuangbei\\zhuangbei.vue:139");
     },
     //swiper 切换
     changeTab: function changeTab(e) {

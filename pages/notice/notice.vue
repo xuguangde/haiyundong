@@ -25,15 +25,14 @@
 			}
 		},
 		onLoad() {
-			uni.showLoading({
-				title: '加载中'
-			});
+			
 			var that = this
 			util.request(api.getArticleInfo,{cate_name: 'official'}).then(
 				res => {
 					if(res.data.retcode == 1){
 						that.notice = res.data.data
-						uni.hideToast();
+					} else{
+						this.$api.msg(res.data.msg)
 					}
 				}
 			)

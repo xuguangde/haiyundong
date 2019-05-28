@@ -189,8 +189,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
 
 var id = null;
 var api = __webpack_require__(/*! ../../utils/api.js */ "../../../haiyundong/utils/api.js");
@@ -221,8 +219,8 @@ var util = __webpack_require__(/*! ../../utils/util.js */ "../../../haiyundong/u
 
   onShow: function onShow() {
     var myDate = new Date();
-    console.log(uni.getStorageSync('userId'), " at pages\\index2\\index2.vue:124");
-    console.log(myDate.getHours(), " at pages\\index2\\index2.vue:125");
+    console.log(uni.getStorageSync('userId'), " at pages\\index2\\index2.vue:122");
+    console.log(myDate.getHours(), " at pages\\index2\\index2.vue:123");
     uni.getStorage({
       key: 'getDate',
       success: function success() {
@@ -271,7 +269,12 @@ var util = __webpack_require__(/*! ../../utils/util.js */ "../../../haiyundong/u
               * 请求静态数据只是为了代码不那么乱
               * 分次请求未作整合
               */
+    tiaozhuan: function tiaozhuan(url) {
+      console.log("这行了吗", " at pages\\index2\\index2.vue:173");
+      uni.navigateTo({
+        url: url });
 
+    },
     cunru: function cunru() {
       var that = this;
       uni.getStorage({
@@ -279,7 +282,7 @@ var util = __webpack_require__(/*! ../../utils/util.js */ "../../../haiyundong/u
         success: function success() {
           util.request(api.saveBeans, { user_id: uni.getStorageSync('userId'), steps: 11, token: uni.getStorageSync('token') }).then(
           function (res) {
-            console.log(res.data.data, " at pages\\index2\\index2.vue:182");
+            console.log(res.data.data, " at pages\\index2\\index2.vue:185");
             that.zonghuadou = res.data.data;
             uni.setStorage({
               key: 'bushuone',
@@ -295,7 +298,7 @@ var util = __webpack_require__(/*! ../../utils/util.js */ "../../../haiyundong/u
     },
     //获取步数
     watchOrient: function watchOrient() {
-      console.log("你好", " at pages\\index2\\index2.vue:198");
+      console.log("你好", " at pages\\index2\\index2.vue:201");
       var that = this;
       if (id) {
         return;
@@ -323,7 +326,7 @@ var util = __webpack_require__(/*! ../../utils/util.js */ "../../../haiyundong/u
       }, function (e) {
         plus.orientation.clearWatch(id);
         id = null;
-        console.log("监听失败:" + e.message, " at pages\\index2\\index2.vue:226");
+        console.log("监听失败:" + e.message, " at pages\\index2\\index2.vue:229");
       });
     },
     loadData: function () {var _loadData = _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee() {var carouselList, goodsList;return _regenerator.default.wrap(function _callee$(_context) {while (1) {switch (_context.prev = _context.next) {case 0:_context.next = 2;return (

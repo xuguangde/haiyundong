@@ -47,13 +47,13 @@
       "splashscreen": {
         "ios": {
           "iphone": {
-            "retina47": "C:/Users/Administrator/Desktop/maihai/static/images/recommend/bg_f.png"
+            "retina47": ""
           }
         },
         "android": {
-          "hdpi": "C:/Users/Administrator/Desktop/runstop.png",
-          "xhdpi": "C:/Users/Administrator/Desktop/runstop.png",
-          "xxhdpi": "C:/Users/Administrator/Desktop/runstop.png"
+          "hdpi": "C:/Users/Administrator/Desktop/f09177f498db8a68e513db92d22192b.png",
+          "xhdpi": "C:/Users/Administrator/Desktop/f09177f498db8a68e513db92d22192b.png",
+          "xxhdpi": "C:/Users/Administrator/Desktop/f09177f498db8a68e513db92d22192b.png"
         }
       },
       "icons": {
@@ -68,7 +68,7 @@
             "spotlight@2x": "unpackage/res/icons/80x80.png",
             "spotlight@3x": "unpackage/res/icons/120x120.png"
           },
-          "appstore": "C:/Users/Administrator/Desktop/maihai/static/images/recommend/bg_f.png",
+          "appstore": "C:/Users/Administrator/Desktop/0c25807ff1c23b2c3801643a0c21f7a.png",
           "ipad": {
             "app": "unpackage/res/icons/76x76.png",
             "app@2x": "unpackage/res/icons/152x152.png",

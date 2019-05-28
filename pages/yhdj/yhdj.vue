@@ -1,10 +1,10 @@
 <template>
 	<view class="container">
 	<view class="jiii">
-		<img src="static/temp/banner1.jpg" class="top_tp">
+		<img src="static/vipvip.jpg" class="top_tp">
 		<view class="wenzi_dingbu" style="margin-top: -100upx;">当前交易手续费 --</view>
 	<view class="mx_yi">
-		<img src="static/temp/banner1.jpg" class="top_tp_yi">
+		<img src="static/vip.jpg" class="top_tp_yi">
 		<view class="mx_yi_wenzi">用户等级Lv0</view>
 		<view class="mx_yi_sj">未实名认证</view>
 		<view class="mx_yi_hdou">限制交易</view>
@@ -12,7 +12,7 @@
 	<view class="a-xian">
 	</view>
 	<view class="mx_er">
-		<img src="static/temp/banner1.jpg" class="top_tp_er">
+		<img src="static/vip.jpg" class="top_tp_er">
 		<view class="mx_er_wenzi">用户等级Lv1</view>
 		<view class="mx_er_sj">已实名认证</view>
 		<view class="mx_er_hdou">交易手续费%50</view>
@@ -20,7 +20,7 @@
 	<view class="b-xian">
 	</view>
 	<view class="mx_san">
-		<img src="static/temp/banner1.jpg" class="top_tp_san">
+		<img src="static/vip.jpg" class="top_tp_san">
 		<view class="mx_san_wenzi">用户等级Lv2</view>
 		<view class="mx_san_sj">直推实名认证人数>2</view>
 		<view class="mx_san_hdou">交易手续费%35</view>
@@ -28,7 +28,7 @@
 	<view class="c-xian">
 	</view>
 	<view class="mx_si">
-		<img src="static/temp/banner1.jpg" class="top_tp_si">
+		<img src="static/vip.jpg" class="top_tp_si">
 		<view class="mx_si_wenzi">用户等级Lv3</view>
 		<view class="mx_si_sj">直推实名认证人数>5</view>
 		<view class="mx_si_hdou">交易手续费%25</view>
@@ -36,7 +36,7 @@
 		<view class="d-xian">
 	</view>
 	<view class="mx_wu">
-		<img src="static/temp/banner1.jpg" class="top_tp_wu">
+		<img src="static/vip.jpg" class="top_tp_wu">
 		<view class="mx_wu_wenzi">用户等级Lv4</view>
 		<view class="mx_wu_sj">直推实名认证人数>50</view>
 		<view class="mx_wu_hdou">交易手续费%22</view>
@@ -44,7 +44,7 @@
 	<view class="e-xian">
 	</view>
 	<view class="mx_liu">
-		<img src="static/temp/banner1.jpg" class="top_tp_liu">
+		<img src="static/vip.jpg" class="top_tp_liu">
 		<view class="mx_liu_wenzi">用户等级Lv5</view>
 		<view class="mx_liu_sj">直推实名认证人数>100</view>
 		<view class="mx_liu_hdou">交易手续费%20</view>
@@ -52,7 +52,7 @@
 	<view class="f-xian">
 	</view>
 	<view class="mx_qi">
-		<img src="static/temp/banner1.jpg" class="top_tp_qi">
+		<img src="static/vip.jpg" class="top_tp_qi">
 		<view class="mx_qi_wenzi">用户等级Lv6</view>
 		<view class="mx_qi_sj">直推实名认证人数>1000</view>
 		<view class="mx_qi_hdou">交易手续费%20</view>
@@ -60,7 +60,7 @@
 	<view class="g-xian">
 	</view>
 	<view class="mx_ba">
-		<img src="static/temp/banner1.jpg" class="top_tp_ba">
+		<img src="static/vip.jpg" class="top_tp_ba">
 		<view class="mx_ba_wenzi">用户等级Lv7</view>
 		<view class="mx_ba_sj">直推实名认证人数>5000</view>
 		<view class="mx_ba_hdou">交易手续费%20</view>

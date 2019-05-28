@@ -122,13 +122,13 @@
 			 * 修复app端点击除全部订单外的按钮进入时不加载数据的问题
 			 * 替换onLoad下代码即可
 			 */
-			this.tabCurrentIndex = +options.state;
+			// this.tabCurrentIndex = +options.state;
 			// #ifndef MP
-			this.loadData()
+			// this.loadData()
 			// #endif
 			// #ifdef MP
 			if(options.state == 0){
-				this.loadData()
+				// this.loadData()
 			}
 			// #endif
 			
@@ -178,7 +178,7 @@
 			//swiper 切换
 			changeTab(e){
 				this.tabCurrentIndex = e.target.current;
-				this.loadData('tabChange');
+				// this.loadData('tabChange');
 			},
 			//顶部tab点击
 			tabClick(index){

@@ -1,18 +1,17 @@
 <template>
-	<view>
+	<view class="ack">
 		<view class="user-section">
-			<image class="bg" src="/static/user-bg.jpg"></image>
-			<text class="bg-upload-btn yticon icon-paizhao"></text>
+			<view class="xia_wenzi_wu">头像</view>
 			<view class="portrait-box" @click="headimg">
 				<image class="portrait" :src="headpic"></image>
-				<text class="pt-upload-btn yticon icon-paizhao"></text>
 			</view>
+		</view>
+		<view class="d-xian"> 
 		</view>
 		<view class="yi">
 			<view class="xia_yix">
-					<p class="xia_wenzi_yi">昵称</p>
+					<view class="xia_wenzi_yi">昵称</view>
 			</view>
-			
 			<view class="xia_you_yix">
 				<view><input class="input" type="text" v-model="title" placeholder="" placeholder-class="placeholder" /></view>
 			</view>
@@ -21,7 +20,7 @@
 			</view>
 		<view class="er" @click="toggleSpec">
 			<view class="xia_erx">
-					<p class="xia_wenzi_er">性别</p>
+					<view class="xia_wenzi_er">性别</view>
 			</view>
 			<view class="xia_you_erx">
 				<view>{{sexone}}></view>
@@ -31,20 +30,18 @@
 			</view>
 		<view class="san">
 			<view class="xia_sanx">
-					<p class="xia_wenzi_san">我的推荐人</p>
+					<view class="xia_wenzi_san">我的推荐人</view>
 			</view>
-			
 			<view class="xia_you_sanx">
 				<view>{{superiorinfo}}</view>
 			</view>
 		</view>
-			<view class="c-xian"> 
+			<view class="h-xian"> 
 			</view>
 		<view class="si">
 			<view class="xia_six">
-					<p class="xia_wenzi_si">我的推荐码</p>
-			</view>
-			
+					<view class="xia_wenzi_si">我的推荐码</view>
+			</view>	
 			<view class="xia_you_six">
 				<view>{{actionid}}</view>
 			</view>
@@ -213,7 +210,27 @@
 </script>
 
 <style lang="scss">
-	
+	.xia_wenzi_wu{
+		font-size: 32upx;
+		position:absolute;
+		left: -430upx;
+		
+	}
+	.xia_wenzi_yi{
+		font-size: 32upx;
+		margin-top: 465upx
+	}
+	.xia_wenzi_er{
+		font-size: 32upx;
+	}
+	.xia_wenzi_san{
+		margin-top: -10upx;
+		font-size: 32upx;
+	}
+	.xia_wenzi_si{
+		font-size: 32upx;
+		margin-top: -50upx;
+	}
 	.popup {
 		position: fixed;
 		left: 0;
@@ -260,8 +277,7 @@
 			background-color: #fff;
 			.btn{
 				height: 100upx;
-				line-height: 80upx;
-				
+				line-height: 80upx;	
 				background: orange;
 				font-size: $font-base + 10upx;
 				color: #fff;
@@ -367,13 +383,24 @@
 		border: #01AAEF;
 		height:2upx;
 		background-color: #EEEEEE;
-		margin-top:42upx;
+		margin-top:35upx;
+	}
+	.h-xian{
+		border: #01AAEF;
+		height:2upx;
+		background-color: #EEEEEE;
+		margin-top:80upx;
+	}
+	.d-xian{
+		border: 3upx #EEEEEE solid;
+		position:relative;
+		top:192upx;
 	}
 	.b-xian{
 		border: #01AAEF;
 		height:15upx;
 		background-color: #EEEEEE;
-		margin-top:42upx;
+		margin-top:35upx;
 	}
 	page{
 		background: $page-color-base;
@@ -384,7 +411,9 @@
 		justify-content: center;
 		height: 460upx;
 		padding: 40upx 30upx 0;
-		position:relative;
+		position:absolute;
+		top: -160upx;
+		left: 500upx;
 		.bg{
 			position:absolute;
 			left: 0;
@@ -395,9 +424,10 @@
 			opacity: .7;
 		}
 		.portrait-box{
-			width: 200upx;
-			height: 200upx;
-			border:6upx solid #fff;
+			
+			width: 150upx;
+			height: 150upx;
+			border:6upx solid #fbebee;
 			border-radius: 50%;
 			position:relative;
 			z-index: 2;
@@ -428,18 +458,21 @@
 		}
 	}
 	.xia_you_yix{
+		font-size: 32upx;
 		color:darkgray;
 		margin-left: 490upx;
 		margin-top: -50upx;
 	}
 	.xia_you_erx{
+		font-size: 32upx;
 		color:darkgray;
 		margin-left: 630upx;
 		margin-top: -50upx;
 	}
 	.xia_you_sanx{
+		font-size: 32upx;
 		color:darkgray;
-		margin-left: 460upx;
+		margin-left: 565upx;
 		margin-top: -50upx;
 	}
 	.xia_you_six{
@@ -449,7 +482,7 @@
 	}
 	.xia_yix{
 		margin-left: 70upx;
-		margin-top: 140upx;
+		margin-top: -240upx;
 	}
 	.xia_erx{
 		margin-left: 70upx;
@@ -463,7 +496,7 @@
 		margin-top: 140upx;
 	}
 	.yi{
-		margin-top: -60upx;
+		margin-top: -90upx;
 	}
 	.er{
 		margin-top: -100upx;

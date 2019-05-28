@@ -2,14 +2,13 @@
 		<view class="container">
 		<view class="b-xian"> </view>
 		<view class="srk_yi_xm"></view>
-			<text class="srk_yi">姓名<input type="text" maxlength="100" placeholder="输入姓名" class="srk_xm"></text>
-		
+			<view class="srk_yi">姓名<input type="text" maxlength="100" placeholder="输入姓名" class="srk_xm"></view>
 		<view class="c-xian"> </view>
 		<view class="srk_er_xm"></view>
-			<text class="srk_er">身份证<input type="text" maxlength="100" placeholder="输入身份证" class="srk_xm_er"></text>
+			<view class="srk_er">身份证<input type="text" maxlength="100" placeholder="输入身份证" class="srk_xm_er"></view>
 		<view class="c-xian"> </view>
 		<view class="srk_san_xm"></view>
-			<text class="srk_san">支付宝账号<input type="text" maxlength="100" placeholder="请输入您的支付宝" class="srk_xm_san"></text>
+			<view class="srk_san">支付宝账号<input type="text" maxlength="100" placeholder="请输入您的支付宝" class="srk_xm_san"></view>
 			<button class="sfyz_an_qd">确定</button>
 		</view>
 		
@@ -20,17 +19,17 @@
 
 <style>
 	.srk_yi{
-		font-size:30upx;
 		margin-left:40upx;
+		margin-top: 25upx;
 		font-size:29upx;
 	}
 	.srk_er{
-		font-size:30upx;
+		margin-top: 25upx;
 		margin-left:40upx;
 		font-size:29upx;
 	}
 	.srk_san{
-		font-size:30upx;
+		margin-top: 25upx;
 		margin-left:40upx;
 		font-size:29upx;
 	}
@@ -69,9 +68,9 @@
 	}
 	.c-xian{
 		border: #01AAEF;
-		height:0.5upx;
+		height:5upx;
 		background-color: #EEEEEE;
-		margin-top:-30upx;	
+		margin-top:25upx;	
 	}
 	.sfyz_an_qd{
 		font-size:29upx;
@@ -80,7 +79,7 @@
 		width:720upx;
 		height:70upx;
 		background-color: #01AAEF;
-		margin-top:10upx;		
+		margin-top:60upx;		
 		
 	}
 </style>

@@ -33,9 +33,12 @@
 									<image :src="item.pic" class="tpyi"></image>
 								</view>
 								<view class="wenzi_bk">
-									<view class="wenzi_yi">{{item.title}}</view>
+									<view class="wenzi_yi">{{item.title}}
+									<view class="jia_hyd">+1活跃度
+									</view>
+									</view>
 									<view class="wenzi_er" style="margin-top:20upx;">每日步数{{item.blimit}} 奖励花豆{{item.cbeans}}</view>
-									<view class="wenzi_er" style="margin-top:20upx;">最多同时使用{{item.meanwhile}}</view>
+									<view class="wenzi_er" style="margin-top:20upx;">最多同时使用{{item.meanwhile}}个</view>
 								</view>
 							</view>
 							<view class="">
@@ -157,15 +160,22 @@
 </script>
 
 <style lang="scss">
+	.jia_hyd{
+		color: chocolate;
+		width:300upx;
+		margin-top: -40upx;
+		margin-left: 160upx;
+	}
 	.b-ba{
 		display: flex;
 		justify-content: center;
 	}
 	.wenzi_yi{
+		font-size:32upx;
 		width:200upx;
 	}
 	.wenzi_er{
-		font-size:17upx;
+		font-size:27.5upx;
 		color: #999
 	}
 	.wenzi_bk{
@@ -181,6 +191,7 @@
 	
 	}
 	.tpyi{
+		margin-top: 15upx;
 		height: 70upx;
 		width: 70upx;
 	}
@@ -354,7 +365,7 @@
 			display: flex;
 			justify-content: space-between;
 			align-items: center;
-			height: 140upx;
+			height: 180upx;
 			width: 90%;
 			.b-timg{
 				margin-right: 30upx;

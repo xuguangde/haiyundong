@@ -98,7 +98,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
 //
 //
 //
@@ -124,22 +124,20 @@ var util = __webpack_require__(/*! ../../utils/util.js */ "../../../haiyundong/u
       notice: [] };
 
   },
-  onLoad: function onLoad() {
-    uni.showLoading({
-      title: '加载中' });
+  onLoad: function onLoad() {var _this = this;
 
     var that = this;
     util.request(api.getArticleInfo, { cate_name: 'official' }).then(
     function (res) {
       if (res.data.retcode == 1) {
         that.notice = res.data.data;
-        uni.hideToast();
+      } else {
+        _this.$api.msg(res.data.msg);
       }
     });
 
   },
   methods: {} };exports.default = _default;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ "./node_modules/@dcloudio/uni-app-plus/dist/index.js")["default"]))
 
 /***/ }),
 

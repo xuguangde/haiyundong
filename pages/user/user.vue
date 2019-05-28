@@ -4,7 +4,7 @@
 			<!-- <image class="bg" src="/static/user-bg.jpg"></image> -->
 			<view class="user-info-box" @click="navTo('/pages/userinfo/grzx?user=' + nihaoa)" hover-class="common-hover"  :hover-stay-time="50">
 				<view class="portrait-box">
-					<image class="portrait" :src="'/static/missing-face.png'"></image>
+					<image class="portrait" :src="userInfoone.head_pic || '/static/missing-face.png'"></image>
 				</view>
 				<view class="info-box">
 					<text class="username">{{userInfoone.nickname || '点击登陆'}}</text>
@@ -28,7 +28,7 @@
 			
 			<view class="tj-sction">
 				<view class="tj-item" @click="navTo('/pages/yhdj/yhdj')" hover-class="common-hover"  :hover-stay-time="50">
-					<text class="num">Level0</text>
+					<text class="num">Lv0</text>
 					<text>用户等级</text>
 				</view>
 				<view class="tj-item" @click="navTo('/pages/Details/Details')" hover-class="common-hover"  :hover-stay-time="50">
@@ -89,11 +89,11 @@
 						<image class="icon" src="/static/temp/tuandui.png"></image>
 						<text>我的团队</text>
 					</view>
-					<view class="order-item" @click="navTo('/pages/order/order?state=2')" hover-class="common-hover"  :hover-stay-time="50">
+					<view class="order-item" @click="navTo('/pages/zm/zm')" hover-class="common-hover"  :hover-stay-time="50">
 						<image class="icon" src="/static/temp/tuiguang.png"></image>
 						<text>推广招募</text>
 					</view>
-					<view class="order-item" @click="navTo('/pages/order/order?state=4')" hover-class="common-hover"  :hover-stay-time="50">
+					<view class="order-item" @click="navTo('/pages/huodong/huodong')" hover-class="common-hover"  :hover-stay-time="50">
 						<image class="icon" src="/static/temp/huodong.png"></image>
 						<text>我的活动</text>
 					</view>
@@ -107,7 +107,7 @@
 						<image class="icon" src="/static/temp/bangzhu.png"></image>
 						<text>帮助中心</text>
 					</view>
-					<view class="order-item" @click="navTo('/pages/order/order?state=2')" hover-class="common-hover"  :hover-stay-time="50">
+					<view class="order-item" @click="navTo('/pages/huodong/huodong')" hover-class="common-hover"  :hover-stay-time="50">
 						<image class="icon" src="/static/temp/saoyisao.png"></image>
 						<text>扫一扫</text>
 					</view>
@@ -210,7 +210,6 @@
 			...mapState(['hasLogin','userInfo'])
 		},
         methods: {
-
 			/**
 			 * 统一跳转接口,拦截未登录路由
 			 * navigator标签现在默认没有转场动画，所以用view
@@ -218,6 +217,9 @@
 			navTo(url){
 				if(this.nihaoa ==1){
 					this.$api.msg('登陆过期，请重新登陆')
+					uni.navigateTo({
+						url:'/pages/denglu/denglu'
+					})
 				} else{
 					if(uni.getStorageSync('token')){
 						uni.navigateTo({
@@ -290,6 +292,9 @@
 	  background: #fff;
 	  border-radius: 10upx;
 	}
+	.info-box{
+		margin-left: 20upx;
+	}
 	.one{
 		display: flex;
 		justify-content: center;
@@ -312,8 +317,8 @@
 		font-size: 30upx;
 	}
 	.user-section{
-		height: 260upx;
-		padding: 100upx 30upx 0;
+		height: 200upx;
+		padding: 20upx 30upx 0;
 		position:relative;
 		.bg{
 			position:absolute;
@@ -341,7 +346,6 @@
 		.username{
 			font-size: $font-lg + 6upx;
 			color: $font-color-dark;
-			margin-left: 20upx;
 		}
 		.number{
 			font-size: $font-lg - 10upx;;

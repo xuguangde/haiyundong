@@ -32,6 +32,8 @@
     "pages/order/order",
     "pages/money/money",
     "pages/order/createOrder",
+    "pages/zm/zm",
+    "pages/huodong/huodong",
     "pages/address/address",
     "pages/address/addressManage",
     "pages/userinfo/grzx",

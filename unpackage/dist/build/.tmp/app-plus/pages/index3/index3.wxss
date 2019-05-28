@@ -28,7 +28,6 @@ page {
 }
 .carousel-section .titleNview-placing {
     height: var(--status-bar-height);
-    padding-top: 44px;
     -webkit-box-sizing: content-box;
             box-sizing: content-box;
 }

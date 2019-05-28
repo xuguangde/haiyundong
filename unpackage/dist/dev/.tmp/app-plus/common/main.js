@@ -101,13 +101,12 @@ var _vuex = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.j
         } });
 
     }
-
   },
   onShow: function onShow() {
-    console.log('App Show', " at App.vue:26");
+    console.log('App Show', " at App.vue:25");
   },
   onHide: function onHide() {
-    console.log('App Hide', " at App.vue:29");
+    console.log('App Hide', " at App.vue:28");
   } };exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ "./node_modules/@dcloudio/uni-app-plus/dist/index.js")["default"]))
 

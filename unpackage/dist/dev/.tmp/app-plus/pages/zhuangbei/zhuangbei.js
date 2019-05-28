@@ -159,6 +159,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
+
+
 var _Json = _interopRequireDefault(__webpack_require__(/*! @/Json */ "../../../haiyundong/Json.js"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };} //
 //
 //
@@ -214,14 +217,14 @@ var _Json = _interopRequireDefault(__webpack_require__(/*! @/Json */ "../../../h
 //
 //
 //
+//
+//
+//
 var api = __webpack_require__(/*! ../../utils/api.js */ "../../../haiyundong/utils/api.js");var util = __webpack_require__(/*! ../../utils/util.js */ "../../../haiyundong/utils/util.js");var page = 0;var uniLoadMore = function uniLoadMore() {return __webpack_require__.e(/*! import() | components/uni-load-more/uni-load-more */ "components/uni-load-more/uni-load-more").then(__webpack_require__.bind(null, /*! @/components/uni-load-more/uni-load-more.vue */ "../../../haiyundong/components/uni-load-more/uni-load-more.vue"));};var empty = function empty() {return __webpack_require__.e(/*! import() | components/empty */ "components/empty").then(__webpack_require__.bind(null, /*! @/components/empty */ "../../../haiyundong/components/empty.vue"));};var _default = { components: { uniLoadMore: uniLoadMore, empty: empty }, data: function data() {return { tabCurrentIndex: 0, navList: [{ state: 0, text: '装备列表', loadingType: 'more', orderList: [] }, { state: 1, text: '我的准备', loadingType: 'more', orderList: [] }, { state: 2, text: '过期装备', loadingType: 'more', orderList: [] }] };}, onLoad: function onLoad(options) {this.tabCurrentIndex = +options.state;this.mylist();}, methods: { //获取装备列表
-    mylist: function mylist() {var that = this;util.request(api.getequipment, { data: uni.getStorageSync('userId'), token: uni.getStorageSync('token') }).then(function (res) {console.log("装备列表", res, " at pages\\zhuangbei\\zhuangbei.vue:104");that.navList[0].orderList = res.data.data;console.log("装备列表", that.navList[0].orderList, " at pages\\zhuangbei\\zhuangbei.vue:106");});}, myZhuangbei: function myZhuangbei() {var that = this;util.request(api.getuserequipment, { data: uni.getStorageSync('userId'), token: uni.getStorageSync('token') }).then(function (res) {console.log(res, " at pages\\zhuangbei\\zhuangbei.vue:114");that.navList[1].orderList = res.data.data;});},
-    overdue: function overdue() {
-      var that = this;
-      page++;
+    mylist: function mylist() {var that = this;util.request(api.getequipment, { data: uni.getStorageSync('userId'), token: uni.getStorageSync('token') }).then(function (res) {console.log("装备列表", res, " at pages\\zhuangbei\\zhuangbei.vue:107");that.navList[0].orderList = res.data.data;console.log("装备列表", that.navList[0].orderList, " at pages\\zhuangbei\\zhuangbei.vue:109");});}, myZhuangbei: function myZhuangbei() {var that = this;util.request(api.getuserequipment, { data: uni.getStorageSync('userId'), token: uni.getStorageSync('token') }).then(function (res) {console.log(res, " at pages\\zhuangbei\\zhuangbei.vue:117");that.navList[1].orderList = res.data.data;});}, overdue: function overdue() {var that = this;page++;
       util.request(api.getuseroverequipment, { page: page, data: uni.getStorageSync('userId'), token: uni.getStorageSync('token') }).then(
       function (res) {
-        console.log(res, " at pages\\zhuangbei\\zhuangbei.vue:124");
+        console.log(res, " at pages\\zhuangbei\\zhuangbei.vue:127");
         that.navList[2].orderList = res.data.data;
       });
 
@@ -231,9 +234,9 @@ var api = __webpack_require__(/*! ../../utils/api.js */ "../../../haiyundong/uti
       var index = this.tabCurrentIndex;
       var navItem = this.navList[index];
       var state = navItem.state;
-      console.log("触底2", navItem, " at pages\\zhuangbei\\zhuangbei.vue:134");
+      console.log("触底2", navItem, " at pages\\zhuangbei\\zhuangbei.vue:137");
       this.overdue();
-      console.log("触底", index, " at pages\\zhuangbei\\zhuangbei.vue:136");
+      console.log("触底", index, " at pages\\zhuangbei\\zhuangbei.vue:139");
     },
     //swiper 切换
     changeTab: function changeTab(e) {

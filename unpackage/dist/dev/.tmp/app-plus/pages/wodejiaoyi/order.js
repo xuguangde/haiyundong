@@ -222,9 +222,9 @@ var _Json = _interopRequireDefault(__webpack_require__(/*! @/Json */ "../../../h
                                      * 修复app端点击除全部订单外的按钮进入时不加载数据的问题
                                      * 替换onLoad下代码即可
                                      */
-    this.tabCurrentIndex = +options.state;
+    // this.tabCurrentIndex = +options.state;
 
-    this.loadData();
+    // this.loadData()
 
 
 
@@ -278,7 +278,7 @@ var _Json = _interopRequireDefault(__webpack_require__(/*! @/Json */ "../../../h
     //swiper 切换
     changeTab: function changeTab(e) {
       this.tabCurrentIndex = e.target.current;
-      this.loadData('tabChange');
+      // this.loadData('tabChange');
     },
     //顶部tab点击
     tabClick: function tabClick(index) {

@@ -5,6 +5,12 @@
 /* 边框颜色 */
 /* 图片加载中颜色 */
 /* 行为相关颜色 */
+.jia_hyd {
+  color: chocolate;
+  width: 300rpx;
+  margin-top: -40rpx;
+  margin-left: 160rpx;
+}
 .b-ba {
   display: -webkit-box;
   display: -webkit-flex;
@@ -16,10 +22,11 @@
           justify-content: center;
 }
 .wenzi_yi {
+  font-size: 32rpx;
   width: 200rpx;
 }
 .wenzi_er {
-  font-size: 17rpx;
+  font-size: 27.5rpx;
   color: #999;
 }
 .wenzi_bk {
@@ -40,6 +47,7 @@
   font-size: 23rpx;
 }
 .tpyi {
+  margin-top: 15rpx;
   height: 70rpx;
   width: 70rpx;
 }
@@ -279,7 +287,7 @@ page, .content {
     -webkit-align-items: center;
         -ms-flex-align: center;
             align-items: center;
-    height: 140rpx;
+    height: 180rpx;
     width: 90%;
 }
 .order-item .action-box .b-timg {

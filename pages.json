@@ -188,9 +188,12 @@
                 "navigationBarTitleText" : "嗨豆商城",
                 //"navigationStyle": "custom",
                 // #endif 
+				"navigationStyle":"default",
                 "app-plus" : {
+					
                     "titleNView" : {
-                        "type" : "transparent",
+						// "backgroundColor":"",
+                        // "type" : "transparent",
                         "searchInput" : {
                             "backgroundColor" : "rgba(231, 231, 231,.7)",
                             "borderRadius" : "16px",
@@ -200,10 +203,10 @@
                         },
                         "buttons" : [
                             {
-                                "fontSrc" : "/static/yticon.ttf",
-                                "text" : "\ue60d",
+                                "fontSrc" : "/static/tyicon.ttf",
+                                "text" : "\ue634",
                                 "fontSize" : "26",
-                                "color" : "#303133",
+                                "color" : "#707070",
                                 "float" : "left",
                                 "background" : "rgba(0,0,0,0)"
                             },
@@ -242,20 +245,17 @@
             "path" : "pages/user/user",
             "style" : {
                 "navigationBarTitleText" : "我的",
-                // #ifdef MP
-                "navigationStyle" : "custom",
-                // #endif
                 "app-plus" : {
                     "bounce" : "none",
                     "titleNView" : {
-                        "type" : "transparent",
+                        // "type" : "transparent",
                         "buttons" : [
                             {
-                                "fontSrc" : "/static/yticon.ttf",
-                                "text" : "\ue60f",
+                                "fontSrc" : "/static/tyicon.ttf",
+                                "text" : "\ue60a",
                                 "fontSize" : "24",
                                 "color" : "#303133",
-                                "width" : "46px",
+                                // "width" : "46px",
                                 "background" : "rgba(0,0,0,0)"
                             },
                             {
@@ -302,6 +302,18 @@
                 "navigationBarTitleText" : "创建订单"
             }
         },
+		{
+		    "path" : "pages/zm/zm",
+		    "style" : {
+		        "navigationBarTitleText" : "我的招募"
+		    }
+		},
+		{
+		    "path" : "pages/huodong/huodong",
+		    "style" : {
+		        "navigationBarTitleText" : "暂未开放"
+		    }
+		},
         {
             "path" : "pages/address/address",
             "style" : {

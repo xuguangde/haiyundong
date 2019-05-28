@@ -15164,6 +15164,23 @@ createPage(_help.default);
 
 /***/ }),
 
+/***/ "../../../haiyundong/main.js?{\"page\":\"pages%2Fhuodong%2Fhuodong\"}":
+/*!******************************************************************!*\
+  !*** D:/haiyundong/main.js?{"page":"pages%2Fhuodong%2Fhuodong"} ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "../../../haiyundong/pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _huodong = _interopRequireDefault(__webpack_require__(/*! ./pages/huodong/huodong.vue */ "../../../haiyundong/pages/huodong/huodong.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_huodong.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ "./node_modules/@dcloudio/uni-app-plus/dist/index.js")["createPage"]))
+
+/***/ }),
+
 /***/ "../../../haiyundong/main.js?{\"page\":\"pages%2Fhyd%2Fhyd\"}":
 /*!**********************************************************!*\
   !*** D:/haiyundong/main.js?{"page":"pages%2Fhyd%2Fhyd"} ***!
@@ -15691,6 +15708,23 @@ createPage(_zhuce.default);
 
 /***/ }),
 
+/***/ "../../../haiyundong/main.js?{\"page\":\"pages%2Fzm%2Fzm\"}":
+/*!********************************************************!*\
+  !*** D:/haiyundong/main.js?{"page":"pages%2Fzm%2Fzm"} ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "../../../haiyundong/pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _zm = _interopRequireDefault(__webpack_require__(/*! ./pages/zm/zm.vue */ "../../../haiyundong/pages/zm/zm.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_zm.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ "./node_modules/@dcloudio/uni-app-plus/dist/index.js")["createPage"]))
+
+/***/ }),
+
 /***/ "../../../haiyundong/pages.json":
 /*!********************************!*\
   !*** D:/haiyundong/pages.json ***!
@@ -15760,7 +15794,7 @@ store;exports.default = _default;
 "use strict";
  // var host = "http://192.168.1.124:8085";  //本地测试地址
 // var host = "http://175.168.154.250:8085"; //映射地址
-var host = "http://mhadd.d1xcx.com/index.php"; //外网
+var host = "http://mhapp.d1xcx.com"; //外网地址
 
 module.exports = {
   host: host,

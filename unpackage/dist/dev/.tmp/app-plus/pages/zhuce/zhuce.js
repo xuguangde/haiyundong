@@ -204,7 +204,7 @@ var util = __webpack_require__(/*! ../../utils/util.js */ "../../../haiyundong/u
     yaoqingma: function yaoqingma(e) {
       this.yaoqingmaOne = e.detail.value;
     },
-    zhuce: function zhuce() {
+    zhuce: function zhuce() {var _this = this;
       var that = this;
       util.request(api.userReg, {
         username: that.phoneOne,
@@ -259,8 +259,10 @@ var util = __webpack_require__(/*! ../../utils/util.js */ "../../../haiyundong/u
           });
 
 
+        } else {
+          _this.$api.msg(res.data.msg);
         }
-        console.log(res.data.retcode, " at pages\\zhuce\\zhuce.vue:163");
+        console.log(res.data.retcode, " at pages\\zhuce\\zhuce.vue:165");
       });
 
     } } };exports.default = _default;

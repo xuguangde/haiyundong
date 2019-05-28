@@ -70,7 +70,7 @@
 							<uni-number-box 
 								:min="1" 
 								:max="100"
-								:value="numberqwe"
+								:value="1"
 								:isMax="item.number"
 								:isMin="item.number"
 								:index="14"
@@ -201,10 +201,12 @@
 			)
 			util.request(api.getCartNum,{goods_id: options.id,user_id: uni.getStorageSync('userId')}).then(
 				res =>{
+					if(res.data.retcode ==1){
 					this.$forceUpdate(); 
 					that.numberqwe = res.data.data[0].goods_num
 					console.log("购物车数量",that.numberqwe)
 					  this.$forceUpdate(); //手动调用更新
+					  }
 				}
 			)
 			
